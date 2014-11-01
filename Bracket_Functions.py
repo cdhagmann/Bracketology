@@ -20,8 +20,8 @@ from urllib2 import urlopen
 
 
 class Printer():
-    def __init__(self,data):
-        sys.stdout.write("\r\x1b[K"+data.__str__())
+    def __init__(self, data):
+        sys.stdout.write("\r\x1b[K" + str(data))
         sys.stdout.flush()
 
 
@@ -35,11 +35,11 @@ def clean_year(year):
             assert 2 <= int(year) <= 15, Error_message
             return '{:02}'.format(int(year))
         else:
-            raise ValueError, Error_message
+            raise ValueError(Error_message)
     elif isinstance(year, int):
         return clean_year(str(year))
     else:
-        raise ValueError, Error_message
+        raise ValueError(Error_message)
 
 
 ############################################################################
@@ -120,7 +120,7 @@ def id_search(school, year):
         link = 'http://espn.go.com/mens-college-basketball/teams'
         soup = BeautifulSoup(urlopen(link), 'html.parser')
 
-        foo = list( soup.findAll('a', href=True) )
+        foo = list(soup.findAll('a', href=True))
         T = [a.getText().encode('utf8') for a in foo]
 
         if A in T:
@@ -130,7 +130,12 @@ def id_search(school, year):
             return ID
 
         link = 'https://bing.com/?q='
-        link += '+'.join(['ESPN','mens','basketball', '2013-14','schedule'] + school.split())
+        link += '+'.join(['ESPN',
+                          'mens',
+                          'basketball',
+                          '2013-14',
+                          'schedule'] + school.split())
+
         soup = BeautifulSoup(urlopen(link), 'html.parser')
         for a in soup.findAll('a', href=True):
             # print a['href']
@@ -181,7 +186,7 @@ def ESPN_Schedule(school, year):
 
 def download_schedule(school, year):
     school, year = clean_pair(school, year)
-    rows = [['Opponent',    'Advantage', 'WL', 'School Score',    'Opp Score']]
+    rows = [['Opponent', 'Advantage', 'WL', 'School Score', 'Opp Score']]
     for count, row in enumerate(ESPN_Schedule(school, year)):
         opp = clean_school(row[1], year)
         if opp is None:
@@ -229,15 +234,15 @@ def Log5(p_A, p_B):
     A few notable properties:
         If p_A == 1, Log5 will always give A a 100% chance of victory
         If p_A == 0, Log5 will always give A a 0% chance of victory
-        If p_A == p_B, Log5 will always return a 50% chance of victory for either side
+        If p_A == p_B, Log5 will always return a 50% chance of victory
         If p_A == 1/2, Log5 will give A a 1-p_B probability of victory.
     '''
-    return ( p_A * (1 - p_B) ) / ( p_A * (1 - p_B) + p_B * (1 - p_A) )
+    return (p_A * (1 - p_B)) / (p_A * (1 - p_B) + p_B * (1 - p_A))
 
 
 
 def bayesian_update(p1, p2):
-    return (p1 * p2) / ( (p1 * p2) + ( (1 - p1)  * (1 - p2) ) )
+    return (p1 * p2) / ((p1 * p2) + ((1 - p1)  * (1 - p2)))
 
 
 def clean_bracket(year):
@@ -257,7 +262,7 @@ def clean_bracket(year):
         Regions = [[region[i] for i in idxs] for region in zip(*F)]
 
         Bracket = [None for _ in xrange(64)]
-        for indices, region in zip([A,B,C,D], Regions):
+        for indices, region in zip([A, B, C, D], Regions):
             for i, t in zip(indices, region):
                 Bracket[i-1] = t
 

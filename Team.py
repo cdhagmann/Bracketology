@@ -22,9 +22,9 @@ def valid_team_set(T):
     assert int(N) == N, '{} is not a power of 2'.format(M)
     return int(M), int(N)
 
-def default_Pr(): 
-    return [1.0] 
-    
+def default_Pr():
+    return [1.0]
+
 class Team():
     def __init__(self, school, year):
         self.school, self.year = clean_pair(school, year)
@@ -67,7 +67,7 @@ class Team():
             self.depth['Actual'] = 0
             self.opponents, self.matches = [], []
 
-            for count, row in enumerate(ESPN_Schedule(*self.pair)):
+            for row in ESPN_Schedule(*self.pair):
                 opp = clean_school(row[1], year)
                 if opp is None and tm.search(row[1]) is not None:
                     if self.depth['Actual'] == 0:
@@ -93,9 +93,8 @@ class Team():
     @classmethod
     def from_file(cls, school, year):
         school, year = clean_pair(school, year)
-        pair = school, year
 
-        archive = 'PICKLES/{}_{}.pickle'.format(*pair)
+        archive = 'PICKLES/{}_{}.pickle'.format(school, year)
 
         if os.path.isfile(archive):
             with open(archive, 'rb') as f:
@@ -141,30 +140,27 @@ class Team():
             Results = []
             for B in args:
                 if isinstance(B, Team):
-                    Results.append( (B.school, self.distance(B)) )
+                    Results.append((B.school, self.distance(B)))
                 elif isinstance(B, str):
-                    Results.append( (B, self.distance(B)) )
+                    Results.append((B, self.distance(B)))
 
-            Results.sort(key=lambda (b,d): d)
+            Results.sort(key=lambda (b, d): d)
             return Results
-
-    def reset(self):
-        self.__init__(self, self.school, self.year)
 
     def nearest_neighbor(self, B, Adv=0, k=5, output=False):
         Neigh_B = [(d[1], Ap, B.distance(Ap), d[0]) for Ap, d in self.matches]
-        Neigh_B.sort(key=lambda (w,t,d,b): d)
-        Neigh_B.sort(key=lambda (w,t,d,b): int(b != Adv))
-        Neigh_B = [(w,t,d) for w,t,d,b in Neigh_B]
+        Neigh_B.sort(key=lambda (w, t, d, b): d)
+        Neigh_B.sort(key=lambda (w, t, d, b): int(b != Adv))
+        Neigh_B = [(w, t, d) for w, t, d, b in Neigh_B]
 
         if output:
             for tup in Neigh_B:
                 print '{}: {:25} {:.4f}'.format(*tup)
 
-        weight = lambda d: ( 1 - d ) ** 1.
+        weight = lambda d: (1 - d) ** 1.
 
-        W = sum( [ weight(d) for w,t,d in Neigh_B[:k] if w == 'W'] )
-        L = sum( [ weight(d) for w,t,d in Neigh_B[:k] if w == 'L'] )
+        W = sum([weight(d) for w, t, d in Neigh_B[:k] if w == 'W'])
+        L = sum([weight(d) for w, t, d in Neigh_B[:k] if w == 'L'])
 
         return W, L
 
