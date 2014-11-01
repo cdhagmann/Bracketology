@@ -7,17 +7,22 @@ Created on Mon Aug 11 13:04:35 2014
 
 from Bracket_Functions import clean_pair, clean_school
 from Bracket_Functions import Pyth_Range, Teams, num
-from Bracket_Functions import id_search, kp_reader, ESPN_Schedule
+from Bracket_Functions import kp_reader, ESPN_Schedule
 from Bracket_Functions import Log5
 
 import pickle, re, math, csv, os
 from collections import defaultdict
 
-tm = re.compile(r'\(\d+\)')
+TM_FILTER = re.compile(r'\(\d+\)')
+
+def group_list_by(some_list, group_size):
+    list_size = len(some_list)
+    assert list_size % group_size == 0
+    return [some_list[i:i+group_size] for i in range(0, list_size, group_size)]
 
 
-def valid_team_set(T):
-    M = len(T)
+def valid_team_set(team_set):
+    M = len(team_set)
     N = round(math.log(M, 2), 3)
     assert int(N) == N, '{} is not a power of 2'.format(M)
     return int(M), int(N)
@@ -33,26 +38,26 @@ class Team():
 
         if os.path.isfile(self.archive):
             cls = Team.from_file(*self.pair)
-            for m in dir(cls):
-                if m[0] != '_':
-                    setattr(self, m, getattr(cls, m))
+            for method in dir(cls):
+                if not method.startswith('_'):
+                    setattr(self, method, getattr(cls, method))
         else:
             assert self.school in Teams[self.year], "{} '{}".format(*self.pair)
 
-            self.ID = id_search(*self.pair)
             self.Pyth = kp_reader(*self.pair)[13]
 
             self.Pr = defaultdict(default_Pr)
 
-            self.depth = {'Actual'                  : 0,
-                          ('conditional',    'kNN') : defaultdict(int),
-                          ('conditional',    'Rank'): defaultdict(int),
-                          ('nonconditional', 'kNN') : defaultdict(int),
+            self.depth = {'Actual': 0,
+                          ('conditional', 'kNN'): defaultdict(int),
+                          ('conditional', 'Rank'): defaultdict(int),
+                          ('nonconditional', 'kNN'): defaultdict(int),
                           ('nonconditional', 'Rank'): defaultdict(int)}
 
             self.TM = {}
 
-            with open('Brackets/{0}/teams_20{0}.csv'.format(self.year), 'rb') as f:
+            filename = 'Brackets/{0}/teams_20{0}.csv'.format(self.year)
+            with open(filename, 'rb') as f:
                 my_csv = csv.reader(f)
                 F = [[clean_school(s, year) for s in line] for line in my_csv]
 
@@ -69,7 +74,7 @@ class Team():
 
             for row in ESPN_Schedule(*self.pair):
                 opp = clean_school(row[1], year)
-                if opp is None and tm.search(row[1]) is not None:
+                if opp is None and TM_FILTER.search(row[1]) is not None:
                     if self.depth['Actual'] == 0:
                         opp_rank = num.search(row[1]).group()
                         Rank = 17 - int(opp_rank)
@@ -105,15 +110,15 @@ class Team():
     def __repr__(self):
         return "{} '{}".format(*self.pair)
 
-    def find_field(self, Teams):
+    def find_field(self, teams_in_bracket):
         self.field = []
-        self.Teams = Teams
+        self.Teams = teams_in_bracket
         M, N = valid_team_set(self.Teams)
 
         seen = set()
         seen.add(self)
         for j in xrange(1, N+1):
-            sub_brackets = [self.Teams[i:i + 2 ** (j)] for i in range(0, M, 2 ** (j))]
+            sub_brackets = group_list_by(self.Teams, 2 ** j)
             for sub_list in sub_brackets:
                 if self in sub_list:
                     new_field = [s for s in sub_list if s not in seen]

@@ -8,6 +8,11 @@ Created on Fri Oct 31 23:05:09 2014
 import glob, os
 
 def pickle_cleanse():
+    """
+    Removes the results files and the .pickle files so that the code can be
+    run fresh. This is necessary if you have made changes to the Bracket or
+    the Team class.
+    """
     for archive in glob.iglob('DATA/*/*'):
         os.remove(archive)
 

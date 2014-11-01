@@ -1,44 +1,60 @@
+"""
+Run the code for the years 2003 - 2014 in parallel.
+"""
+
+
 from Bracket_Class import Bracket, clean_year
 import multiprocessing as mp
 import time
 
 
-def parallel_bracket(year):
-    B = Bracket(year)
-    B.run()
-    B.write_to_csv()
-    B.write()
+def parallel_bracket(bracket_year):
+    """
+    Bundles commands together for passing to mp
+    """
+    bracket_instance = Bracket(bracket_year)
+    bracket_instance.run()
+    bracket_instance.write_to_csv()
+    bracket_instance.write()
 
 
-def p_print(n, label):
-    if n == 0:
+def p_print(num, label):
+    """
+    Prints time well
+    """
+    if num == 0:
         return ''
-    elif n == 1:
-        return '{} {} '.format(n, label)
+    elif num == 1:
+        return '{} {} '.format(num, label)
     else:
-        return '{} {}s '.format(n, label)
+        return '{} {}s '.format(num, label)
 
 
-def htime(s):
-    H, i = divmod(s, 3600)
-    M, S = divmod(i, 60)
-    S = int(S)
+def htime(seconds):
+    """
+    Prints time in easy to process string
+    """
+    hours, i = divmod(seconds, 3600)
+    minutes, seconds = divmod(i, 60)
+    seconds = int(seconds)
 
-    return p_print(H, 'hour') + p_print(M, 'minute') + p_print(S, 'second')
+    return ''.join((p_print(hours, 'hour'),
+                    p_print(minutes, 'minute'),
+                    p_print(seconds, 'second')))
 
 
 if __name__ == '__main__':
     print time.ctime()
-    t1 = time.time()
+    START = time.time()
 
-    processes = []
+    PROCESSES = []
     for year in (clean_year(y) for y in range(3, 15)):
-        processes.append(mp.Process(target=parallel_bracket, args=(year,)))
+        PROCESSES.append(mp.Process(target=parallel_bracket, args=(year,)))
 
-    for p in processes:
+    for p in PROCESSES:
         p.start()
 
-    for p in processes:
+    for p in PROCESSES:
         p.join()
 
     B = {}
@@ -46,5 +62,5 @@ if __name__ == '__main__':
         B[year] = Bracket.from_file(year)
 
     print time.ctime()
-    t2 = time.time()
-    print 'Finished in {}!'.format(htime(t2 - t1))
+    END = time.time()
+    print 'Finished in {}!'.format(htime(END - START))
