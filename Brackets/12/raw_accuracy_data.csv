@@ -1,0 +1,1665 @@
+year,k,A,Actual,Pred_Ck,Pred_NCk,Pred_CR,Pred_NCR
+12,3,Kentucky,6,3,4,6,6
+12,3,Western Kentucky,0,0,0,0,0
+12,3,Iowa St.,1,0,0,1,1
+12,3,Connecticut,0,1,1,0,0
+12,3,Wichita St.,0,0,0,2,2
+12,3,VCU,1,2,1,0,0
+12,3,Indiana,2,1,2,1,1
+12,3,New Mexico St.,0,0,0,0,0
+12,3,UNLV,0,0,0,1,1
+12,3,Colorado,1,1,1,0,0
+12,3,Baylor,3,2,3,3,3
+12,3,South Dakota St.,0,0,0,0,0
+12,3,Notre Dame,0,1,1,1,1
+12,3,Xavier,2,0,0,0,0
+12,3,Duke,0,4,2,2,2
+12,3,Lehigh,1,0,0,0,0
+12,3,Michigan St.,2,1,1,4,4
+12,3,LIU Brooklyn,0,0,0,0,0
+12,3,Memphis,0,0,0,1,1
+12,3,Saint Louis,1,2,2,0,0
+12,3,New Mexico,1,1,1,1,2
+12,3,Long Beach St.,0,0,0,0,0
+12,3,Louisville,4,3,3,2,1
+12,3,Davidson,0,0,0,0,0
+12,3,Murray St.,1,2,2,1,1
+12,3,Colorado St.,0,0,0,0,0
+12,3,Marquette,2,1,1,2,2
+12,3,BYU,0,0,0,0,0
+12,3,Florida,3,1,1,1,1
+12,3,Virginia,0,0,0,0,0
+12,3,Missouri,0,6,6,3,3
+12,3,Norfolk St.,1,0,0,0,0
+12,3,North Carolina,3,1,1,3,3
+12,3,Vermont,0,0,0,0,0
+12,3,Creighton,1,4,4,0,0
+12,3,Alabama,0,0,0,1,1
+12,3,Temple,0,0,0,1,1
+12,3,South Florida,1,1,1,0,0
+12,3,Michigan,0,0,0,2,2
+12,3,Ohio,2,2,2,0,0
+12,3,San Diego St.,0,0,0,1,1
+12,3,North Carolina St.,2,1,1,0,0
+12,3,Georgetown,1,0,0,2,2
+12,3,Belmont,0,3,3,0,0
+12,3,Saint Mary's,0,0,0,0,0
+12,3,Purdue,1,1,1,1,1
+12,3,Kansas,5,2,2,4,4
+12,3,Detroit,0,0,0,0,0
+12,3,Syracuse,3,2,2,3,3
+12,3,UNC Asheville,0,0,0,0,0
+12,3,Kansas St.,1,1,1,1,1
+12,3,Southern Miss,0,0,0,0,0
+12,3,Vanderbilt,1,5,5,1,1
+12,3,Harvard,0,0,0,0,0
+12,3,Wisconsin,2,1,1,2,2
+12,3,Montana,0,0,0,0,0
+12,3,Cincinnati,2,1,1,0,0
+12,3,Texas,0,0,0,1,1
+12,3,Florida St.,1,0,0,2,2
+12,3,St. Bonaventure,0,3,3,0,0
+12,3,Gonzaga,1,1,1,1,1
+12,3,West Virginia,0,0,0,0,0
+12,3,Ohio St.,4,0,0,5,5
+12,3,Loyola MD,0,2,2,0,0
+12,4,Kentucky,6,3,3,6,6
+12,4,Western Kentucky,0,0,0,0,0
+12,4,Iowa St.,1,1,1,1,1
+12,4,Connecticut,0,0,0,0,0
+12,4,Wichita St.,0,0,0,2,2
+12,4,VCU,1,2,1,0,0
+12,4,Indiana,2,1,2,1,1
+12,4,New Mexico St.,0,0,0,0,0
+12,4,UNLV,0,0,0,1,1
+12,4,Colorado,1,1,1,0,0
+12,4,Baylor,3,2,4,3,3
+12,4,South Dakota St.,0,0,0,0,0
+12,4,Notre Dame,0,0,0,1,1
+12,4,Xavier,2,1,1,0,0
+12,4,Duke,0,4,2,2,2
+12,4,Lehigh,1,0,0,0,0
+12,4,Michigan St.,2,1,1,4,4
+12,4,LIU Brooklyn,0,0,0,0,0
+12,4,Memphis,0,0,0,1,1
+12,4,Saint Louis,1,2,2,0,0
+12,4,New Mexico,1,1,1,1,2
+12,4,Long Beach St.,0,0,0,0,0
+12,4,Louisville,4,3,3,2,1
+12,4,Davidson,0,0,0,0,0
+12,4,Murray St.,1,2,2,1,1
+12,4,Colorado St.,0,0,0,0,0
+12,4,Marquette,2,1,1,2,2
+12,4,BYU,0,0,0,0,0
+12,4,Florida,3,1,1,1,1
+12,4,Virginia,0,0,0,0,0
+12,4,Missouri,0,6,6,3,3
+12,4,Norfolk St.,1,0,0,0,0
+12,4,North Carolina,3,1,1,3,3
+12,4,Vermont,0,0,0,0,0
+12,4,Creighton,1,4,4,0,0
+12,4,Alabama,0,0,0,1,1
+12,4,Temple,0,1,1,1,1
+12,4,South Florida,1,0,0,0,0
+12,4,Michigan,0,2,2,2,2
+12,4,Ohio,2,0,0,0,0
+12,4,San Diego St.,0,0,0,1,1
+12,4,North Carolina St.,2,1,1,0,0
+12,4,Georgetown,1,0,0,2,2
+12,4,Belmont,0,3,3,0,0
+12,4,Saint Mary's,0,2,2,0,0
+12,4,Purdue,1,0,0,1,1
+12,4,Kansas,5,1,1,4,4
+12,4,Detroit,0,0,0,0,0
+12,4,Syracuse,3,2,2,3,3
+12,4,UNC Asheville,0,0,0,0,0
+12,4,Kansas St.,1,1,1,1,1
+12,4,Southern Miss,0,0,0,0,0
+12,4,Vanderbilt,1,5,5,1,1
+12,4,Harvard,0,0,0,0,0
+12,4,Wisconsin,2,1,1,2,2
+12,4,Montana,0,0,0,0,0
+12,4,Cincinnati,2,2,1,0,0
+12,4,Texas,0,0,0,1,1
+12,4,Florida St.,1,0,0,2,2
+12,4,St. Bonaventure,0,1,2,0,0
+12,4,Gonzaga,1,1,1,1,1
+12,4,West Virginia,0,0,0,0,0
+12,4,Ohio St.,4,3,3,5,5
+12,4,Loyola MD,0,0,0,0,0
+12,5,Kentucky,6,4,3,6,6
+12,5,Western Kentucky,0,0,0,0,0
+12,5,Iowa St.,1,0,0,1,1
+12,5,Connecticut,0,1,1,0,0
+12,5,Wichita St.,0,0,0,2,2
+12,5,VCU,1,1,1,0,0
+12,5,Indiana,2,0,0,1,1
+12,5,New Mexico St.,0,2,2,0,0
+12,5,UNLV,0,0,0,1,1
+12,5,Colorado,1,1,1,0,0
+12,5,Baylor,3,2,4,3,3
+12,5,South Dakota St.,0,0,0,0,0
+12,5,Notre Dame,0,0,0,1,1
+12,5,Xavier,2,1,1,0,0
+12,5,Duke,0,3,2,2,2
+12,5,Lehigh,1,0,0,0,0
+12,5,Michigan St.,2,1,1,4,4
+12,5,LIU Brooklyn,0,0,0,0,0
+12,5,Memphis,0,0,0,1,1
+12,5,Saint Louis,1,2,2,0,0
+12,5,New Mexico,1,3,3,1,2
+12,5,Long Beach St.,0,0,0,0,0
+12,5,Louisville,4,1,1,2,1
+12,5,Davidson,0,0,0,0,0
+12,5,Murray St.,1,2,2,1,1
+12,5,Colorado St.,0,0,0,0,0
+12,5,Marquette,2,1,1,2,2
+12,5,BYU,0,0,0,0,0
+12,5,Florida,3,1,1,1,1
+12,5,Virginia,0,0,0,0,0
+12,5,Missouri,0,6,6,3,3
+12,5,Norfolk St.,1,0,0,0,0
+12,5,North Carolina,3,1,1,3,3
+12,5,Vermont,0,0,0,0,0
+12,5,Creighton,1,5,4,0,0
+12,5,Alabama,0,0,0,1,1
+12,5,Temple,0,1,1,1,1
+12,5,South Florida,1,0,0,0,0
+12,5,Michigan,0,2,2,2,2
+12,5,Ohio,2,0,0,0,0
+12,5,San Diego St.,0,0,0,1,1
+12,5,North Carolina St.,2,1,1,0,0
+12,5,Georgetown,1,0,0,2,2
+12,5,Belmont,0,3,3,0,0
+12,5,Saint Mary's,0,2,2,0,0
+12,5,Purdue,1,0,0,1,1
+12,5,Kansas,5,1,1,4,4
+12,5,Detroit,0,0,0,0,0
+12,5,Syracuse,3,2,2,3,3
+12,5,UNC Asheville,0,0,0,0,0
+12,5,Kansas St.,1,1,1,1,1
+12,5,Southern Miss,0,0,0,0,0
+12,5,Vanderbilt,1,4,5,1,1
+12,5,Harvard,0,0,0,0,0
+12,5,Wisconsin,2,1,1,2,2
+12,5,Montana,0,0,0,0,0
+12,5,Cincinnati,2,2,2,0,0
+12,5,Texas,0,0,0,1,1
+12,5,Florida St.,1,1,1,2,2
+12,5,St. Bonaventure,0,0,0,0,0
+12,5,Gonzaga,1,0,0,1,1
+12,5,West Virginia,0,1,1,0,0
+12,5,Ohio St.,4,3,3,5,5
+12,5,Loyola MD,0,0,0,0,0
+12,6,Kentucky,6,3,3,6,6
+12,6,Western Kentucky,0,0,0,0,0
+12,6,Iowa St.,1,0,0,1,1
+12,6,Connecticut,0,1,1,0,0
+12,6,Wichita St.,0,0,0,2,2
+12,6,VCU,1,1,1,0,0
+12,6,Indiana,2,2,2,1,1
+12,6,New Mexico St.,0,0,0,0,0
+12,6,UNLV,0,0,0,1,1
+12,6,Colorado,1,1,1,0,0
+12,6,Baylor,3,2,4,3,3
+12,6,South Dakota St.,0,0,0,0,0
+12,6,Notre Dame,0,0,0,1,1
+12,6,Xavier,2,1,1,0,0
+12,6,Duke,0,4,2,2,2
+12,6,Lehigh,1,0,0,0,0
+12,6,Michigan St.,2,2,2,4,4
+12,6,LIU Brooklyn,0,0,0,0,0
+12,6,Memphis,0,0,0,1,1
+12,6,Saint Louis,1,1,1,0,0
+12,6,New Mexico,1,3,3,1,2
+12,6,Long Beach St.,0,0,0,0,0
+12,6,Louisville,4,1,1,2,1
+12,6,Davidson,0,0,0,0,0
+12,6,Murray St.,1,2,2,1,1
+12,6,Colorado St.,0,0,0,0,0
+12,6,Marquette,2,1,1,2,2
+12,6,BYU,0,0,0,0,0
+12,6,Florida,3,1,1,1,1
+12,6,Virginia,0,0,0,0,0
+12,6,Missouri,0,6,6,3,3
+12,6,Norfolk St.,1,0,0,0,0
+12,6,North Carolina,3,1,1,3,3
+12,6,Vermont,0,0,0,0,0
+12,6,Creighton,1,4,4,0,0
+12,6,Alabama,0,0,0,1,1
+12,6,Temple,0,1,1,1,1
+12,6,South Florida,1,0,0,0,0
+12,6,Michigan,0,2,2,2,2
+12,6,Ohio,2,0,0,0,0
+12,6,San Diego St.,0,2,2,1,1
+12,6,North Carolina St.,2,0,0,0,0
+12,6,Georgetown,1,1,1,2,2
+12,6,Belmont,0,0,0,0,0
+12,6,Saint Mary's,0,3,3,0,0
+12,6,Purdue,1,0,0,1,1
+12,6,Kansas,5,1,1,4,4
+12,6,Detroit,0,0,0,0,0
+12,6,Syracuse,3,5,5,3,3
+12,6,UNC Asheville,0,0,0,0,0
+12,6,Kansas St.,1,1,1,1,1
+12,6,Southern Miss,0,0,0,0,0
+12,6,Vanderbilt,1,2,2,1,1
+12,6,Harvard,0,0,0,0,0
+12,6,Wisconsin,2,1,1,2,2
+12,6,Montana,0,0,0,0,0
+12,6,Cincinnati,2,2,1,0,0
+12,6,Texas,0,0,0,1,1
+12,6,Florida St.,1,1,2,2,2
+12,6,St. Bonaventure,0,0,0,0,0
+12,6,Gonzaga,1,1,1,1,1
+12,6,West Virginia,0,0,0,0,0
+12,6,Ohio St.,4,3,3,5,5
+12,6,Loyola MD,0,0,0,0,0
+12,7,Kentucky,6,3,4,6,6
+12,7,Western Kentucky,0,0,0,0,0
+12,7,Iowa St.,1,0,0,1,1
+12,7,Connecticut,0,1,1,0,0
+12,7,Wichita St.,0,0,0,2,2
+12,7,VCU,1,1,1,0,0
+12,7,Indiana,2,2,2,1,1
+12,7,New Mexico St.,0,0,0,0,0
+12,7,UNLV,0,1,1,1,1
+12,7,Colorado,1,0,0,0,0
+12,7,Baylor,3,2,3,3,3
+12,7,South Dakota St.,0,0,0,0,0
+12,7,Notre Dame,0,0,0,1,1
+12,7,Xavier,2,1,1,0,0
+12,7,Duke,0,4,2,2,2
+12,7,Lehigh,1,0,0,0,0
+12,7,Michigan St.,2,2,2,4,4
+12,7,LIU Brooklyn,0,0,0,0,0
+12,7,Memphis,0,0,0,1,1
+12,7,Saint Louis,1,1,1,0,0
+12,7,New Mexico,1,3,3,1,2
+12,7,Long Beach St.,0,0,0,0,0
+12,7,Louisville,4,1,1,2,1
+12,7,Davidson,0,0,0,0,0
+12,7,Murray St.,1,2,2,1,1
+12,7,Colorado St.,0,0,0,0,0
+12,7,Marquette,2,1,1,2,2
+12,7,BYU,0,0,0,0,0
+12,7,Florida,3,1,1,1,1
+12,7,Virginia,0,0,0,0,0
+12,7,Missouri,0,6,6,3,3
+12,7,Norfolk St.,1,0,0,0,0
+12,7,North Carolina,3,1,1,3,3
+12,7,Vermont,0,0,0,0,0
+12,7,Creighton,1,4,4,0,0
+12,7,Alabama,0,0,0,1,1
+12,7,Temple,0,2,1,1,1
+12,7,South Florida,1,0,0,0,0
+12,7,Michigan,0,1,2,2,2
+12,7,Ohio,2,0,0,0,0
+12,7,San Diego St.,0,2,2,1,1
+12,7,North Carolina St.,2,0,0,0,0
+12,7,Georgetown,1,1,1,2,2
+12,7,Belmont,0,0,0,0,0
+12,7,Saint Mary's,0,0,0,0,0
+12,7,Purdue,1,1,1,1,1
+12,7,Kansas,5,3,3,4,4
+12,7,Detroit,0,0,0,0,0
+12,7,Syracuse,3,5,5,3,3
+12,7,UNC Asheville,0,0,0,0,0
+12,7,Kansas St.,1,1,1,1,1
+12,7,Southern Miss,0,0,0,0,0
+12,7,Vanderbilt,1,2,2,1,1
+12,7,Harvard,0,0,0,0,0
+12,7,Wisconsin,2,1,1,2,2
+12,7,Montana,0,0,0,0,0
+12,7,Cincinnati,2,2,1,0,0
+12,7,Texas,0,0,0,1,1
+12,7,Florida St.,1,1,2,2,2
+12,7,St. Bonaventure,0,0,0,0,0
+12,7,Gonzaga,1,1,1,1,1
+12,7,West Virginia,0,0,0,0,0
+12,7,Ohio St.,4,3,3,5,5
+12,7,Loyola MD,0,0,0,0,0
+12,8,Kentucky,6,4,4,6,6
+12,8,Western Kentucky,0,0,0,0,0
+12,8,Iowa St.,1,0,0,1,1
+12,8,Connecticut,0,1,1,0,0
+12,8,Wichita St.,0,0,0,2,2
+12,8,VCU,1,1,1,0,0
+12,8,Indiana,2,2,2,1,1
+12,8,New Mexico St.,0,0,0,0,0
+12,8,UNLV,0,1,1,1,1
+12,8,Colorado,1,0,0,0,0
+12,8,Baylor,3,3,3,3,3
+12,8,South Dakota St.,0,0,0,0,0
+12,8,Notre Dame,0,0,0,1,1
+12,8,Xavier,2,1,1,0,0
+12,8,Duke,0,2,2,2,2
+12,8,Lehigh,1,0,0,0,0
+12,8,Michigan St.,2,2,2,4,4
+12,8,LIU Brooklyn,0,0,0,0,0
+12,8,Memphis,0,0,0,1,1
+12,8,Saint Louis,1,1,1,0,0
+12,8,New Mexico,1,3,3,1,2
+12,8,Long Beach St.,0,0,0,0,0
+12,8,Louisville,4,1,1,2,1
+12,8,Davidson,0,0,0,0,0
+12,8,Murray St.,1,2,2,1,1
+12,8,Colorado St.,0,0,0,0,0
+12,8,Marquette,2,1,1,2,2
+12,8,BYU,0,0,0,0,0
+12,8,Florida,3,1,1,1,1
+12,8,Virginia,0,0,0,0,0
+12,8,Missouri,0,6,6,3,3
+12,8,Norfolk St.,1,0,0,0,0
+12,8,North Carolina,3,4,1,3,3
+12,8,Vermont,0,0,0,0,0
+12,8,Creighton,1,1,5,0,0
+12,8,Alabama,0,0,0,1,1
+12,8,Temple,0,2,1,1,1
+12,8,South Florida,1,0,0,0,0
+12,8,Michigan,0,1,2,2,2
+12,8,Ohio,2,0,0,0,0
+12,8,San Diego St.,0,0,0,1,1
+12,8,North Carolina St.,2,1,1,0,0
+12,8,Georgetown,1,2,2,2,2
+12,8,Belmont,0,0,0,0,0
+12,8,Saint Mary's,0,1,1,0,0
+12,8,Purdue,1,0,0,1,1
+12,8,Kansas,5,3,3,4,4
+12,8,Detroit,0,0,0,0,0
+12,8,Syracuse,3,5,4,3,3
+12,8,UNC Asheville,0,0,0,0,0
+12,8,Kansas St.,1,1,1,1,1
+12,8,Southern Miss,0,0,0,0,0
+12,8,Vanderbilt,1,2,2,1,1
+12,8,Harvard,0,0,0,0,0
+12,8,Wisconsin,2,1,1,2,2
+12,8,Montana,0,0,0,0,0
+12,8,Cincinnati,2,2,2,0,0
+12,8,Texas,0,0,0,1,1
+12,8,Florida St.,1,1,1,2,2
+12,8,St. Bonaventure,0,0,0,0,0
+12,8,Gonzaga,1,1,1,1,1
+12,8,West Virginia,0,0,0,0,0
+12,8,Ohio St.,4,3,3,5,5
+12,8,Loyola MD,0,0,0,0,0
+12,9,Kentucky,6,4,4,6,6
+12,9,Western Kentucky,0,0,0,0,0
+12,9,Iowa St.,1,1,1,1,1
+12,9,Connecticut,0,0,0,0,0
+12,9,Wichita St.,0,1,2,2,2
+12,9,VCU,1,0,0,0,0
+12,9,Indiana,2,2,1,1,1
+12,9,New Mexico St.,0,0,0,0,0
+12,9,UNLV,0,1,1,1,1
+12,9,Colorado,1,0,0,0,0
+12,9,Baylor,3,3,3,3,3
+12,9,South Dakota St.,0,0,0,0,0
+12,9,Notre Dame,0,0,0,1,1
+12,9,Xavier,2,1,1,0,0
+12,9,Duke,0,2,2,2,2
+12,9,Lehigh,1,0,0,0,0
+12,9,Michigan St.,2,2,3,4,4
+12,9,LIU Brooklyn,0,0,0,0,0
+12,9,Memphis,0,0,0,1,1
+12,9,Saint Louis,1,1,1,0,0
+12,9,New Mexico,1,1,1,1,2
+12,9,Long Beach St.,0,0,0,0,0
+12,9,Louisville,4,3,2,2,1
+12,9,Davidson,0,0,0,0,0
+12,9,Murray St.,1,2,2,1,1
+12,9,Colorado St.,0,0,0,0,0
+12,9,Marquette,2,1,1,2,2
+12,9,BYU,0,0,0,0,0
+12,9,Florida,3,1,1,1,1
+12,9,Virginia,0,0,0,0,0
+12,9,Missouri,0,5,5,3,3
+12,9,Norfolk St.,1,0,0,0,0
+12,9,North Carolina,3,4,3,3,3
+12,9,Vermont,0,0,0,0,0
+12,9,Creighton,1,1,1,0,0
+12,9,Alabama,0,0,0,1,1
+12,9,Temple,0,2,2,1,1
+12,9,South Florida,1,0,0,0,0
+12,9,Michigan,0,1,1,2,2
+12,9,Ohio,2,0,0,0,0
+12,9,San Diego St.,0,1,1,1,1
+12,9,North Carolina St.,2,0,0,0,0
+12,9,Georgetown,1,2,2,2,2
+12,9,Belmont,0,0,0,0,0
+12,9,Saint Mary's,0,1,1,0,0
+12,9,Purdue,1,0,0,1,1
+12,9,Kansas,5,3,4,4,4
+12,9,Detroit,0,0,0,0,0
+12,9,Syracuse,3,6,6,3,3
+12,9,UNC Asheville,0,0,0,0,0
+12,9,Kansas St.,1,1,1,1,1
+12,9,Southern Miss,0,0,0,0,0
+12,9,Vanderbilt,1,2,2,1,1
+12,9,Harvard,0,0,0,0,0
+12,9,Wisconsin,2,1,1,2,2
+12,9,Montana,0,0,0,0,0
+12,9,Cincinnati,2,2,2,0,0
+12,9,Texas,0,0,0,1,1
+12,9,Florida St.,1,1,1,2,2
+12,9,St. Bonaventure,0,0,0,0,0
+12,9,Gonzaga,1,1,1,1,1
+12,9,West Virginia,0,0,0,0,0
+12,9,Ohio St.,4,3,3,5,5
+12,9,Loyola MD,0,0,0,0,0
+12,10,Kentucky,6,4,4,6,6
+12,10,Western Kentucky,0,0,0,0,0
+12,10,Iowa St.,1,1,1,1,1
+12,10,Connecticut,0,0,0,0,0
+12,10,Wichita St.,0,1,2,2,2
+12,10,VCU,1,0,0,0,0
+12,10,Indiana,2,2,1,1,1
+12,10,New Mexico St.,0,0,0,0,0
+12,10,UNLV,0,1,1,1,1
+12,10,Colorado,1,0,0,0,0
+12,10,Baylor,3,2,2,3,3
+12,10,South Dakota St.,0,0,0,0,0
+12,10,Notre Dame,0,0,0,1,1
+12,10,Xavier,2,1,1,0,0
+12,10,Duke,0,3,3,2,2
+12,10,Lehigh,1,0,0,0,0
+12,10,Michigan St.,2,2,2,4,4
+12,10,LIU Brooklyn,0,0,0,0,0
+12,10,Memphis,0,0,0,1,1
+12,10,Saint Louis,1,1,1,0,0
+12,10,New Mexico,1,3,3,1,2
+12,10,Long Beach St.,0,0,0,0,0
+12,10,Louisville,4,1,1,2,1
+12,10,Davidson,0,0,0,0,0
+12,10,Murray St.,1,2,2,1,1
+12,10,Colorado St.,0,0,0,0,0
+12,10,Marquette,2,1,1,2,2
+12,10,BYU,0,0,0,0,0
+12,10,Florida,3,1,1,1,1
+12,10,Virginia,0,0,0,0,0
+12,10,Missouri,0,5,5,3,3
+12,10,Norfolk St.,1,0,0,0,0
+12,10,North Carolina,3,3,3,3,3
+12,10,Vermont,0,0,0,0,0
+12,10,Creighton,1,1,1,0,0
+12,10,Alabama,0,0,0,1,1
+12,10,Temple,0,2,2,1,1
+12,10,South Florida,1,0,0,0,0
+12,10,Michigan,0,1,1,2,2
+12,10,Ohio,2,0,0,0,0
+12,10,San Diego St.,0,1,2,1,1
+12,10,North Carolina St.,2,0,0,0,0
+12,10,Georgetown,1,2,1,2,2
+12,10,Belmont,0,0,0,0,0
+12,10,Saint Mary's,0,0,0,0,0
+12,10,Purdue,1,1,1,1,1
+12,10,Kansas,5,4,4,4,4
+12,10,Detroit,0,0,0,0,0
+12,10,Syracuse,3,6,6,3,3
+12,10,UNC Asheville,0,0,0,0,0
+12,10,Kansas St.,1,1,1,1,1
+12,10,Southern Miss,0,0,0,0,0
+12,10,Vanderbilt,1,2,2,1,1
+12,10,Harvard,0,0,0,0,0
+12,10,Wisconsin,2,1,1,2,2
+12,10,Montana,0,0,0,0,0
+12,10,Cincinnati,2,2,1,0,0
+12,10,Texas,0,0,0,1,1
+12,10,Florida St.,1,1,2,2,2
+12,10,St. Bonaventure,0,0,0,0,0
+12,10,Gonzaga,1,1,1,1,1
+12,10,West Virginia,0,0,0,0,0
+12,10,Ohio St.,4,3,3,5,5
+12,10,Loyola MD,0,0,0,0,0
+12,11,Kentucky,6,5,4,6,6
+12,11,Western Kentucky,0,0,0,0,0
+12,11,Iowa St.,1,1,1,1,1
+12,11,Connecticut,0,0,0,0,0
+12,11,Wichita St.,0,1,2,2,2
+12,11,VCU,1,0,0,0,0
+12,11,Indiana,2,2,1,1,1
+12,11,New Mexico St.,0,0,0,0,0
+12,11,UNLV,0,1,1,1,1
+12,11,Colorado,1,0,0,0,0
+12,11,Baylor,3,2,3,3,3
+12,11,South Dakota St.,0,0,0,0,0
+12,11,Notre Dame,0,0,0,1,1
+12,11,Xavier,2,1,1,0,0
+12,11,Duke,0,3,2,2,2
+12,11,Lehigh,1,0,0,0,0
+12,11,Michigan St.,2,2,1,4,4
+12,11,LIU Brooklyn,0,0,0,0,0
+12,11,Memphis,0,0,0,1,1
+12,11,Saint Louis,1,1,2,0,0
+12,11,New Mexico,1,3,3,1,2
+12,11,Long Beach St.,0,0,0,0,0
+12,11,Louisville,4,1,1,2,1
+12,11,Davidson,0,0,0,0,0
+12,11,Murray St.,1,2,2,1,1
+12,11,Colorado St.,0,0,0,0,0
+12,11,Marquette,2,1,1,2,2
+12,11,BYU,0,0,0,0,0
+12,11,Florida,3,1,1,1,1
+12,11,Virginia,0,0,0,0,0
+12,11,Missouri,0,4,5,3,3
+12,11,Norfolk St.,1,0,0,0,0
+12,11,North Carolina,3,3,3,3,3
+12,11,Vermont,0,0,0,0,0
+12,11,Creighton,1,1,1,0,0
+12,11,Alabama,0,0,0,1,1
+12,11,Temple,0,2,2,1,1
+12,11,South Florida,1,0,0,0,0
+12,11,Michigan,0,1,1,2,2
+12,11,Ohio,2,0,0,0,0
+12,11,San Diego St.,0,1,1,1,1
+12,11,North Carolina St.,2,0,0,0,0
+12,11,Georgetown,1,2,2,2,2
+12,11,Belmont,0,0,0,0,0
+12,11,Saint Mary's,0,1,1,0,0
+12,11,Purdue,1,0,0,1,1
+12,11,Kansas,5,4,4,4,4
+12,11,Detroit,0,0,0,0,0
+12,11,Syracuse,3,6,6,3,3
+12,11,UNC Asheville,0,0,0,0,0
+12,11,Kansas St.,1,1,1,1,1
+12,11,Southern Miss,0,0,0,0,0
+12,11,Vanderbilt,1,2,2,1,1
+12,11,Harvard,0,0,0,0,0
+12,11,Wisconsin,2,1,1,2,2
+12,11,Montana,0,0,0,0,0
+12,11,Cincinnati,2,2,2,0,0
+12,11,Texas,0,0,0,1,1
+12,11,Florida St.,1,1,1,2,2
+12,11,St. Bonaventure,0,0,0,0,0
+12,11,Gonzaga,1,1,1,1,1
+12,11,West Virginia,0,0,0,0,0
+12,11,Ohio St.,4,3,3,5,5
+12,11,Loyola MD,0,0,0,0,0
+12,12,Kentucky,6,5,4,6,6
+12,12,Western Kentucky,0,0,0,0,0
+12,12,Iowa St.,1,1,1,1,1
+12,12,Connecticut,0,0,0,0,0
+12,12,Wichita St.,0,1,2,2,2
+12,12,VCU,1,0,0,0,0
+12,12,Indiana,2,2,1,1,1
+12,12,New Mexico St.,0,0,0,0,0
+12,12,UNLV,0,1,1,1,1
+12,12,Colorado,1,0,0,0,0
+12,12,Baylor,3,3,3,3,3
+12,12,South Dakota St.,0,0,0,0,0
+12,12,Notre Dame,0,0,0,1,1
+12,12,Xavier,2,1,1,0,0
+12,12,Duke,0,2,2,2,2
+12,12,Lehigh,1,0,0,0,0
+12,12,Michigan St.,2,2,1,4,4
+12,12,LIU Brooklyn,0,0,0,0,0
+12,12,Memphis,0,0,0,1,1
+12,12,Saint Louis,1,1,2,0,0
+12,12,New Mexico,1,3,3,1,2
+12,12,Long Beach St.,0,0,0,0,0
+12,12,Louisville,4,1,1,2,1
+12,12,Davidson,0,0,0,0,0
+12,12,Murray St.,1,2,2,1,1
+12,12,Colorado St.,0,0,0,0,0
+12,12,Marquette,2,1,1,2,2
+12,12,BYU,0,0,0,0,0
+12,12,Florida,3,1,1,1,1
+12,12,Virginia,0,0,0,0,0
+12,12,Missouri,0,4,5,3,3
+12,12,Norfolk St.,1,0,0,0,0
+12,12,North Carolina,3,4,3,3,3
+12,12,Vermont,0,0,0,0,0
+12,12,Creighton,1,1,1,0,0
+12,12,Alabama,0,0,0,1,1
+12,12,Temple,0,2,1,1,1
+12,12,South Florida,1,0,0,0,0
+12,12,Michigan,0,0,0,2,2
+12,12,Ohio,2,1,2,0,0
+12,12,San Diego St.,0,2,1,1,1
+12,12,North Carolina St.,2,0,0,0,0
+12,12,Georgetown,1,1,2,2,2
+12,12,Belmont,0,0,0,0,0
+12,12,Saint Mary's,0,1,1,0,0
+12,12,Purdue,1,0,0,1,1
+12,12,Kansas,5,3,4,4,4
+12,12,Detroit,0,0,0,0,0
+12,12,Syracuse,3,6,6,3,3
+12,12,UNC Asheville,0,0,0,0,0
+12,12,Kansas St.,1,1,1,1,1
+12,12,Southern Miss,0,0,0,0,0
+12,12,Vanderbilt,1,2,2,1,1
+12,12,Harvard,0,0,0,0,0
+12,12,Wisconsin,2,1,1,2,2
+12,12,Montana,0,0,0,0,0
+12,12,Cincinnati,2,2,1,0,0
+12,12,Texas,0,0,0,1,1
+12,12,Florida St.,1,1,2,2,2
+12,12,St. Bonaventure,0,0,0,0,0
+12,12,Gonzaga,1,1,1,1,1
+12,12,West Virginia,0,0,0,0,0
+12,12,Ohio St.,4,3,3,5,5
+12,12,Loyola MD,0,0,0,0,0
+12,13,Kentucky,6,6,5,6,6
+12,13,Western Kentucky,0,0,0,0,0
+12,13,Iowa St.,1,1,1,1,1
+12,13,Connecticut,0,0,0,0,0
+12,13,Wichita St.,0,1,2,2,2
+12,13,VCU,1,0,0,0,0
+12,13,Indiana,2,2,1,1,1
+12,13,New Mexico St.,0,0,0,0,0
+12,13,UNLV,0,1,1,1,1
+12,13,Colorado,1,0,0,0,0
+12,13,Baylor,3,3,3,3,3
+12,13,South Dakota St.,0,0,0,0,0
+12,13,Notre Dame,0,0,0,1,1
+12,13,Xavier,2,1,1,0,0
+12,13,Duke,0,2,2,2,2
+12,13,Lehigh,1,0,0,0,0
+12,13,Michigan St.,2,3,3,4,4
+12,13,LIU Brooklyn,0,0,0,0,0
+12,13,Memphis,0,0,0,1,1
+12,13,Saint Louis,1,1,1,0,0
+12,13,New Mexico,1,2,2,1,2
+12,13,Long Beach St.,0,0,0,0,0
+12,13,Louisville,4,1,1,2,1
+12,13,Davidson,0,0,0,0,0
+12,13,Murray St.,1,2,2,1,1
+12,13,Colorado St.,0,0,0,0,0
+12,13,Marquette,2,1,1,2,2
+12,13,BYU,0,0,0,0,0
+12,13,Florida,3,1,1,1,1
+12,13,Virginia,0,0,0,0,0
+12,13,Missouri,0,4,4,3,3
+12,13,Norfolk St.,1,0,0,0,0
+12,13,North Carolina,3,4,3,3,3
+12,13,Vermont,0,0,0,0,0
+12,13,Creighton,1,1,1,0,0
+12,13,Alabama,0,0,0,1,1
+12,13,Temple,0,2,2,1,1
+12,13,South Florida,1,0,0,0,0
+12,13,Michigan,0,1,1,2,2
+12,13,Ohio,2,0,0,0,0
+12,13,San Diego St.,0,1,1,1,1
+12,13,North Carolina St.,2,0,0,0,0
+12,13,Georgetown,1,2,2,2,2
+12,13,Belmont,0,0,0,0,0
+12,13,Saint Mary's,0,1,1,0,0
+12,13,Purdue,1,0,0,1,1
+12,13,Kansas,5,3,4,4,4
+12,13,Detroit,0,0,0,0,0
+12,13,Syracuse,3,5,6,3,3
+12,13,UNC Asheville,0,0,0,0,0
+12,13,Kansas St.,1,1,1,1,1
+12,13,Southern Miss,0,0,0,0,0
+12,13,Vanderbilt,1,2,2,1,1
+12,13,Harvard,0,0,0,0,0
+12,13,Wisconsin,2,1,1,2,2
+12,13,Montana,0,0,0,0,0
+12,13,Cincinnati,2,2,2,0,0
+12,13,Texas,0,0,0,1,1
+12,13,Florida St.,1,1,1,2,2
+12,13,St. Bonaventure,0,0,0,0,0
+12,13,Gonzaga,1,1,1,1,1
+12,13,West Virginia,0,0,0,0,0
+12,13,Ohio St.,4,3,3,5,5
+12,13,Loyola MD,0,0,0,0,0
+12,14,Kentucky,6,6,5,6,6
+12,14,Western Kentucky,0,0,0,0,0
+12,14,Iowa St.,1,1,1,1,1
+12,14,Connecticut,0,0,0,0,0
+12,14,Wichita St.,0,1,2,2,2
+12,14,VCU,1,0,0,0,0
+12,14,Indiana,2,2,1,1,1
+12,14,New Mexico St.,0,0,0,0,0
+12,14,UNLV,0,1,1,1,1
+12,14,Colorado,1,0,0,0,0
+12,14,Baylor,3,2,2,3,3
+12,14,South Dakota St.,0,0,0,0,0
+12,14,Notre Dame,0,0,0,1,1
+12,14,Xavier,2,1,1,0,0
+12,14,Duke,0,3,3,2,2
+12,14,Lehigh,1,0,0,0,0
+12,14,Michigan St.,2,3,3,4,4
+12,14,LIU Brooklyn,0,0,0,0,0
+12,14,Memphis,0,0,0,1,1
+12,14,Saint Louis,1,1,1,0,0
+12,14,New Mexico,1,2,2,1,2
+12,14,Long Beach St.,0,0,0,0,0
+12,14,Louisville,4,1,1,2,1
+12,14,Davidson,0,0,0,0,0
+12,14,Murray St.,1,2,2,1,1
+12,14,Colorado St.,0,0,0,0,0
+12,14,Marquette,2,1,1,2,2
+12,14,BYU,0,0,0,0,0
+12,14,Florida,3,1,1,1,1
+12,14,Virginia,0,0,0,0,0
+12,14,Missouri,0,4,4,3,3
+12,14,Norfolk St.,1,0,0,0,0
+12,14,North Carolina,3,3,3,3,3
+12,14,Vermont,0,0,0,0,0
+12,14,Creighton,1,1,1,0,0
+12,14,Alabama,0,0,0,1,1
+12,14,Temple,0,2,1,1,1
+12,14,South Florida,1,0,0,0,0
+12,14,Michigan,0,1,2,2,2
+12,14,Ohio,2,0,0,0,0
+12,14,San Diego St.,0,2,1,1,1
+12,14,North Carolina St.,2,0,0,0,0
+12,14,Georgetown,1,1,2,2,2
+12,14,Belmont,0,0,0,0,0
+12,14,Saint Mary's,0,1,1,0,0
+12,14,Purdue,1,0,0,1,1
+12,14,Kansas,5,4,4,4,4
+12,14,Detroit,0,0,0,0,0
+12,14,Syracuse,3,5,6,3,3
+12,14,UNC Asheville,0,0,0,0,0
+12,14,Kansas St.,1,0,0,1,1
+12,14,Southern Miss,0,1,1,0,0
+12,14,Vanderbilt,1,2,2,1,1
+12,14,Harvard,0,0,0,0,0
+12,14,Wisconsin,2,1,1,2,2
+12,14,Montana,0,0,0,0,0
+12,14,Cincinnati,2,1,1,0,0
+12,14,Texas,0,0,0,1,1
+12,14,Florida St.,1,2,3,2,2
+12,14,St. Bonaventure,0,0,0,0,0
+12,14,Gonzaga,1,1,1,1,1
+12,14,West Virginia,0,0,0,0,0
+12,14,Ohio St.,4,3,2,5,5
+12,14,Loyola MD,0,0,0,0,0
+12,15,Kentucky,6,6,5,6,6
+12,15,Western Kentucky,0,0,0,0,0
+12,15,Iowa St.,1,1,1,1,1
+12,15,Connecticut,0,0,0,0,0
+12,15,Wichita St.,0,1,2,2,2
+12,15,VCU,1,0,0,0,0
+12,15,Indiana,2,2,1,1,1
+12,15,New Mexico St.,0,0,0,0,0
+12,15,UNLV,0,1,1,1,1
+12,15,Colorado,1,0,0,0,0
+12,15,Baylor,3,2,2,3,3
+12,15,South Dakota St.,0,0,0,0,0
+12,15,Notre Dame,0,1,1,1,1
+12,15,Xavier,2,0,0,0,0
+12,15,Duke,0,3,3,2,2
+12,15,Lehigh,1,0,0,0,0
+12,15,Michigan St.,2,3,3,4,4
+12,15,LIU Brooklyn,0,0,0,0,0
+12,15,Memphis,0,0,0,1,1
+12,15,Saint Louis,1,1,1,0,0
+12,15,New Mexico,1,2,2,1,2
+12,15,Long Beach St.,0,0,0,0,0
+12,15,Louisville,4,1,1,2,1
+12,15,Davidson,0,0,0,0,0
+12,15,Murray St.,1,2,2,1,1
+12,15,Colorado St.,0,0,0,0,0
+12,15,Marquette,2,1,1,2,2
+12,15,BYU,0,0,0,0,0
+12,15,Florida,3,1,1,1,1
+12,15,Virginia,0,0,0,0,0
+12,15,Missouri,0,4,4,3,3
+12,15,Norfolk St.,1,0,0,0,0
+12,15,North Carolina,3,4,3,3,3
+12,15,Vermont,0,0,0,0,0
+12,15,Creighton,1,1,1,0,0
+12,15,Alabama,0,0,0,1,1
+12,15,Temple,0,2,1,1,1
+12,15,South Florida,1,0,0,0,0
+12,15,Michigan,0,0,0,2,2
+12,15,Ohio,2,1,2,0,0
+12,15,San Diego St.,0,2,2,1,1
+12,15,North Carolina St.,2,0,0,0,0
+12,15,Georgetown,1,1,1,2,2
+12,15,Belmont,0,0,0,0,0
+12,15,Saint Mary's,0,1,1,0,0
+12,15,Purdue,1,0,0,1,1
+12,15,Kansas,5,3,4,4,4
+12,15,Detroit,0,0,0,0,0
+12,15,Syracuse,3,5,6,3,3
+12,15,UNC Asheville,0,0,0,0,0
+12,15,Kansas St.,1,0,0,1,1
+12,15,Southern Miss,0,1,1,0,0
+12,15,Vanderbilt,1,2,2,1,1
+12,15,Harvard,0,0,0,0,0
+12,15,Wisconsin,2,1,1,2,2
+12,15,Montana,0,0,0,0,0
+12,15,Cincinnati,2,1,1,0,0
+12,15,Texas,0,0,0,1,1
+12,15,Florida St.,1,2,2,2,2
+12,15,St. Bonaventure,0,0,0,0,0
+12,15,Gonzaga,1,1,1,1,1
+12,15,West Virginia,0,0,0,0,0
+12,15,Ohio St.,4,3,3,5,5
+12,15,Loyola MD,0,0,0,0,0
+12,16,Kentucky,6,6,5,6,6
+12,16,Western Kentucky,0,0,0,0,0
+12,16,Iowa St.,1,1,1,1,1
+12,16,Connecticut,0,0,0,0,0
+12,16,Wichita St.,0,2,2,2,2
+12,16,VCU,1,0,0,0,0
+12,16,Indiana,2,1,1,1,1
+12,16,New Mexico St.,0,0,0,0,0
+12,16,UNLV,0,1,1,1,1
+12,16,Colorado,1,0,0,0,0
+12,16,Baylor,3,2,2,3,3
+12,16,South Dakota St.,0,0,0,0,0
+12,16,Notre Dame,0,1,1,1,1
+12,16,Xavier,2,0,0,0,0
+12,16,Duke,0,3,3,2,2
+12,16,Lehigh,1,0,0,0,0
+12,16,Michigan St.,2,3,3,4,4
+12,16,LIU Brooklyn,0,0,0,0,0
+12,16,Memphis,0,0,0,1,1
+12,16,Saint Louis,1,1,1,0,0
+12,16,New Mexico,1,2,2,1,2
+12,16,Long Beach St.,0,0,0,0,0
+12,16,Louisville,4,1,1,2,1
+12,16,Davidson,0,0,0,0,0
+12,16,Murray St.,1,2,2,1,1
+12,16,Colorado St.,0,0,0,0,0
+12,16,Marquette,2,1,1,2,2
+12,16,BYU,0,0,0,0,0
+12,16,Florida,3,1,1,1,1
+12,16,Virginia,0,0,0,0,0
+12,16,Missouri,0,4,4,3,3
+12,16,Norfolk St.,1,0,0,0,0
+12,16,North Carolina,3,4,3,3,3
+12,16,Vermont,0,0,0,0,0
+12,16,Creighton,1,1,1,0,0
+12,16,Alabama,0,0,0,1,1
+12,16,Temple,0,2,1,1,1
+12,16,South Florida,1,0,0,0,0
+12,16,Michigan,0,0,0,2,2
+12,16,Ohio,2,1,2,0,0
+12,16,San Diego St.,0,2,1,1,1
+12,16,North Carolina St.,2,0,0,0,0
+12,16,Georgetown,1,0,0,2,2
+12,16,Belmont,0,1,2,0,0
+12,16,Saint Mary's,0,1,1,0,0
+12,16,Purdue,1,0,0,1,1
+12,16,Kansas,5,3,4,4,4
+12,16,Detroit,0,0,0,0,0
+12,16,Syracuse,3,5,6,3,3
+12,16,UNC Asheville,0,0,0,0,0
+12,16,Kansas St.,1,0,0,1,1
+12,16,Southern Miss,0,1,1,0,0
+12,16,Vanderbilt,1,2,2,1,1
+12,16,Harvard,0,0,0,0,0
+12,16,Wisconsin,2,1,1,2,2
+12,16,Montana,0,0,0,0,0
+12,16,Cincinnati,2,1,1,0,0
+12,16,Texas,0,0,0,1,1
+12,16,Florida St.,1,2,2,2,2
+12,16,St. Bonaventure,0,0,0,0,0
+12,16,Gonzaga,1,1,1,1,1
+12,16,West Virginia,0,0,0,0,0
+12,16,Ohio St.,4,3,3,5,5
+12,16,Loyola MD,0,0,0,0,0
+12,17,Kentucky,6,6,5,6,6
+12,17,Western Kentucky,0,0,0,0,0
+12,17,Iowa St.,1,1,1,1,1
+12,17,Connecticut,0,0,0,0,0
+12,17,Wichita St.,0,2,2,2,2
+12,17,VCU,1,0,0,0,0
+12,17,Indiana,2,1,1,1,1
+12,17,New Mexico St.,0,0,0,0,0
+12,17,UNLV,0,1,1,1,1
+12,17,Colorado,1,0,0,0,0
+12,17,Baylor,3,2,2,3,3
+12,17,South Dakota St.,0,0,0,0,0
+12,17,Notre Dame,0,1,1,1,1
+12,17,Xavier,2,0,0,0,0
+12,17,Duke,0,3,3,2,2
+12,17,Lehigh,1,0,0,0,0
+12,17,Michigan St.,2,3,3,4,4
+12,17,LIU Brooklyn,0,0,0,0,0
+12,17,Memphis,0,0,0,1,1
+12,17,Saint Louis,1,1,1,0,0
+12,17,New Mexico,1,2,2,1,2
+12,17,Long Beach St.,0,0,0,0,0
+12,17,Louisville,4,1,1,2,1
+12,17,Davidson,0,0,0,0,0
+12,17,Murray St.,1,2,2,1,1
+12,17,Colorado St.,0,0,0,0,0
+12,17,Marquette,2,1,1,2,2
+12,17,BYU,0,0,0,0,0
+12,17,Florida,3,1,1,1,1
+12,17,Virginia,0,0,0,0,0
+12,17,Missouri,0,4,4,3,3
+12,17,Norfolk St.,1,0,0,0,0
+12,17,North Carolina,3,4,3,3,3
+12,17,Vermont,0,0,0,0,0
+12,17,Creighton,1,1,1,0,0
+12,17,Alabama,0,0,0,1,1
+12,17,Temple,0,2,2,1,1
+12,17,South Florida,1,0,0,0,0
+12,17,Michigan,0,0,0,2,2
+12,17,Ohio,2,1,1,0,0
+12,17,San Diego St.,0,2,1,1,1
+12,17,North Carolina St.,2,0,0,0,0
+12,17,Georgetown,1,0,0,2,2
+12,17,Belmont,0,1,2,0,0
+12,17,Saint Mary's,0,1,1,0,0
+12,17,Purdue,1,0,0,1,1
+12,17,Kansas,5,3,4,4,4
+12,17,Detroit,0,0,0,0,0
+12,17,Syracuse,3,5,6,3,3
+12,17,UNC Asheville,0,0,0,0,0
+12,17,Kansas St.,1,0,0,1,1
+12,17,Southern Miss,0,1,1,0,0
+12,17,Vanderbilt,1,2,2,1,1
+12,17,Harvard,0,0,0,0,0
+12,17,Wisconsin,2,1,1,2,2
+12,17,Montana,0,0,0,0,0
+12,17,Cincinnati,2,1,1,0,0
+12,17,Texas,0,0,0,1,1
+12,17,Florida St.,1,2,2,2,2
+12,17,St. Bonaventure,0,0,0,0,0
+12,17,Gonzaga,1,1,1,1,1
+12,17,West Virginia,0,0,0,0,0
+12,17,Ohio St.,4,3,3,5,5
+12,17,Loyola MD,0,0,0,0,0
+12,18,Kentucky,6,6,5,6,6
+12,18,Western Kentucky,0,0,0,0,0
+12,18,Iowa St.,1,1,1,1,1
+12,18,Connecticut,0,0,0,0,0
+12,18,Wichita St.,0,2,2,2,2
+12,18,VCU,1,0,0,0,0
+12,18,Indiana,2,1,1,1,1
+12,18,New Mexico St.,0,0,0,0,0
+12,18,UNLV,0,1,1,1,1
+12,18,Colorado,1,0,0,0,0
+12,18,Baylor,3,2,2,3,3
+12,18,South Dakota St.,0,0,0,0,0
+12,18,Notre Dame,0,1,1,1,1
+12,18,Xavier,2,0,0,0,0
+12,18,Duke,0,3,3,2,2
+12,18,Lehigh,1,0,0,0,0
+12,18,Michigan St.,2,3,2,4,4
+12,18,LIU Brooklyn,0,0,0,0,0
+12,18,Memphis,0,0,0,1,1
+12,18,Saint Louis,1,1,1,0,0
+12,18,New Mexico,1,2,3,1,2
+12,18,Long Beach St.,0,0,0,0,0
+12,18,Louisville,4,1,1,2,1
+12,18,Davidson,0,0,0,0,0
+12,18,Murray St.,1,2,2,1,1
+12,18,Colorado St.,0,0,0,0,0
+12,18,Marquette,2,1,1,2,2
+12,18,BYU,0,0,0,0,0
+12,18,Florida,3,1,1,1,1
+12,18,Virginia,0,0,0,0,0
+12,18,Missouri,0,4,4,3,3
+12,18,Norfolk St.,1,0,0,0,0
+12,18,North Carolina,3,4,3,3,3
+12,18,Vermont,0,0,0,0,0
+12,18,Creighton,1,1,1,0,0
+12,18,Alabama,0,0,0,1,1
+12,18,Temple,0,2,1,1,1
+12,18,South Florida,1,0,0,0,0
+12,18,Michigan,0,0,0,2,2
+12,18,Ohio,2,1,2,0,0
+12,18,San Diego St.,0,2,1,1,1
+12,18,North Carolina St.,2,0,0,0,0
+12,18,Georgetown,1,0,0,2,2
+12,18,Belmont,0,1,2,0,0
+12,18,Saint Mary's,0,1,1,0,0
+12,18,Purdue,1,0,0,1,1
+12,18,Kansas,5,3,4,4,4
+12,18,Detroit,0,0,0,0,0
+12,18,Syracuse,3,5,6,3,3
+12,18,UNC Asheville,0,0,0,0,0
+12,18,Kansas St.,1,0,0,1,1
+12,18,Southern Miss,0,1,1,0,0
+12,18,Vanderbilt,1,0,0,1,1
+12,18,Harvard,0,2,2,0,0
+12,18,Wisconsin,2,1,1,2,2
+12,18,Montana,0,0,0,0,0
+12,18,Cincinnati,2,1,1,0,0
+12,18,Texas,0,0,0,1,1
+12,18,Florida St.,1,2,2,2,2
+12,18,St. Bonaventure,0,0,0,0,0
+12,18,Gonzaga,1,1,1,1,1
+12,18,West Virginia,0,0,0,0,0
+12,18,Ohio St.,4,3,3,5,5
+12,18,Loyola MD,0,0,0,0,0
+12,19,Kentucky,6,6,5,6,6
+12,19,Western Kentucky,0,0,0,0,0
+12,19,Iowa St.,1,1,1,1,1
+12,19,Connecticut,0,0,0,0,0
+12,19,Wichita St.,0,2,2,2,2
+12,19,VCU,1,0,0,0,0
+12,19,Indiana,2,1,1,1,1
+12,19,New Mexico St.,0,0,0,0,0
+12,19,UNLV,0,1,1,1,1
+12,19,Colorado,1,0,0,0,0
+12,19,Baylor,3,2,2,3,3
+12,19,South Dakota St.,0,0,0,0,0
+12,19,Notre Dame,0,1,1,1,1
+12,19,Xavier,2,0,0,0,0
+12,19,Duke,0,3,3,2,2
+12,19,Lehigh,1,0,0,0,0
+12,19,Michigan St.,2,3,2,4,4
+12,19,LIU Brooklyn,0,0,0,0,0
+12,19,Memphis,0,0,0,1,1
+12,19,Saint Louis,1,1,1,0,0
+12,19,New Mexico,1,2,3,1,2
+12,19,Long Beach St.,0,0,0,0,0
+12,19,Louisville,4,1,1,2,1
+12,19,Davidson,0,0,0,0,0
+12,19,Murray St.,1,2,2,1,1
+12,19,Colorado St.,0,0,0,0,0
+12,19,Marquette,2,1,1,2,2
+12,19,BYU,0,0,0,0,0
+12,19,Florida,3,1,1,1,1
+12,19,Virginia,0,0,0,0,0
+12,19,Missouri,0,4,4,3,3
+12,19,Norfolk St.,1,0,0,0,0
+12,19,North Carolina,3,4,3,3,3
+12,19,Vermont,0,0,0,0,0
+12,19,Creighton,1,1,1,0,0
+12,19,Alabama,0,0,0,1,1
+12,19,Temple,0,2,1,1,1
+12,19,South Florida,1,0,0,0,0
+12,19,Michigan,0,1,2,2,2
+12,19,Ohio,2,0,0,0,0
+12,19,San Diego St.,0,2,1,1,1
+12,19,North Carolina St.,2,0,0,0,0
+12,19,Georgetown,1,0,0,2,2
+12,19,Belmont,0,1,2,0,0
+12,19,Saint Mary's,0,1,1,0,0
+12,19,Purdue,1,0,0,1,1
+12,19,Kansas,5,3,4,4,4
+12,19,Detroit,0,0,0,0,0
+12,19,Syracuse,3,5,6,3,3
+12,19,UNC Asheville,0,0,0,0,0
+12,19,Kansas St.,1,0,0,1,1
+12,19,Southern Miss,0,1,1,0,0
+12,19,Vanderbilt,1,0,0,1,1
+12,19,Harvard,0,2,2,0,0
+12,19,Wisconsin,2,1,1,2,2
+12,19,Montana,0,0,0,0,0
+12,19,Cincinnati,2,2,1,0,0
+12,19,Texas,0,0,0,1,1
+12,19,Florida St.,1,1,2,2,2
+12,19,St. Bonaventure,0,0,0,0,0
+12,19,Gonzaga,1,1,1,1,1
+12,19,West Virginia,0,0,0,0,0
+12,19,Ohio St.,4,3,3,5,5
+12,19,Loyola MD,0,0,0,0,0
+12,20,Kentucky,6,5,6,6,6
+12,20,Western Kentucky,0,0,0,0,0
+12,20,Iowa St.,1,1,1,1,1
+12,20,Connecticut,0,0,0,0,0
+12,20,Wichita St.,0,2,2,2,2
+12,20,VCU,1,0,0,0,0
+12,20,Indiana,2,1,1,1,1
+12,20,New Mexico St.,0,0,0,0,0
+12,20,UNLV,0,1,1,1,1
+12,20,Colorado,1,0,0,0,0
+12,20,Baylor,3,2,2,3,3
+12,20,South Dakota St.,0,0,0,0,0
+12,20,Notre Dame,0,1,1,1,1
+12,20,Xavier,2,0,0,0,0
+12,20,Duke,0,3,3,2,2
+12,20,Lehigh,1,0,0,0,0
+12,20,Michigan St.,2,2,3,4,4
+12,20,LIU Brooklyn,0,0,0,0,0
+12,20,Memphis,0,0,0,1,1
+12,20,Saint Louis,1,1,1,0,0
+12,20,New Mexico,1,3,2,1,2
+12,20,Long Beach St.,0,0,0,0,0
+12,20,Louisville,4,1,1,2,1
+12,20,Davidson,0,0,0,0,0
+12,20,Murray St.,1,2,2,1,1
+12,20,Colorado St.,0,0,0,0,0
+12,20,Marquette,2,1,1,2,2
+12,20,BYU,0,0,0,0,0
+12,20,Florida,3,1,1,1,1
+12,20,Virginia,0,0,0,0,0
+12,20,Missouri,0,4,4,3,3
+12,20,Norfolk St.,1,0,0,0,0
+12,20,North Carolina,3,4,4,3,3
+12,20,Vermont,0,0,0,0,0
+12,20,Creighton,1,1,1,0,0
+12,20,Alabama,0,0,0,1,1
+12,20,Temple,0,2,1,1,1
+12,20,South Florida,1,0,0,0,0
+12,20,Michigan,0,1,2,2,2
+12,20,Ohio,2,0,0,0,0
+12,20,San Diego St.,0,2,1,1,1
+12,20,North Carolina St.,2,0,0,0,0
+12,20,Georgetown,1,0,0,2,2
+12,20,Belmont,0,1,2,0,0
+12,20,Saint Mary's,0,1,1,0,0
+12,20,Purdue,1,0,0,1,1
+12,20,Kansas,5,3,3,4,4
+12,20,Detroit,0,0,0,0,0
+12,20,Syracuse,3,6,5,3,3
+12,20,UNC Asheville,0,0,0,0,0
+12,20,Kansas St.,1,0,0,1,1
+12,20,Southern Miss,0,1,1,0,0
+12,20,Vanderbilt,1,0,0,1,1
+12,20,Harvard,0,2,2,0,0
+12,20,Wisconsin,2,1,1,2,2
+12,20,Montana,0,0,0,0,0
+12,20,Cincinnati,2,2,2,0,0
+12,20,Texas,0,0,0,1,1
+12,20,Florida St.,1,1,1,2,2
+12,20,St. Bonaventure,0,0,0,0,0
+12,20,Gonzaga,1,1,1,1,1
+12,20,West Virginia,0,0,0,0,0
+12,20,Ohio St.,4,3,3,5,5
+12,20,Loyola MD,0,0,0,0,0
+12,21,Kentucky,6,5,6,6,6
+12,21,Western Kentucky,0,0,0,0,0
+12,21,Iowa St.,1,1,1,1,1
+12,21,Connecticut,0,0,0,0,0
+12,21,Wichita St.,0,2,2,2,2
+12,21,VCU,1,0,0,0,0
+12,21,Indiana,2,1,1,1,1
+12,21,New Mexico St.,0,0,0,0,0
+12,21,UNLV,0,1,1,1,1
+12,21,Colorado,1,0,0,0,0
+12,21,Baylor,3,2,2,3,3
+12,21,South Dakota St.,0,0,0,0,0
+12,21,Notre Dame,0,1,1,1,1
+12,21,Xavier,2,0,0,0,0
+12,21,Duke,0,3,3,2,2
+12,21,Lehigh,1,0,0,0,0
+12,21,Michigan St.,2,3,3,4,4
+12,21,LIU Brooklyn,0,0,0,0,0
+12,21,Memphis,0,0,0,1,1
+12,21,Saint Louis,1,1,1,0,0
+12,21,New Mexico,1,2,2,1,2
+12,21,Long Beach St.,0,0,0,0,0
+12,21,Louisville,4,1,1,2,1
+12,21,Davidson,0,0,0,0,0
+12,21,Murray St.,1,2,2,1,1
+12,21,Colorado St.,0,0,0,0,0
+12,21,Marquette,2,1,1,2,2
+12,21,BYU,0,0,0,0,0
+12,21,Florida,3,1,1,1,1
+12,21,Virginia,0,0,0,0,0
+12,21,Missouri,0,4,4,3,3
+12,21,Norfolk St.,1,0,0,0,0
+12,21,North Carolina,3,4,4,3,3
+12,21,Vermont,0,0,0,0,0
+12,21,Creighton,1,1,1,0,0
+12,21,Alabama,0,0,0,1,1
+12,21,Temple,0,2,1,1,1
+12,21,South Florida,1,0,0,0,0
+12,21,Michigan,0,1,2,2,2
+12,21,Ohio,2,0,0,0,0
+12,21,San Diego St.,0,2,1,1,1
+12,21,North Carolina St.,2,0,0,0,0
+12,21,Georgetown,1,0,0,2,2
+12,21,Belmont,0,1,2,0,0
+12,21,Saint Mary's,0,1,1,0,0
+12,21,Purdue,1,0,0,1,1
+12,21,Kansas,5,3,3,4,4
+12,21,Detroit,0,0,0,0,0
+12,21,Syracuse,3,6,5,3,3
+12,21,UNC Asheville,0,0,0,0,0
+12,21,Kansas St.,1,0,0,1,1
+12,21,Southern Miss,0,1,1,0,0
+12,21,Vanderbilt,1,0,0,1,1
+12,21,Harvard,0,2,2,0,0
+12,21,Wisconsin,2,1,1,2,2
+12,21,Montana,0,0,0,0,0
+12,21,Cincinnati,2,2,1,0,0
+12,21,Texas,0,0,0,1,1
+12,21,Florida St.,1,1,2,2,2
+12,21,St. Bonaventure,0,0,0,0,0
+12,21,Gonzaga,1,1,1,1,1
+12,21,West Virginia,0,0,0,0,0
+12,21,Ohio St.,4,3,3,5,5
+12,21,Loyola MD,0,0,0,0,0
+12,22,Kentucky,6,5,6,6,6
+12,22,Western Kentucky,0,0,0,0,0
+12,22,Iowa St.,1,1,1,1,1
+12,22,Connecticut,0,0,0,0,0
+12,22,Wichita St.,0,2,2,2,2
+12,22,VCU,1,0,0,0,0
+12,22,Indiana,2,1,1,1,1
+12,22,New Mexico St.,0,0,0,0,0
+12,22,UNLV,0,1,1,1,1
+12,22,Colorado,1,0,0,0,0
+12,22,Baylor,3,2,2,3,3
+12,22,South Dakota St.,0,0,0,0,0
+12,22,Notre Dame,0,1,1,1,1
+12,22,Xavier,2,0,0,0,0
+12,22,Duke,0,3,3,2,2
+12,22,Lehigh,1,0,0,0,0
+12,22,Michigan St.,2,3,3,4,4
+12,22,LIU Brooklyn,0,0,0,0,0
+12,22,Memphis,0,0,0,1,1
+12,22,Saint Louis,1,1,1,0,0
+12,22,New Mexico,1,2,2,1,2
+12,22,Long Beach St.,0,0,0,0,0
+12,22,Louisville,4,1,1,2,1
+12,22,Davidson,0,0,0,0,0
+12,22,Murray St.,1,2,2,1,1
+12,22,Colorado St.,0,0,0,0,0
+12,22,Marquette,2,1,1,2,2
+12,22,BYU,0,0,0,0,0
+12,22,Florida,3,0,0,1,1
+12,22,Virginia,0,1,1,0,0
+12,22,Missouri,0,4,4,3,3
+12,22,Norfolk St.,1,0,0,0,0
+12,22,North Carolina,3,4,4,3,3
+12,22,Vermont,0,0,0,0,0
+12,22,Creighton,1,1,1,0,0
+12,22,Alabama,0,0,0,1,1
+12,22,Temple,0,2,1,1,1
+12,22,South Florida,1,0,0,0,0
+12,22,Michigan,0,0,0,2,2
+12,22,Ohio,2,1,2,0,0
+12,22,San Diego St.,0,2,2,1,1
+12,22,North Carolina St.,2,0,0,0,0
+12,22,Georgetown,1,1,1,2,2
+12,22,Belmont,0,0,0,0,0
+12,22,Saint Mary's,0,1,1,0,0
+12,22,Purdue,1,0,0,1,1
+12,22,Kansas,5,3,3,4,4
+12,22,Detroit,0,0,0,0,0
+12,22,Syracuse,3,6,5,3,3
+12,22,UNC Asheville,0,0,0,0,0
+12,22,Kansas St.,1,0,0,1,1
+12,22,Southern Miss,0,1,1,0,0
+12,22,Vanderbilt,1,0,0,1,1
+12,22,Harvard,0,2,2,0,0
+12,22,Wisconsin,2,1,1,2,2
+12,22,Montana,0,0,0,0,0
+12,22,Cincinnati,2,2,1,0,0
+12,22,Texas,0,0,0,1,1
+12,22,Florida St.,1,1,2,2,2
+12,22,St. Bonaventure,0,0,0,0,0
+12,22,Gonzaga,1,1,1,1,1
+12,22,West Virginia,0,0,0,0,0
+12,22,Ohio St.,4,3,3,5,5
+12,22,Loyola MD,0,0,0,0,0
+12,23,Kentucky,6,5,6,6,6
+12,23,Western Kentucky,0,0,0,0,0
+12,23,Iowa St.,1,1,1,1,1
+12,23,Connecticut,0,0,0,0,0
+12,23,Wichita St.,0,2,2,2,2
+12,23,VCU,1,0,0,0,0
+12,23,Indiana,2,1,1,1,1
+12,23,New Mexico St.,0,0,0,0,0
+12,23,UNLV,0,1,1,1,1
+12,23,Colorado,1,0,0,0,0
+12,23,Baylor,3,2,2,3,3
+12,23,South Dakota St.,0,0,0,0,0
+12,23,Notre Dame,0,1,1,1,1
+12,23,Xavier,2,0,0,0,0
+12,23,Duke,0,3,3,2,2
+12,23,Lehigh,1,0,0,0,0
+12,23,Michigan St.,2,3,3,4,4
+12,23,LIU Brooklyn,0,0,0,0,0
+12,23,Memphis,0,0,0,1,1
+12,23,Saint Louis,1,1,1,0,0
+12,23,New Mexico,1,2,2,1,2
+12,23,Long Beach St.,0,0,0,0,0
+12,23,Louisville,4,1,1,2,1
+12,23,Davidson,0,0,0,0,0
+12,23,Murray St.,1,2,2,1,1
+12,23,Colorado St.,0,0,0,0,0
+12,23,Marquette,2,1,1,2,2
+12,23,BYU,0,0,0,0,0
+12,23,Florida,3,0,0,1,1
+12,23,Virginia,0,1,1,0,0
+12,23,Missouri,0,4,4,3,3
+12,23,Norfolk St.,1,0,0,0,0
+12,23,North Carolina,3,4,4,3,3
+12,23,Vermont,0,0,0,0,0
+12,23,Creighton,1,1,1,0,0
+12,23,Alabama,0,0,0,1,1
+12,23,Temple,0,2,1,1,1
+12,23,South Florida,1,0,0,0,0
+12,23,Michigan,0,0,0,2,2
+12,23,Ohio,2,1,2,0,0
+12,23,San Diego St.,0,2,2,1,1
+12,23,North Carolina St.,2,0,0,0,0
+12,23,Georgetown,1,1,1,2,2
+12,23,Belmont,0,0,0,0,0
+12,23,Saint Mary's,0,1,1,0,0
+12,23,Purdue,1,0,0,1,1
+12,23,Kansas,5,3,3,4,4
+12,23,Detroit,0,0,0,0,0
+12,23,Syracuse,3,6,5,3,3
+12,23,UNC Asheville,0,0,0,0,0
+12,23,Kansas St.,1,0,0,1,1
+12,23,Southern Miss,0,1,1,0,0
+12,23,Vanderbilt,1,0,0,1,1
+12,23,Harvard,0,2,2,0,0
+12,23,Wisconsin,2,1,1,2,2
+12,23,Montana,0,0,0,0,0
+12,23,Cincinnati,2,2,1,0,0
+12,23,Texas,0,0,0,1,1
+12,23,Florida St.,1,1,2,2,2
+12,23,St. Bonaventure,0,0,0,0,0
+12,23,Gonzaga,1,1,1,1,1
+12,23,West Virginia,0,0,0,0,0
+12,23,Ohio St.,4,3,3,5,5
+12,23,Loyola MD,0,0,0,0,0
+12,24,Kentucky,6,6,6,6,6
+12,24,Western Kentucky,0,0,0,0,0
+12,24,Iowa St.,1,1,1,1,1
+12,24,Connecticut,0,0,0,0,0
+12,24,Wichita St.,0,2,2,2,2
+12,24,VCU,1,0,0,0,0
+12,24,Indiana,2,1,1,1,1
+12,24,New Mexico St.,0,0,0,0,0
+12,24,UNLV,0,1,1,1,1
+12,24,Colorado,1,0,0,0,0
+12,24,Baylor,3,2,2,3,3
+12,24,South Dakota St.,0,0,0,0,0
+12,24,Notre Dame,0,1,1,1,1
+12,24,Xavier,2,0,0,0,0
+12,24,Duke,0,3,3,2,2
+12,24,Lehigh,1,0,0,0,0
+12,24,Michigan St.,2,3,3,4,4
+12,24,LIU Brooklyn,0,0,0,0,0
+12,24,Memphis,0,0,0,1,1
+12,24,Saint Louis,1,1,1,0,0
+12,24,New Mexico,1,2,2,1,2
+12,24,Long Beach St.,0,0,0,0,0
+12,24,Louisville,4,1,1,2,1
+12,24,Davidson,0,0,0,0,0
+12,24,Murray St.,1,2,2,1,1
+12,24,Colorado St.,0,0,0,0,0
+12,24,Marquette,2,1,1,2,2
+12,24,BYU,0,0,0,0,0
+12,24,Florida,3,0,0,1,1
+12,24,Virginia,0,1,1,0,0
+12,24,Missouri,0,4,4,3,3
+12,24,Norfolk St.,1,0,0,0,0
+12,24,North Carolina,3,4,4,3,3
+12,24,Vermont,0,0,0,0,0
+12,24,Creighton,1,1,1,0,0
+12,24,Alabama,0,0,0,1,1
+12,24,Temple,0,2,1,1,1
+12,24,South Florida,1,0,0,0,0
+12,24,Michigan,0,0,0,2,2
+12,24,Ohio,2,1,2,0,0
+12,24,San Diego St.,0,2,2,1,1
+12,24,North Carolina St.,2,0,0,0,0
+12,24,Georgetown,1,1,1,2,2
+12,24,Belmont,0,0,0,0,0
+12,24,Saint Mary's,0,1,1,0,0
+12,24,Purdue,1,0,0,1,1
+12,24,Kansas,5,3,3,4,4
+12,24,Detroit,0,0,0,0,0
+12,24,Syracuse,3,5,5,3,3
+12,24,UNC Asheville,0,0,0,0,0
+12,24,Kansas St.,1,0,0,1,1
+12,24,Southern Miss,0,1,1,0,0
+12,24,Vanderbilt,1,0,0,1,1
+12,24,Harvard,0,2,2,0,0
+12,24,Wisconsin,2,1,1,2,2
+12,24,Montana,0,0,0,0,0
+12,24,Cincinnati,2,1,1,0,0
+12,24,Texas,0,0,0,1,1
+12,24,Florida St.,1,2,2,2,2
+12,24,St. Bonaventure,0,0,0,0,0
+12,24,Gonzaga,1,1,1,1,1
+12,24,West Virginia,0,0,0,0,0
+12,24,Ohio St.,4,3,3,5,5
+12,24,Loyola MD,0,0,0,0,0
+12,25,Kentucky,6,6,6,6,6
+12,25,Western Kentucky,0,0,0,0,0
+12,25,Iowa St.,1,1,1,1,1
+12,25,Connecticut,0,0,0,0,0
+12,25,Wichita St.,0,2,2,2,2
+12,25,VCU,1,0,0,0,0
+12,25,Indiana,2,1,1,1,1
+12,25,New Mexico St.,0,0,0,0,0
+12,25,UNLV,0,1,1,1,1
+12,25,Colorado,1,0,0,0,0
+12,25,Baylor,3,2,2,3,3
+12,25,South Dakota St.,0,0,0,0,0
+12,25,Notre Dame,0,1,1,1,1
+12,25,Xavier,2,0,0,0,0
+12,25,Duke,0,3,3,2,2
+12,25,Lehigh,1,0,0,0,0
+12,25,Michigan St.,2,3,3,4,4
+12,25,LIU Brooklyn,0,0,0,0,0
+12,25,Memphis,0,0,0,1,1
+12,25,Saint Louis,1,1,1,0,0
+12,25,New Mexico,1,2,2,1,2
+12,25,Long Beach St.,0,0,0,0,0
+12,25,Louisville,4,1,1,2,1
+12,25,Davidson,0,0,0,0,0
+12,25,Murray St.,1,2,2,1,1
+12,25,Colorado St.,0,0,0,0,0
+12,25,Marquette,2,1,1,2,2
+12,25,BYU,0,0,0,0,0
+12,25,Florida,3,0,0,1,1
+12,25,Virginia,0,1,1,0,0
+12,25,Missouri,0,4,4,3,3
+12,25,Norfolk St.,1,0,0,0,0
+12,25,North Carolina,3,4,4,3,3
+12,25,Vermont,0,0,0,0,0
+12,25,Creighton,1,1,1,0,0
+12,25,Alabama,0,0,0,1,1
+12,25,Temple,0,2,2,1,1
+12,25,South Florida,1,0,0,0,0
+12,25,Michigan,0,0,0,2,2
+12,25,Ohio,2,1,1,0,0
+12,25,San Diego St.,0,2,1,1,1
+12,25,North Carolina St.,2,0,0,0,0
+12,25,Georgetown,1,1,2,2,2
+12,25,Belmont,0,0,0,0,0
+12,25,Saint Mary's,0,1,1,0,0
+12,25,Purdue,1,0,0,1,1
+12,25,Kansas,5,3,3,4,4
+12,25,Detroit,0,0,0,0,0
+12,25,Syracuse,3,5,5,3,3
+12,25,UNC Asheville,0,0,0,0,0
+12,25,Kansas St.,1,0,0,1,1
+12,25,Southern Miss,0,1,1,0,0
+12,25,Vanderbilt,1,0,0,1,1
+12,25,Harvard,0,2,2,0,0
+12,25,Wisconsin,2,1,1,2,2
+12,25,Montana,0,0,0,0,0
+12,25,Cincinnati,2,1,1,0,0
+12,25,Texas,0,0,0,1,1
+12,25,Florida St.,1,2,2,2,2
+12,25,St. Bonaventure,0,0,0,0,0
+12,25,Gonzaga,1,1,1,1,1
+12,25,West Virginia,0,0,0,0,0
+12,25,Ohio St.,4,3,3,5,5
+12,25,Loyola MD,0,0,0,0,0
+12,26,Kentucky,6,6,6,6,6
+12,26,Western Kentucky,0,0,0,0,0
+12,26,Iowa St.,1,1,1,1,1
+12,26,Connecticut,0,0,0,0,0
+12,26,Wichita St.,0,2,2,2,2
+12,26,VCU,1,0,0,0,0
+12,26,Indiana,2,1,1,1,1
+12,26,New Mexico St.,0,0,0,0,0
+12,26,UNLV,0,1,1,1,1
+12,26,Colorado,1,0,0,0,0
+12,26,Baylor,3,2,2,3,3
+12,26,South Dakota St.,0,0,0,0,0
+12,26,Notre Dame,0,1,1,1,1
+12,26,Xavier,2,0,0,0,0
+12,26,Duke,0,3,3,2,2
+12,26,Lehigh,1,0,0,0,0
+12,26,Michigan St.,2,3,3,4,4
+12,26,LIU Brooklyn,0,0,0,0,0
+12,26,Memphis,0,0,0,1,1
+12,26,Saint Louis,1,1,1,0,0
+12,26,New Mexico,1,2,2,1,2
+12,26,Long Beach St.,0,0,0,0,0
+12,26,Louisville,4,1,1,2,1
+12,26,Davidson,0,0,0,0,0
+12,26,Murray St.,1,2,2,1,1
+12,26,Colorado St.,0,0,0,0,0
+12,26,Marquette,2,1,1,2,2
+12,26,BYU,0,0,0,0,0
+12,26,Florida,3,0,0,1,1
+12,26,Virginia,0,1,1,0,0
+12,26,Missouri,0,4,4,3,3
+12,26,Norfolk St.,1,0,0,0,0
+12,26,North Carolina,3,4,4,3,3
+12,26,Vermont,0,0,0,0,0
+12,26,Creighton,1,1,1,0,0
+12,26,Alabama,0,0,0,1,1
+12,26,Temple,0,2,2,1,1
+12,26,South Florida,1,0,0,0,0
+12,26,Michigan,0,0,0,2,2
+12,26,Ohio,2,1,1,0,0
+12,26,San Diego St.,0,2,1,1,1
+12,26,North Carolina St.,2,0,0,0,0
+12,26,Georgetown,1,1,2,2,2
+12,26,Belmont,0,0,0,0,0
+12,26,Saint Mary's,0,1,1,0,0
+12,26,Purdue,1,0,0,1,1
+12,26,Kansas,5,3,3,4,4
+12,26,Detroit,0,0,0,0,0
+12,26,Syracuse,3,5,5,3,3
+12,26,UNC Asheville,0,0,0,0,0
+12,26,Kansas St.,1,0,0,1,1
+12,26,Southern Miss,0,1,1,0,0
+12,26,Vanderbilt,1,0,0,1,1
+12,26,Harvard,0,2,2,0,0
+12,26,Wisconsin,2,1,1,2,2
+12,26,Montana,0,0,0,0,0
+12,26,Cincinnati,2,1,1,0,0
+12,26,Texas,0,0,0,1,1
+12,26,Florida St.,1,2,2,2,2
+12,26,St. Bonaventure,0,0,0,0,0
+12,26,Gonzaga,1,1,1,1,1
+12,26,West Virginia,0,0,0,0,0
+12,26,Ohio St.,4,3,3,5,5
+12,26,Loyola MD,0,0,0,0,0
+12,27,Kentucky,6,6,6,6,6
+12,27,Western Kentucky,0,0,0,0,0
+12,27,Iowa St.,1,1,1,1,1
+12,27,Connecticut,0,0,0,0,0
+12,27,Wichita St.,0,2,2,2,2
+12,27,VCU,1,0,0,0,0
+12,27,Indiana,2,1,1,1,1
+12,27,New Mexico St.,0,0,0,0,0
+12,27,UNLV,0,1,1,1,1
+12,27,Colorado,1,0,0,0,0
+12,27,Baylor,3,2,2,3,3
+12,27,South Dakota St.,0,0,0,0,0
+12,27,Notre Dame,0,1,1,1,1
+12,27,Xavier,2,0,0,0,0
+12,27,Duke,0,3,3,2,2
+12,27,Lehigh,1,0,0,0,0
+12,27,Michigan St.,2,3,3,4,4
+12,27,LIU Brooklyn,0,0,0,0,0
+12,27,Memphis,0,0,0,1,1
+12,27,Saint Louis,1,1,1,0,0
+12,27,New Mexico,1,2,2,1,2
+12,27,Long Beach St.,0,0,0,0,0
+12,27,Louisville,4,1,1,2,1
+12,27,Davidson,0,0,0,0,0
+12,27,Murray St.,1,2,2,1,1
+12,27,Colorado St.,0,0,0,0,0
+12,27,Marquette,2,1,1,2,2
+12,27,BYU,0,0,0,0,0
+12,27,Florida,3,0,0,1,1
+12,27,Virginia,0,1,1,0,0
+12,27,Missouri,0,4,4,3,3
+12,27,Norfolk St.,1,0,0,0,0
+12,27,North Carolina,3,4,4,3,3
+12,27,Vermont,0,0,0,0,0
+12,27,Creighton,1,1,1,0,0
+12,27,Alabama,0,0,0,1,1
+12,27,Temple,0,2,2,1,1
+12,27,South Florida,1,0,0,0,0
+12,27,Michigan,0,0,0,2,2
+12,27,Ohio,2,1,1,0,0
+12,27,San Diego St.,0,2,1,1,1
+12,27,North Carolina St.,2,0,0,0,0
+12,27,Georgetown,1,1,2,2,2
+12,27,Belmont,0,0,0,0,0
+12,27,Saint Mary's,0,1,1,0,0
+12,27,Purdue,1,0,0,1,1
+12,27,Kansas,5,3,3,4,4
+12,27,Detroit,0,0,0,0,0
+12,27,Syracuse,3,5,5,3,3
+12,27,UNC Asheville,0,0,0,0,0
+12,27,Kansas St.,1,0,0,1,1
+12,27,Southern Miss,0,1,1,0,0
+12,27,Vanderbilt,1,0,0,1,1
+12,27,Harvard,0,2,2,0,0
+12,27,Wisconsin,2,1,1,2,2
+12,27,Montana,0,0,0,0,0
+12,27,Cincinnati,2,1,1,0,0
+12,27,Texas,0,0,0,1,1
+12,27,Florida St.,1,2,2,2,2
+12,27,St. Bonaventure,0,0,0,0,0
+12,27,Gonzaga,1,1,1,1,1
+12,27,West Virginia,0,0,0,0,0
+12,27,Ohio St.,4,3,3,5,5
+12,27,Loyola MD,0,0,0,0,0
+12,28,Kentucky,6,6,6,6,6
+12,28,Western Kentucky,0,0,0,0,0
+12,28,Iowa St.,1,1,1,1,1
+12,28,Connecticut,0,0,0,0,0
+12,28,Wichita St.,0,2,2,2,2
+12,28,VCU,1,0,0,0,0
+12,28,Indiana,2,1,1,1,1
+12,28,New Mexico St.,0,0,0,0,0
+12,28,UNLV,0,1,1,1,1
+12,28,Colorado,1,0,0,0,0
+12,28,Baylor,3,2,2,3,3
+12,28,South Dakota St.,0,0,0,0,0
+12,28,Notre Dame,0,1,1,1,1
+12,28,Xavier,2,0,0,0,0
+12,28,Duke,0,3,3,2,2
+12,28,Lehigh,1,0,0,0,0
+12,28,Michigan St.,2,3,3,4,4
+12,28,LIU Brooklyn,0,0,0,0,0
+12,28,Memphis,0,0,0,1,1
+12,28,Saint Louis,1,1,1,0,0
+12,28,New Mexico,1,2,2,1,2
+12,28,Long Beach St.,0,0,0,0,0
+12,28,Louisville,4,1,1,2,1
+12,28,Davidson,0,0,0,0,0
+12,28,Murray St.,1,2,2,1,1
+12,28,Colorado St.,0,0,0,0,0
+12,28,Marquette,2,1,1,2,2
+12,28,BYU,0,0,0,0,0
+12,28,Florida,3,1,1,1,1
+12,28,Virginia,0,0,0,0,0
+12,28,Missouri,0,4,4,3,3
+12,28,Norfolk St.,1,0,0,0,0
+12,28,North Carolina,3,4,4,3,3
+12,28,Vermont,0,0,0,0,0
+12,28,Creighton,1,1,1,0,0
+12,28,Alabama,0,0,0,1,1
+12,28,Temple,0,2,2,1,1
+12,28,South Florida,1,0,0,0,0
+12,28,Michigan,0,0,0,2,2
+12,28,Ohio,2,1,1,0,0
+12,28,San Diego St.,0,2,1,1,1
+12,28,North Carolina St.,2,0,0,0,0
+12,28,Georgetown,1,1,2,2,2
+12,28,Belmont,0,0,0,0,0
+12,28,Saint Mary's,0,1,1,0,0
+12,28,Purdue,1,0,0,1,1
+12,28,Kansas,5,3,3,4,4
+12,28,Detroit,0,0,0,0,0
+12,28,Syracuse,3,5,5,3,3
+12,28,UNC Asheville,0,0,0,0,0
+12,28,Kansas St.,1,0,0,1,1
+12,28,Southern Miss,0,1,1,0,0
+12,28,Vanderbilt,1,0,0,1,1
+12,28,Harvard,0,2,2,0,0
+12,28,Wisconsin,2,1,1,2,2
+12,28,Montana,0,0,0,0,0
+12,28,Cincinnati,2,1,1,0,0
+12,28,Texas,0,0,0,1,1
+12,28,Florida St.,1,2,2,2,2
+12,28,St. Bonaventure,0,0,0,0,0
+12,28,Gonzaga,1,1,1,1,1
+12,28,West Virginia,0,0,0,0,0
+12,28,Ohio St.,4,3,3,5,5
+12,28,Loyola MD,0,0,0,0,0

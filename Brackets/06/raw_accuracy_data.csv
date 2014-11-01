@@ -1,0 +1,1537 @@
+year,k,A,Actual,Pred_Ck,Pred_NCk,Pred_CR,Pred_NCR
+06,3,Duke,2,5,6,6,6
+06,3,Southern,0,0,0,0,0
+06,3,George Washington,1,1,1,0,0
+06,3,UNC Wilmington,0,0,0,1,1
+06,3,Syracuse,0,2,2,0,0
+06,3,Texas A&M,1,0,0,1,1
+06,3,LSU,4,0,0,2,2
+06,3,Iona,0,1,1,0,0
+06,3,West Virginia,2,1,2,1,1
+06,3,Southern Illinois,0,0,0,0,0
+06,3,Iowa,0,2,1,2,2
+06,3,Northwestern St.,1,0,0,0,0
+06,3,California,0,0,0,0,0
+06,3,North Carolina St.,1,1,1,1,1
+06,3,Texas,3,3,3,3,3
+06,3,Penn,0,0,0,0,0
+06,3,Memphis,3,4,4,3,2
+06,3,Oral Roberts,0,0,0,0,0
+06,3,Arkansas,0,1,1,1,1
+06,3,Bucknell,1,0,0,0,0
+06,3,Pittsburgh,1,2,2,1,1
+06,3,Kent St.,0,0,0,0,0
+06,3,Kansas,0,1,1,2,4
+06,3,Bradley,2,0,0,0,0
+06,3,Indiana,1,1,1,2,2
+06,3,San Diego St.,0,0,0,0,0
+06,3,Gonzaga,2,2,2,1,1
+06,3,Xavier,0,0,0,0,0
+06,3,Marquette,0,1,1,1,1
+06,3,Alabama,1,0,0,0,0
+06,3,UCLA,5,3,3,4,3
+06,3,Belmont,0,0,0,0,0
+06,3,Villanova,3,4,4,4,4
+06,3,Monmouth,0,0,0,0,0
+06,3,Arizona,1,0,0,0,0
+06,3,Wisconsin,0,1,1,1,1
+06,3,Nevada,0,2,2,2,1
+06,3,Montana,1,0,0,0,0
+06,3,Boston College,2,1,1,1,2
+06,3,Pacific,0,0,0,0,0
+06,3,Oklahoma,0,1,1,1,1
+06,3,Milwaukee,1,0,0,0,0
+06,3,Florida,6,3,2,3,3
+06,3,South Alabama,0,0,0,0,0
+06,3,Georgetown,2,0,0,1,1
+06,3,Northern Iowa,0,1,3,0,0
+06,3,Ohio St.,1,2,1,2,2
+06,3,Davidson,0,0,0,0,0
+06,3,Connecticut,3,6,2,5,5
+06,3,Albany,0,0,0,0,0
+06,3,Kentucky,1,0,0,1,1
+06,3,UAB,0,1,1,0,0
+06,3,Washington,2,2,5,1,1
+06,3,Utah St.,0,0,0,0,0
+06,3,Illinois,1,1,1,2,2
+06,3,Air Force,0,0,0,0,0
+06,3,Michigan St.,0,1,1,0,0
+06,3,George Mason,4,0,0,1,1
+06,3,North Carolina,1,3,2,3,3
+06,3,Murray St.,0,0,0,0,0
+06,3,Wichita St.,2,2,1,1,1
+06,3,Seton Hall,0,0,0,0,0
+06,3,Tennessee,1,1,3,2,2
+06,3,Winthrop,0,0,0,0,0
+06,4,Duke,2,5,6,6,6
+06,4,Southern,0,0,0,0,0
+06,4,George Washington,1,1,1,0,0
+06,4,UNC Wilmington,0,0,0,1,1
+06,4,Syracuse,0,2,1,0,0
+06,4,Texas A&M,1,0,0,1,1
+06,4,LSU,4,1,2,2,2
+06,4,Iona,0,0,0,0,0
+06,4,West Virginia,2,1,1,1,1
+06,4,Southern Illinois,0,0,0,0,0
+06,4,Iowa,0,2,2,2,2
+06,4,Northwestern St.,1,0,0,0,0
+06,4,California,0,0,0,0,0
+06,4,North Carolina St.,1,1,1,1,1
+06,4,Texas,3,3,3,3,3
+06,4,Penn,0,0,0,0,0
+06,4,Memphis,3,4,4,3,2
+06,4,Oral Roberts,0,0,0,0,0
+06,4,Arkansas,0,1,1,1,1
+06,4,Bucknell,1,0,0,0,0
+06,4,Pittsburgh,1,1,1,1,1
+06,4,Kent St.,0,0,0,0,0
+06,4,Kansas,0,0,0,2,4
+06,4,Bradley,2,2,2,0,0
+06,4,Indiana,1,1,2,2,2
+06,4,San Diego St.,0,0,0,0,0
+06,4,Gonzaga,2,2,1,1,1
+06,4,Xavier,0,0,0,0,0
+06,4,Marquette,0,1,1,1,1
+06,4,Alabama,1,0,0,0,0
+06,4,UCLA,5,3,3,4,3
+06,4,Belmont,0,0,0,0,0
+06,4,Villanova,3,4,3,4,4
+06,4,Monmouth,0,0,0,0,0
+06,4,Arizona,1,0,0,0,0
+06,4,Wisconsin,0,1,1,1,1
+06,4,Nevada,0,1,2,2,1
+06,4,Montana,1,0,0,0,0
+06,4,Boston College,2,2,1,1,2
+06,4,Pacific,0,0,0,0,0
+06,4,Oklahoma,0,1,1,1,1
+06,4,Milwaukee,1,0,0,0,0
+06,4,Florida,6,3,2,3,3
+06,4,South Alabama,0,0,0,0,0
+06,4,Georgetown,2,1,1,1,1
+06,4,Northern Iowa,0,0,0,0,0
+06,4,Ohio St.,1,2,4,2,2
+06,4,Davidson,0,0,0,0,0
+06,4,Connecticut,3,6,5,5,5
+06,4,Albany,0,0,0,0,0
+06,4,Kentucky,1,0,0,1,1
+06,4,UAB,0,1,1,0,0
+06,4,Washington,2,1,2,1,1
+06,4,Utah St.,0,0,0,0,0
+06,4,Illinois,1,2,1,2,2
+06,4,Air Force,0,0,0,0,0
+06,4,Michigan St.,0,0,0,0,0
+06,4,George Mason,4,1,3,1,1
+06,4,North Carolina,1,2,1,3,3
+06,4,Murray St.,0,0,0,0,0
+06,4,Wichita St.,2,1,1,1,1
+06,4,Seton Hall,0,0,0,0,0
+06,4,Tennessee,1,3,2,2,2
+06,4,Winthrop,0,0,0,0,0
+06,5,Duke,2,4,5,6,6
+06,5,Southern,0,0,0,0,0
+06,5,George Washington,1,1,1,0,0
+06,5,UNC Wilmington,0,0,0,1,1
+06,5,Syracuse,0,2,2,0,0
+06,5,Texas A&M,1,0,0,1,1
+06,5,LSU,4,1,1,2,2
+06,5,Iona,0,0,0,0,0
+06,5,West Virginia,2,1,1,1,1
+06,5,Southern Illinois,0,0,0,0,0
+06,5,Iowa,0,2,2,2,2
+06,5,Northwestern St.,1,0,0,0,0
+06,5,California,0,0,0,0,0
+06,5,North Carolina St.,1,1,1,1,1
+06,5,Texas,3,3,3,3,3
+06,5,Penn,0,0,0,0,0
+06,5,Memphis,3,5,4,3,2
+06,5,Oral Roberts,0,0,0,0,0
+06,5,Arkansas,0,1,1,1,1
+06,5,Bucknell,1,0,0,0,0
+06,5,Pittsburgh,1,2,2,1,1
+06,5,Kent St.,0,0,0,0,0
+06,5,Kansas,0,0,0,2,4
+06,5,Bradley,2,1,1,0,0
+06,5,Indiana,1,1,2,2,2
+06,5,San Diego St.,0,0,0,0,0
+06,5,Gonzaga,2,2,1,1,1
+06,5,Xavier,0,0,0,0,0
+06,5,Marquette,0,1,1,1,1
+06,5,Alabama,1,0,0,0,0
+06,5,UCLA,5,3,3,4,3
+06,5,Belmont,0,0,0,0,0
+06,5,Villanova,3,4,3,4,4
+06,5,Monmouth,0,0,0,0,0
+06,5,Arizona,1,0,0,0,0
+06,5,Wisconsin,0,1,1,1,1
+06,5,Nevada,0,1,1,2,1
+06,5,Montana,1,0,0,0,0
+06,5,Boston College,2,2,2,1,2
+06,5,Pacific,0,0,0,0,0
+06,5,Oklahoma,0,1,1,1,1
+06,5,Milwaukee,1,0,0,0,0
+06,5,Florida,6,3,4,3,3
+06,5,South Alabama,0,0,0,0,0
+06,5,Georgetown,2,1,2,1,1
+06,5,Northern Iowa,0,0,0,0,0
+06,5,Ohio St.,1,2,1,2,2
+06,5,Davidson,0,0,0,0,0
+06,5,Connecticut,3,6,6,5,5
+06,5,Albany,0,0,0,0,0
+06,5,Kentucky,1,0,0,1,1
+06,5,UAB,0,1,1,0,0
+06,5,Washington,2,2,2,1,1
+06,5,Utah St.,0,0,0,0,0
+06,5,Illinois,1,1,1,2,2
+06,5,Air Force,0,0,0,0,0
+06,5,Michigan St.,0,1,1,0,0
+06,5,George Mason,4,0,0,1,1
+06,5,North Carolina,1,3,2,3,3
+06,5,Murray St.,0,0,0,0,0
+06,5,Wichita St.,2,1,1,1,1
+06,5,Seton Hall,0,0,0,0,0
+06,5,Tennessee,1,2,3,2,2
+06,5,Winthrop,0,0,0,0,0
+06,6,Duke,2,4,5,6,6
+06,6,Southern,0,0,0,0,0
+06,6,George Washington,1,1,1,0,0
+06,6,UNC Wilmington,0,0,0,1,1
+06,6,Syracuse,0,1,1,0,0
+06,6,Texas A&M,1,0,0,1,1
+06,6,LSU,4,2,2,2,2
+06,6,Iona,0,0,0,0,0
+06,6,West Virginia,2,1,1,1,1
+06,6,Southern Illinois,0,0,0,0,0
+06,6,Iowa,0,2,2,2,2
+06,6,Northwestern St.,1,0,0,0,0
+06,6,California,0,0,0,0,0
+06,6,North Carolina St.,1,1,1,1,1
+06,6,Texas,3,3,3,3,3
+06,6,Penn,0,0,0,0,0
+06,6,Memphis,3,5,4,3,2
+06,6,Oral Roberts,0,0,0,0,0
+06,6,Arkansas,0,1,1,1,1
+06,6,Bucknell,1,0,0,0,0
+06,6,Pittsburgh,1,2,2,1,1
+06,6,Kent St.,0,0,0,0,0
+06,6,Kansas,0,0,0,2,4
+06,6,Bradley,2,1,1,0,0
+06,6,Indiana,1,2,2,2,2
+06,6,San Diego St.,0,0,0,0,0
+06,6,Gonzaga,2,1,1,1,1
+06,6,Xavier,0,0,0,0,0
+06,6,Marquette,0,1,1,1,1
+06,6,Alabama,1,0,0,0,0
+06,6,UCLA,5,3,3,4,3
+06,6,Belmont,0,0,0,0,0
+06,6,Villanova,3,4,3,4,4
+06,6,Monmouth,0,0,0,0,0
+06,6,Arizona,1,0,0,0,0
+06,6,Wisconsin,0,1,1,1,1
+06,6,Nevada,0,1,1,2,1
+06,6,Montana,1,0,0,0,0
+06,6,Boston College,2,2,2,1,2
+06,6,Pacific,0,0,0,0,0
+06,6,Oklahoma,0,1,1,1,1
+06,6,Milwaukee,1,0,0,0,0
+06,6,Florida,6,2,2,3,3
+06,6,South Alabama,0,0,0,0,0
+06,6,Georgetown,2,1,1,1,1
+06,6,Northern Iowa,0,0,0,0,0
+06,6,Ohio St.,1,3,4,2,2
+06,6,Davidson,0,0,0,0,0
+06,6,Connecticut,3,6,6,5,5
+06,6,Albany,0,0,0,0,0
+06,6,Kentucky,1,0,0,1,1
+06,6,UAB,0,1,1,0,0
+06,6,Washington,2,2,2,1,1
+06,6,Utah St.,0,0,0,0,0
+06,6,Illinois,1,1,1,2,2
+06,6,Air Force,0,0,0,0,0
+06,6,Michigan St.,0,1,1,0,0
+06,6,George Mason,4,0,0,1,1
+06,6,North Carolina,1,3,2,3,3
+06,6,Murray St.,0,0,0,0,0
+06,6,Wichita St.,2,0,0,1,1
+06,6,Seton Hall,0,1,1,0,0
+06,6,Tennessee,1,2,3,2,2
+06,6,Winthrop,0,0,0,0,0
+06,7,Duke,2,5,5,6,6
+06,7,Southern,0,0,0,0,0
+06,7,George Washington,1,1,1,0,0
+06,7,UNC Wilmington,0,0,0,1,1
+06,7,Syracuse,0,1,1,0,0
+06,7,Texas A&M,1,0,0,1,1
+06,7,LSU,4,2,2,2,2
+06,7,Iona,0,0,0,0,0
+06,7,West Virginia,2,1,1,1,1
+06,7,Southern Illinois,0,0,0,0,0
+06,7,Iowa,0,2,2,2,2
+06,7,Northwestern St.,1,0,0,0,0
+06,7,California,0,0,0,0,0
+06,7,North Carolina St.,1,1,1,1,1
+06,7,Texas,3,3,3,3,3
+06,7,Penn,0,0,0,0,0
+06,7,Memphis,3,4,4,3,2
+06,7,Oral Roberts,0,0,0,0,0
+06,7,Arkansas,0,1,1,1,1
+06,7,Bucknell,1,0,0,0,0
+06,7,Pittsburgh,1,2,2,1,1
+06,7,Kent St.,0,0,0,0,0
+06,7,Kansas,0,0,0,2,4
+06,7,Bradley,2,1,1,0,0
+06,7,Indiana,1,1,2,2,2
+06,7,San Diego St.,0,0,0,0,0
+06,7,Gonzaga,2,2,1,1,1
+06,7,Xavier,0,0,0,0,0
+06,7,Marquette,0,1,1,1,1
+06,7,Alabama,1,0,0,0,0
+06,7,UCLA,5,3,3,4,3
+06,7,Belmont,0,0,0,0,0
+06,7,Villanova,3,4,3,4,4
+06,7,Monmouth,0,0,0,0,0
+06,7,Arizona,1,0,0,0,0
+06,7,Wisconsin,0,1,1,1,1
+06,7,Nevada,0,1,1,2,1
+06,7,Montana,1,0,0,0,0
+06,7,Boston College,2,2,2,1,2
+06,7,Pacific,0,0,0,0,0
+06,7,Oklahoma,0,1,1,1,1
+06,7,Milwaukee,1,0,0,0,0
+06,7,Florida,6,3,4,3,3
+06,7,South Alabama,0,0,0,0,0
+06,7,Georgetown,2,1,1,1,1
+06,7,Northern Iowa,0,0,0,0,0
+06,7,Ohio St.,1,2,2,2,2
+06,7,Davidson,0,0,0,0,0
+06,7,Connecticut,3,6,6,5,5
+06,7,Albany,0,0,0,0,0
+06,7,Kentucky,1,1,1,1,1
+06,7,UAB,0,0,0,0,0
+06,7,Washington,2,0,0,1,1
+06,7,Utah St.,0,1,1,0,0
+06,7,Illinois,1,2,2,2,2
+06,7,Air Force,0,0,0,0,0
+06,7,Michigan St.,0,1,1,0,0
+06,7,George Mason,4,0,0,1,1
+06,7,North Carolina,1,3,2,3,3
+06,7,Murray St.,0,0,0,0,0
+06,7,Wichita St.,2,0,0,1,1
+06,7,Seton Hall,0,1,1,0,0
+06,7,Tennessee,1,2,3,2,2
+06,7,Winthrop,0,0,0,0,0
+06,8,Duke,2,5,5,6,6
+06,8,Southern,0,0,0,0,0
+06,8,George Washington,1,1,1,0,0
+06,8,UNC Wilmington,0,0,0,1,1
+06,8,Syracuse,0,1,2,0,0
+06,8,Texas A&M,1,0,0,1,1
+06,8,LSU,4,0,0,2,2
+06,8,Iona,0,2,1,0,0
+06,8,West Virginia,2,1,1,1,1
+06,8,Southern Illinois,0,0,0,0,0
+06,8,Iowa,0,2,2,2,2
+06,8,Northwestern St.,1,0,0,0,0
+06,8,California,0,0,0,0,0
+06,8,North Carolina St.,1,1,1,1,1
+06,8,Texas,3,3,3,3,3
+06,8,Penn,0,0,0,0,0
+06,8,Memphis,3,4,4,3,2
+06,8,Oral Roberts,0,0,0,0,0
+06,8,Arkansas,0,1,1,1,1
+06,8,Bucknell,1,0,0,0,0
+06,8,Pittsburgh,1,2,2,1,1
+06,8,Kent St.,0,0,0,0,0
+06,8,Kansas,0,0,0,2,4
+06,8,Bradley,2,1,1,0,0
+06,8,Indiana,1,1,2,2,2
+06,8,San Diego St.,0,0,0,0,0
+06,8,Gonzaga,2,2,1,1,1
+06,8,Xavier,0,0,0,0,0
+06,8,Marquette,0,1,1,1,1
+06,8,Alabama,1,0,0,0,0
+06,8,UCLA,5,3,3,4,3
+06,8,Belmont,0,0,0,0,0
+06,8,Villanova,3,4,3,4,4
+06,8,Monmouth,0,0,0,0,0
+06,8,Arizona,1,0,0,0,0
+06,8,Wisconsin,0,1,1,1,1
+06,8,Nevada,0,1,1,2,1
+06,8,Montana,1,0,0,0,0
+06,8,Boston College,2,2,2,1,2
+06,8,Pacific,0,0,0,0,0
+06,8,Oklahoma,0,1,1,1,1
+06,8,Milwaukee,1,0,0,0,0
+06,8,Florida,6,3,4,3,3
+06,8,South Alabama,0,0,0,0,0
+06,8,Georgetown,2,1,1,1,1
+06,8,Northern Iowa,0,0,0,0,0
+06,8,Ohio St.,1,2,2,2,2
+06,8,Davidson,0,0,0,0,0
+06,8,Connecticut,3,6,6,5,5
+06,8,Albany,0,0,0,0,0
+06,8,Kentucky,1,1,1,1,1
+06,8,UAB,0,0,0,0,0
+06,8,Washington,2,0,0,1,1
+06,8,Utah St.,0,1,1,0,0
+06,8,Illinois,1,2,2,2,2
+06,8,Air Force,0,0,0,0,0
+06,8,Michigan St.,0,1,1,0,0
+06,8,George Mason,4,0,0,1,1
+06,8,North Carolina,1,3,3,3,3
+06,8,Murray St.,0,0,0,0,0
+06,8,Wichita St.,2,0,0,1,1
+06,8,Seton Hall,0,1,1,0,0
+06,8,Tennessee,1,2,2,2,2
+06,8,Winthrop,0,0,0,0,0
+06,9,Duke,2,5,5,6,6
+06,9,Southern,0,0,0,0,0
+06,9,George Washington,1,1,1,0,0
+06,9,UNC Wilmington,0,0,0,1,1
+06,9,Syracuse,0,1,1,0,0
+06,9,Texas A&M,1,0,0,1,1
+06,9,LSU,4,2,2,2,2
+06,9,Iona,0,0,0,0,0
+06,9,West Virginia,2,1,1,1,1
+06,9,Southern Illinois,0,0,0,0,0
+06,9,Iowa,0,2,2,2,2
+06,9,Northwestern St.,1,0,0,0,0
+06,9,California,0,0,0,0,0
+06,9,North Carolina St.,1,1,1,1,1
+06,9,Texas,3,3,3,3,3
+06,9,Penn,0,0,0,0,0
+06,9,Memphis,3,4,4,3,2
+06,9,Oral Roberts,0,0,0,0,0
+06,9,Arkansas,0,0,0,1,1
+06,9,Bucknell,1,1,1,0,0
+06,9,Pittsburgh,1,2,2,1,1
+06,9,Kent St.,0,0,0,0,0
+06,9,Kansas,0,1,1,2,4
+06,9,Bradley,2,0,0,0,0
+06,9,Indiana,1,1,2,2,2
+06,9,San Diego St.,0,0,0,0,0
+06,9,Gonzaga,2,2,1,1,1
+06,9,Xavier,0,0,0,0,0
+06,9,Marquette,0,1,1,1,1
+06,9,Alabama,1,0,0,0,0
+06,9,UCLA,5,3,3,4,3
+06,9,Belmont,0,0,0,0,0
+06,9,Villanova,3,4,3,4,4
+06,9,Monmouth,0,0,0,0,0
+06,9,Arizona,1,0,0,0,0
+06,9,Wisconsin,0,1,1,1,1
+06,9,Nevada,0,1,1,2,1
+06,9,Montana,1,0,0,0,0
+06,9,Boston College,2,2,2,1,2
+06,9,Pacific,0,0,0,0,0
+06,9,Oklahoma,0,1,1,1,1
+06,9,Milwaukee,1,0,0,0,0
+06,9,Florida,6,2,4,3,3
+06,9,South Alabama,0,0,0,0,0
+06,9,Georgetown,2,1,1,1,1
+06,9,Northern Iowa,0,0,0,0,0
+06,9,Ohio St.,1,3,2,2,2
+06,9,Davidson,0,0,0,0,0
+06,9,Connecticut,3,6,6,5,5
+06,9,Albany,0,0,0,0,0
+06,9,Kentucky,1,1,1,1,1
+06,9,UAB,0,0,0,0,0
+06,9,Washington,2,2,2,1,1
+06,9,Utah St.,0,0,0,0,0
+06,9,Illinois,1,1,1,2,2
+06,9,Air Force,0,0,0,0,0
+06,9,Michigan St.,0,1,1,0,0
+06,9,George Mason,4,0,0,1,1
+06,9,North Carolina,1,3,2,3,3
+06,9,Murray St.,0,0,0,0,0
+06,9,Wichita St.,2,0,0,1,1
+06,9,Seton Hall,0,1,1,0,0
+06,9,Tennessee,1,2,3,2,2
+06,9,Winthrop,0,0,0,0,0
+06,10,Duke,2,5,5,6,6
+06,10,Southern,0,0,0,0,0
+06,10,George Washington,1,1,1,0,0
+06,10,UNC Wilmington,0,0,0,1,1
+06,10,Syracuse,0,1,1,0,0
+06,10,Texas A&M,1,0,0,1,1
+06,10,LSU,4,2,2,2,2
+06,10,Iona,0,0,0,0,0
+06,10,West Virginia,2,1,1,1,1
+06,10,Southern Illinois,0,0,0,0,0
+06,10,Iowa,0,2,2,2,2
+06,10,Northwestern St.,1,0,0,0,0
+06,10,California,0,0,0,0,0
+06,10,North Carolina St.,1,1,1,1,1
+06,10,Texas,3,3,3,3,3
+06,10,Penn,0,0,0,0,0
+06,10,Memphis,3,4,4,3,2
+06,10,Oral Roberts,0,0,0,0,0
+06,10,Arkansas,0,0,0,1,1
+06,10,Bucknell,1,1,1,0,0
+06,10,Pittsburgh,1,2,2,1,1
+06,10,Kent St.,0,0,0,0,0
+06,10,Kansas,0,1,1,2,4
+06,10,Bradley,2,0,0,0,0
+06,10,Indiana,1,1,1,2,2
+06,10,San Diego St.,0,0,0,0,0
+06,10,Gonzaga,2,2,2,1,1
+06,10,Xavier,0,0,0,0,0
+06,10,Marquette,0,1,1,1,1
+06,10,Alabama,1,0,0,0,0
+06,10,UCLA,5,3,3,4,3
+06,10,Belmont,0,0,0,0,0
+06,10,Villanova,3,4,3,4,4
+06,10,Monmouth,0,0,0,0,0
+06,10,Arizona,1,0,0,0,0
+06,10,Wisconsin,0,1,1,1,1
+06,10,Nevada,0,1,2,2,1
+06,10,Montana,1,0,0,0,0
+06,10,Boston College,2,2,1,1,2
+06,10,Pacific,0,0,0,0,0
+06,10,Oklahoma,0,1,1,1,1
+06,10,Milwaukee,1,0,0,0,0
+06,10,Florida,6,2,2,3,3
+06,10,South Alabama,0,0,0,0,0
+06,10,Georgetown,2,1,1,1,1
+06,10,Northern Iowa,0,0,0,0,0
+06,10,Ohio St.,1,3,4,2,2
+06,10,Davidson,0,0,0,0,0
+06,10,Connecticut,3,6,6,5,5
+06,10,Albany,0,0,0,0,0
+06,10,Kentucky,1,0,0,1,1
+06,10,UAB,0,1,1,0,0
+06,10,Washington,2,0,0,1,1
+06,10,Utah St.,0,1,1,0,0
+06,10,Illinois,1,2,2,2,2
+06,10,Air Force,0,0,0,0,0
+06,10,Michigan St.,0,1,1,0,0
+06,10,George Mason,4,0,0,1,1
+06,10,North Carolina,1,3,2,3,3
+06,10,Murray St.,0,0,0,0,0
+06,10,Wichita St.,2,0,0,1,1
+06,10,Seton Hall,0,1,1,0,0
+06,10,Tennessee,1,2,3,2,2
+06,10,Winthrop,0,0,0,0,0
+06,11,Duke,2,5,5,6,6
+06,11,Southern,0,0,0,0,0
+06,11,George Washington,1,1,1,0,0
+06,11,UNC Wilmington,0,0,0,1,1
+06,11,Syracuse,0,1,1,0,0
+06,11,Texas A&M,1,0,0,1,1
+06,11,LSU,4,2,2,2,2
+06,11,Iona,0,0,0,0,0
+06,11,West Virginia,2,1,1,1,1
+06,11,Southern Illinois,0,0,0,0,0
+06,11,Iowa,0,3,3,2,2
+06,11,Northwestern St.,1,0,0,0,0
+06,11,California,0,0,0,0,0
+06,11,North Carolina St.,1,1,1,1,1
+06,11,Texas,3,2,2,3,3
+06,11,Penn,0,0,0,0,0
+06,11,Memphis,3,4,4,3,2
+06,11,Oral Roberts,0,0,0,0,0
+06,11,Arkansas,0,0,0,1,1
+06,11,Bucknell,1,1,1,0,0
+06,11,Pittsburgh,1,2,2,1,1
+06,11,Kent St.,0,0,0,0,0
+06,11,Kansas,0,1,1,2,4
+06,11,Bradley,2,0,0,0,0
+06,11,Indiana,1,1,1,2,2
+06,11,San Diego St.,0,0,0,0,0
+06,11,Gonzaga,2,2,2,1,1
+06,11,Xavier,0,0,0,0,0
+06,11,Marquette,0,1,1,1,1
+06,11,Alabama,1,0,0,0,0
+06,11,UCLA,5,3,3,4,3
+06,11,Belmont,0,0,0,0,0
+06,11,Villanova,3,4,4,4,4
+06,11,Monmouth,0,0,0,0,0
+06,11,Arizona,1,0,0,0,0
+06,11,Wisconsin,0,1,1,1,1
+06,11,Nevada,0,1,1,2,1
+06,11,Montana,1,0,0,0,0
+06,11,Boston College,2,2,2,1,2
+06,11,Pacific,0,0,0,0,0
+06,11,Oklahoma,0,1,1,1,1
+06,11,Milwaukee,1,0,0,0,0
+06,11,Florida,6,2,3,3,3
+06,11,South Alabama,0,0,0,0,0
+06,11,Georgetown,2,1,1,1,1
+06,11,Northern Iowa,0,0,0,0,0
+06,11,Ohio St.,1,3,2,2,2
+06,11,Davidson,0,0,0,0,0
+06,11,Connecticut,3,6,6,5,5
+06,11,Albany,0,0,0,0,0
+06,11,Kentucky,1,1,1,1,1
+06,11,UAB,0,0,0,0,0
+06,11,Washington,2,1,1,1,1
+06,11,Utah St.,0,0,0,0,0
+06,11,Illinois,1,2,2,2,2
+06,11,Air Force,0,0,0,0,0
+06,11,Michigan St.,0,1,1,0,0
+06,11,George Mason,4,0,0,1,1
+06,11,North Carolina,1,3,2,3,3
+06,11,Murray St.,0,0,0,0,0
+06,11,Wichita St.,2,0,0,1,1
+06,11,Seton Hall,0,1,1,0,0
+06,11,Tennessee,1,2,3,2,2
+06,11,Winthrop,0,0,0,0,0
+06,12,Duke,2,5,5,6,6
+06,12,Southern,0,0,0,0,0
+06,12,George Washington,1,1,1,0,0
+06,12,UNC Wilmington,0,0,0,1,1
+06,12,Syracuse,0,1,1,0,0
+06,12,Texas A&M,1,0,0,1,1
+06,12,LSU,4,2,2,2,2
+06,12,Iona,0,0,0,0,0
+06,12,West Virginia,2,0,0,1,1
+06,12,Southern Illinois,0,1,1,0,0
+06,12,Iowa,0,3,3,2,2
+06,12,Northwestern St.,1,0,0,0,0
+06,12,California,0,0,0,0,0
+06,12,North Carolina St.,1,1,1,1,1
+06,12,Texas,3,2,2,3,3
+06,12,Penn,0,0,0,0,0
+06,12,Memphis,3,4,4,3,2
+06,12,Oral Roberts,0,0,0,0,0
+06,12,Arkansas,0,0,0,1,1
+06,12,Bucknell,1,1,1,0,0
+06,12,Pittsburgh,1,2,2,1,1
+06,12,Kent St.,0,0,0,0,0
+06,12,Kansas,0,1,1,2,4
+06,12,Bradley,2,0,0,0,0
+06,12,Indiana,1,1,1,2,2
+06,12,San Diego St.,0,0,0,0,0
+06,12,Gonzaga,2,2,2,1,1
+06,12,Xavier,0,0,0,0,0
+06,12,Marquette,0,1,1,1,1
+06,12,Alabama,1,0,0,0,0
+06,12,UCLA,5,3,3,4,3
+06,12,Belmont,0,0,0,0,0
+06,12,Villanova,3,4,4,4,4
+06,12,Monmouth,0,0,0,0,0
+06,12,Arizona,1,0,0,0,0
+06,12,Wisconsin,0,1,1,1,1
+06,12,Nevada,0,2,2,2,1
+06,12,Montana,1,0,0,0,0
+06,12,Boston College,2,1,1,1,2
+06,12,Pacific,0,0,0,0,0
+06,12,Oklahoma,0,1,1,1,1
+06,12,Milwaukee,1,0,0,0,0
+06,12,Florida,6,2,3,3,3
+06,12,South Alabama,0,0,0,0,0
+06,12,Georgetown,2,1,1,1,1
+06,12,Northern Iowa,0,0,0,0,0
+06,12,Ohio St.,1,3,2,2,2
+06,12,Davidson,0,0,0,0,0
+06,12,Connecticut,3,6,6,5,5
+06,12,Albany,0,0,0,0,0
+06,12,Kentucky,1,1,1,1,1
+06,12,UAB,0,0,0,0,0
+06,12,Washington,2,1,1,1,1
+06,12,Utah St.,0,0,0,0,0
+06,12,Illinois,1,2,2,2,2
+06,12,Air Force,0,0,0,0,0
+06,12,Michigan St.,0,1,1,0,0
+06,12,George Mason,4,0,0,1,1
+06,12,North Carolina,1,3,3,3,3
+06,12,Murray St.,0,0,0,0,0
+06,12,Wichita St.,2,0,0,1,1
+06,12,Seton Hall,0,1,1,0,0
+06,12,Tennessee,1,2,2,2,2
+06,12,Winthrop,0,0,0,0,0
+06,13,Duke,2,5,5,6,6
+06,13,Southern,0,0,0,0,0
+06,13,George Washington,1,1,1,0,0
+06,13,UNC Wilmington,0,0,0,1,1
+06,13,Syracuse,0,1,1,0,0
+06,13,Texas A&M,1,0,0,1,1
+06,13,LSU,4,2,2,2,2
+06,13,Iona,0,0,0,0,0
+06,13,West Virginia,2,0,0,1,1
+06,13,Southern Illinois,0,1,1,0,0
+06,13,Iowa,0,2,2,2,2
+06,13,Northwestern St.,1,0,0,0,0
+06,13,California,0,0,0,0,0
+06,13,North Carolina St.,1,1,1,1,1
+06,13,Texas,3,3,3,3,3
+06,13,Penn,0,0,0,0,0
+06,13,Memphis,3,4,4,3,2
+06,13,Oral Roberts,0,0,0,0,0
+06,13,Arkansas,0,0,0,1,1
+06,13,Bucknell,1,1,1,0,0
+06,13,Pittsburgh,1,2,2,1,1
+06,13,Kent St.,0,0,0,0,0
+06,13,Kansas,0,1,1,2,4
+06,13,Bradley,2,0,0,0,0
+06,13,Indiana,1,1,1,2,2
+06,13,San Diego St.,0,0,0,0,0
+06,13,Gonzaga,2,2,2,1,1
+06,13,Xavier,0,0,0,0,0
+06,13,Marquette,0,1,1,1,1
+06,13,Alabama,1,0,0,0,0
+06,13,UCLA,5,3,3,4,3
+06,13,Belmont,0,0,0,0,0
+06,13,Villanova,3,4,4,4,4
+06,13,Monmouth,0,0,0,0,0
+06,13,Arizona,1,0,0,0,0
+06,13,Wisconsin,0,1,1,1,1
+06,13,Nevada,0,2,2,2,1
+06,13,Montana,1,0,0,0,0
+06,13,Boston College,2,1,1,1,2
+06,13,Pacific,0,0,0,0,0
+06,13,Oklahoma,0,1,1,1,1
+06,13,Milwaukee,1,0,0,0,0
+06,13,Florida,6,2,3,3,3
+06,13,South Alabama,0,0,0,0,0
+06,13,Georgetown,2,1,1,1,1
+06,13,Northern Iowa,0,0,0,0,0
+06,13,Ohio St.,1,3,2,2,2
+06,13,Davidson,0,0,0,0,0
+06,13,Connecticut,3,6,6,5,5
+06,13,Albany,0,0,0,0,0
+06,13,Kentucky,1,1,1,1,1
+06,13,UAB,0,0,0,0,0
+06,13,Washington,2,1,1,1,1
+06,13,Utah St.,0,0,0,0,0
+06,13,Illinois,1,2,2,2,2
+06,13,Air Force,0,0,0,0,0
+06,13,Michigan St.,0,1,1,0,0
+06,13,George Mason,4,0,0,1,1
+06,13,North Carolina,1,3,3,3,3
+06,13,Murray St.,0,0,0,0,0
+06,13,Wichita St.,2,0,0,1,1
+06,13,Seton Hall,0,1,1,0,0
+06,13,Tennessee,1,2,2,2,2
+06,13,Winthrop,0,0,0,0,0
+06,14,Duke,2,5,5,6,6
+06,14,Southern,0,0,0,0,0
+06,14,George Washington,1,1,1,0,0
+06,14,UNC Wilmington,0,0,0,1,1
+06,14,Syracuse,0,0,0,0,0
+06,14,Texas A&M,1,1,1,1,1
+06,14,LSU,4,2,2,2,2
+06,14,Iona,0,0,0,0,0
+06,14,West Virginia,2,0,0,1,1
+06,14,Southern Illinois,0,1,1,0,0
+06,14,Iowa,0,2,2,2,2
+06,14,Northwestern St.,1,0,0,0,0
+06,14,California,0,0,0,0,0
+06,14,North Carolina St.,1,1,1,1,1
+06,14,Texas,3,3,3,3,3
+06,14,Penn,0,0,0,0,0
+06,14,Memphis,3,4,4,3,2
+06,14,Oral Roberts,0,0,0,0,0
+06,14,Arkansas,0,0,0,1,1
+06,14,Bucknell,1,1,1,0,0
+06,14,Pittsburgh,1,2,2,1,1
+06,14,Kent St.,0,0,0,0,0
+06,14,Kansas,0,1,1,2,4
+06,14,Bradley,2,0,0,0,0
+06,14,Indiana,1,1,1,2,2
+06,14,San Diego St.,0,0,0,0,0
+06,14,Gonzaga,2,2,2,1,1
+06,14,Xavier,0,0,0,0,0
+06,14,Marquette,0,1,1,1,1
+06,14,Alabama,1,0,0,0,0
+06,14,UCLA,5,3,3,4,3
+06,14,Belmont,0,0,0,0,0
+06,14,Villanova,3,4,4,4,4
+06,14,Monmouth,0,0,0,0,0
+06,14,Arizona,1,0,0,0,0
+06,14,Wisconsin,0,1,1,1,1
+06,14,Nevada,0,1,2,2,1
+06,14,Montana,1,0,0,0,0
+06,14,Boston College,2,2,1,1,2
+06,14,Pacific,0,0,0,0,0
+06,14,Oklahoma,0,1,1,1,1
+06,14,Milwaukee,1,0,0,0,0
+06,14,Florida,6,2,3,3,3
+06,14,South Alabama,0,0,0,0,0
+06,14,Georgetown,2,0,0,1,1
+06,14,Northern Iowa,0,1,1,0,0
+06,14,Ohio St.,1,3,2,2,2
+06,14,Davidson,0,0,0,0,0
+06,14,Connecticut,3,6,6,5,5
+06,14,Albany,0,0,0,0,0
+06,14,Kentucky,1,1,1,1,1
+06,14,UAB,0,0,0,0,0
+06,14,Washington,2,1,2,1,1
+06,14,Utah St.,0,0,0,0,0
+06,14,Illinois,1,2,1,2,2
+06,14,Air Force,0,0,0,0,0
+06,14,Michigan St.,0,1,1,0,0
+06,14,George Mason,4,0,0,1,1
+06,14,North Carolina,1,3,3,3,3
+06,14,Murray St.,0,0,0,0,0
+06,14,Wichita St.,2,0,0,1,1
+06,14,Seton Hall,0,1,1,0,0
+06,14,Tennessee,1,2,2,2,2
+06,14,Winthrop,0,0,0,0,0
+06,15,Duke,2,5,5,6,6
+06,15,Southern,0,0,0,0,0
+06,15,George Washington,1,1,1,0,0
+06,15,UNC Wilmington,0,0,0,1,1
+06,15,Syracuse,0,1,1,0,0
+06,15,Texas A&M,1,0,0,1,1
+06,15,LSU,4,2,2,2,2
+06,15,Iona,0,0,0,0,0
+06,15,West Virginia,2,0,0,1,1
+06,15,Southern Illinois,0,1,1,0,0
+06,15,Iowa,0,3,3,2,2
+06,15,Northwestern St.,1,0,0,0,0
+06,15,California,0,0,0,0,0
+06,15,North Carolina St.,1,1,1,1,1
+06,15,Texas,3,2,2,3,3
+06,15,Penn,0,0,0,0,0
+06,15,Memphis,3,4,4,3,2
+06,15,Oral Roberts,0,0,0,0,0
+06,15,Arkansas,0,0,0,1,1
+06,15,Bucknell,1,1,1,0,0
+06,15,Pittsburgh,1,2,2,1,1
+06,15,Kent St.,0,0,0,0,0
+06,15,Kansas,0,1,1,2,4
+06,15,Bradley,2,0,0,0,0
+06,15,Indiana,1,1,1,2,2
+06,15,San Diego St.,0,0,0,0,0
+06,15,Gonzaga,2,2,2,1,1
+06,15,Xavier,0,0,0,0,0
+06,15,Marquette,0,1,1,1,1
+06,15,Alabama,1,0,0,0,0
+06,15,UCLA,5,3,3,4,3
+06,15,Belmont,0,0,0,0,0
+06,15,Villanova,3,4,4,4,4
+06,15,Monmouth,0,0,0,0,0
+06,15,Arizona,1,0,0,0,0
+06,15,Wisconsin,0,1,1,1,1
+06,15,Nevada,0,2,2,2,1
+06,15,Montana,1,0,0,0,0
+06,15,Boston College,2,1,1,1,2
+06,15,Pacific,0,0,0,0,0
+06,15,Oklahoma,0,1,1,1,1
+06,15,Milwaukee,1,0,0,0,0
+06,15,Florida,6,2,3,3,3
+06,15,South Alabama,0,0,0,0,0
+06,15,Georgetown,2,1,1,1,1
+06,15,Northern Iowa,0,0,0,0,0
+06,15,Ohio St.,1,3,2,2,2
+06,15,Davidson,0,0,0,0,0
+06,15,Connecticut,3,6,6,5,5
+06,15,Albany,0,0,0,0,0
+06,15,Kentucky,1,0,0,1,1
+06,15,UAB,0,1,1,0,0
+06,15,Washington,2,1,2,1,1
+06,15,Utah St.,0,0,0,0,0
+06,15,Illinois,1,2,1,2,2
+06,15,Air Force,0,0,0,0,0
+06,15,Michigan St.,0,1,1,0,0
+06,15,George Mason,4,0,0,1,1
+06,15,North Carolina,1,3,3,3,3
+06,15,Murray St.,0,0,0,0,0
+06,15,Wichita St.,2,0,0,1,1
+06,15,Seton Hall,0,1,1,0,0
+06,15,Tennessee,1,2,2,2,2
+06,15,Winthrop,0,0,0,0,0
+06,16,Duke,2,5,5,6,6
+06,16,Southern,0,0,0,0,0
+06,16,George Washington,1,1,1,0,0
+06,16,UNC Wilmington,0,0,0,1,1
+06,16,Syracuse,0,1,1,0,0
+06,16,Texas A&M,1,0,0,1,1
+06,16,LSU,4,2,2,2,2
+06,16,Iona,0,0,0,0,0
+06,16,West Virginia,2,0,0,1,1
+06,16,Southern Illinois,0,1,1,0,0
+06,16,Iowa,0,2,3,2,2
+06,16,Northwestern St.,1,0,0,0,0
+06,16,California,0,0,0,0,0
+06,16,North Carolina St.,1,1,1,1,1
+06,16,Texas,3,3,2,3,3
+06,16,Penn,0,0,0,0,0
+06,16,Memphis,3,4,4,3,2
+06,16,Oral Roberts,0,0,0,0,0
+06,16,Arkansas,0,0,0,1,1
+06,16,Bucknell,1,1,1,0,0
+06,16,Pittsburgh,1,2,2,1,1
+06,16,Kent St.,0,0,0,0,0
+06,16,Kansas,0,1,1,2,4
+06,16,Bradley,2,0,0,0,0
+06,16,Indiana,1,0,0,2,2
+06,16,San Diego St.,0,1,1,0,0
+06,16,Gonzaga,2,2,2,1,1
+06,16,Xavier,0,0,0,0,0
+06,16,Marquette,0,1,1,1,1
+06,16,Alabama,1,0,0,0,0
+06,16,UCLA,5,3,3,4,3
+06,16,Belmont,0,0,0,0,0
+06,16,Villanova,3,4,4,4,4
+06,16,Monmouth,0,0,0,0,0
+06,16,Arizona,1,0,0,0,0
+06,16,Wisconsin,0,1,1,1,1
+06,16,Nevada,0,1,2,2,1
+06,16,Montana,1,0,0,0,0
+06,16,Boston College,2,2,1,1,2
+06,16,Pacific,0,0,0,0,0
+06,16,Oklahoma,0,1,1,1,1
+06,16,Milwaukee,1,0,0,0,0
+06,16,Florida,6,2,3,3,3
+06,16,South Alabama,0,0,0,0,0
+06,16,Georgetown,2,1,1,1,1
+06,16,Northern Iowa,0,0,0,0,0
+06,16,Ohio St.,1,3,2,2,2
+06,16,Davidson,0,0,0,0,0
+06,16,Connecticut,3,6,6,5,5
+06,16,Albany,0,0,0,0,0
+06,16,Kentucky,1,0,0,1,1
+06,16,UAB,0,1,1,0,0
+06,16,Washington,2,1,1,1,1
+06,16,Utah St.,0,0,0,0,0
+06,16,Illinois,1,2,2,2,2
+06,16,Air Force,0,0,0,0,0
+06,16,Michigan St.,0,0,0,0,0
+06,16,George Mason,4,1,1,1,1
+06,16,North Carolina,1,3,3,3,3
+06,16,Murray St.,0,0,0,0,0
+06,16,Wichita St.,2,1,1,1,1
+06,16,Seton Hall,0,0,0,0,0
+06,16,Tennessee,1,2,2,2,2
+06,16,Winthrop,0,0,0,0,0
+06,17,Duke,2,5,5,6,6
+06,17,Southern,0,0,0,0,0
+06,17,George Washington,1,1,1,0,0
+06,17,UNC Wilmington,0,0,0,1,1
+06,17,Syracuse,0,1,1,0,0
+06,17,Texas A&M,1,0,0,1,1
+06,17,LSU,4,2,2,2,2
+06,17,Iona,0,0,0,0,0
+06,17,West Virginia,2,0,0,1,1
+06,17,Southern Illinois,0,1,1,0,0
+06,17,Iowa,0,2,3,2,2
+06,17,Northwestern St.,1,0,0,0,0
+06,17,California,0,0,0,0,0
+06,17,North Carolina St.,1,1,1,1,1
+06,17,Texas,3,3,2,3,3
+06,17,Penn,0,0,0,0,0
+06,17,Memphis,3,4,4,3,2
+06,17,Oral Roberts,0,0,0,0,0
+06,17,Arkansas,0,0,0,1,1
+06,17,Bucknell,1,1,1,0,0
+06,17,Pittsburgh,1,2,2,1,1
+06,17,Kent St.,0,0,0,0,0
+06,17,Kansas,0,1,1,2,4
+06,17,Bradley,2,0,0,0,0
+06,17,Indiana,1,0,0,2,2
+06,17,San Diego St.,0,1,1,0,0
+06,17,Gonzaga,2,2,3,1,1
+06,17,Xavier,0,0,0,0,0
+06,17,Marquette,0,1,1,1,1
+06,17,Alabama,1,0,0,0,0
+06,17,UCLA,5,3,2,4,3
+06,17,Belmont,0,0,0,0,0
+06,17,Villanova,3,4,4,4,4
+06,17,Monmouth,0,0,0,0,0
+06,17,Arizona,1,0,0,0,0
+06,17,Wisconsin,0,1,1,1,1
+06,17,Nevada,0,2,2,2,1
+06,17,Montana,1,0,0,0,0
+06,17,Boston College,2,1,1,1,2
+06,17,Pacific,0,0,0,0,0
+06,17,Oklahoma,0,1,1,1,1
+06,17,Milwaukee,1,0,0,0,0
+06,17,Florida,6,2,2,3,3
+06,17,South Alabama,0,0,0,0,0
+06,17,Georgetown,2,1,1,1,1
+06,17,Northern Iowa,0,0,0,0,0
+06,17,Ohio St.,1,3,3,2,2
+06,17,Davidson,0,0,0,0,0
+06,17,Connecticut,3,6,6,5,5
+06,17,Albany,0,0,0,0,0
+06,17,Kentucky,1,0,0,1,1
+06,17,UAB,0,1,1,0,0
+06,17,Washington,2,1,1,1,1
+06,17,Utah St.,0,0,0,0,0
+06,17,Illinois,1,2,2,2,2
+06,17,Air Force,0,0,0,0,0
+06,17,Michigan St.,0,0,0,0,0
+06,17,George Mason,4,1,1,1,1
+06,17,North Carolina,1,3,3,3,3
+06,17,Murray St.,0,0,0,0,0
+06,17,Wichita St.,2,1,1,1,1
+06,17,Seton Hall,0,0,0,0,0
+06,17,Tennessee,1,2,2,2,2
+06,17,Winthrop,0,0,0,0,0
+06,18,Duke,2,5,5,6,6
+06,18,Southern,0,0,0,0,0
+06,18,George Washington,1,1,1,0,0
+06,18,UNC Wilmington,0,0,0,1,1
+06,18,Syracuse,0,0,0,0,0
+06,18,Texas A&M,1,1,1,1,1
+06,18,LSU,4,2,2,2,2
+06,18,Iona,0,0,0,0,0
+06,18,West Virginia,2,0,0,1,1
+06,18,Southern Illinois,0,1,1,0,0
+06,18,Iowa,0,2,3,2,2
+06,18,Northwestern St.,1,0,0,0,0
+06,18,California,0,0,0,0,0
+06,18,North Carolina St.,1,1,1,1,1
+06,18,Texas,3,3,2,3,3
+06,18,Penn,0,0,0,0,0
+06,18,Memphis,3,4,4,3,2
+06,18,Oral Roberts,0,0,0,0,0
+06,18,Arkansas,0,0,0,1,1
+06,18,Bucknell,1,1,1,0,0
+06,18,Pittsburgh,1,2,2,1,1
+06,18,Kent St.,0,0,0,0,0
+06,18,Kansas,0,1,1,2,4
+06,18,Bradley,2,0,0,0,0
+06,18,Indiana,1,0,0,2,2
+06,18,San Diego St.,0,1,1,0,0
+06,18,Gonzaga,2,2,3,1,1
+06,18,Xavier,0,0,0,0,0
+06,18,Marquette,0,1,1,1,1
+06,18,Alabama,1,0,0,0,0
+06,18,UCLA,5,3,2,4,3
+06,18,Belmont,0,0,0,0,0
+06,18,Villanova,3,4,4,4,4
+06,18,Monmouth,0,0,0,0,0
+06,18,Arizona,1,0,0,0,0
+06,18,Wisconsin,0,1,1,1,1
+06,18,Nevada,0,2,2,2,1
+06,18,Montana,1,0,0,0,0
+06,18,Boston College,2,1,1,1,2
+06,18,Pacific,0,0,0,0,0
+06,18,Oklahoma,0,0,0,1,1
+06,18,Milwaukee,1,1,1,0,0
+06,18,Florida,6,2,2,3,3
+06,18,South Alabama,0,0,0,0,0
+06,18,Georgetown,2,1,1,1,1
+06,18,Northern Iowa,0,0,0,0,0
+06,18,Ohio St.,1,3,3,2,2
+06,18,Davidson,0,0,0,0,0
+06,18,Connecticut,3,6,6,5,5
+06,18,Albany,0,0,0,0,0
+06,18,Kentucky,1,0,0,1,1
+06,18,UAB,0,1,1,0,0
+06,18,Washington,2,1,1,1,1
+06,18,Utah St.,0,0,0,0,0
+06,18,Illinois,1,2,2,2,2
+06,18,Air Force,0,0,0,0,0
+06,18,Michigan St.,0,0,0,0,0
+06,18,George Mason,4,1,1,1,1
+06,18,North Carolina,1,3,3,3,3
+06,18,Murray St.,0,0,0,0,0
+06,18,Wichita St.,2,1,1,1,1
+06,18,Seton Hall,0,0,0,0,0
+06,18,Tennessee,1,2,2,2,2
+06,18,Winthrop,0,0,0,0,0
+06,19,Duke,2,6,5,6,6
+06,19,Southern,0,0,0,0,0
+06,19,George Washington,1,1,1,0,0
+06,19,UNC Wilmington,0,0,0,1,1
+06,19,Syracuse,0,0,0,0,0
+06,19,Texas A&M,1,1,1,1,1
+06,19,LSU,4,2,2,2,2
+06,19,Iona,0,0,0,0,0
+06,19,West Virginia,2,0,0,1,1
+06,19,Southern Illinois,0,1,1,0,0
+06,19,Iowa,0,2,3,2,2
+06,19,Northwestern St.,1,0,0,0,0
+06,19,California,0,0,0,0,0
+06,19,North Carolina St.,1,1,1,1,1
+06,19,Texas,3,3,2,3,3
+06,19,Penn,0,0,0,0,0
+06,19,Memphis,3,4,4,3,2
+06,19,Oral Roberts,0,0,0,0,0
+06,19,Arkansas,0,0,0,1,1
+06,19,Bucknell,1,1,1,0,0
+06,19,Pittsburgh,1,2,2,1,1
+06,19,Kent St.,0,0,0,0,0
+06,19,Kansas,0,1,1,2,4
+06,19,Bradley,2,0,0,0,0
+06,19,Indiana,1,0,0,2,2
+06,19,San Diego St.,0,1,1,0,0
+06,19,Gonzaga,2,2,3,1,1
+06,19,Xavier,0,0,0,0,0
+06,19,Marquette,0,1,1,1,1
+06,19,Alabama,1,0,0,0,0
+06,19,UCLA,5,3,2,4,3
+06,19,Belmont,0,0,0,0,0
+06,19,Villanova,3,4,4,4,4
+06,19,Monmouth,0,0,0,0,0
+06,19,Arizona,1,0,0,0,0
+06,19,Wisconsin,0,1,1,1,1
+06,19,Nevada,0,2,2,2,1
+06,19,Montana,1,0,0,0,0
+06,19,Boston College,2,1,1,1,2
+06,19,Pacific,0,0,0,0,0
+06,19,Oklahoma,0,0,0,1,1
+06,19,Milwaukee,1,1,1,0,0
+06,19,Florida,6,2,2,3,3
+06,19,South Alabama,0,0,0,0,0
+06,19,Georgetown,2,1,1,1,1
+06,19,Northern Iowa,0,0,0,0,0
+06,19,Ohio St.,1,3,3,2,2
+06,19,Davidson,0,0,0,0,0
+06,19,Connecticut,3,5,6,5,5
+06,19,Albany,0,0,0,0,0
+06,19,Kentucky,1,0,0,1,1
+06,19,UAB,0,1,1,0,0
+06,19,Washington,2,1,1,1,1
+06,19,Utah St.,0,0,0,0,0
+06,19,Illinois,1,2,2,2,2
+06,19,Air Force,0,0,0,0,0
+06,19,Michigan St.,0,0,0,0,0
+06,19,George Mason,4,1,1,1,1
+06,19,North Carolina,1,3,3,3,3
+06,19,Murray St.,0,0,0,0,0
+06,19,Wichita St.,2,1,1,1,1
+06,19,Seton Hall,0,0,0,0,0
+06,19,Tennessee,1,2,2,2,2
+06,19,Winthrop,0,0,0,0,0
+06,20,Duke,2,6,5,6,6
+06,20,Southern,0,0,0,0,0
+06,20,George Washington,1,1,1,0,0
+06,20,UNC Wilmington,0,0,0,1,1
+06,20,Syracuse,0,0,0,0,0
+06,20,Texas A&M,1,1,1,1,1
+06,20,LSU,4,2,2,2,2
+06,20,Iona,0,0,0,0,0
+06,20,West Virginia,2,0,0,1,1
+06,20,Southern Illinois,0,1,2,0,0
+06,20,Iowa,0,2,1,2,2
+06,20,Northwestern St.,1,0,0,0,0
+06,20,California,0,0,0,0,0
+06,20,North Carolina St.,1,1,1,1,1
+06,20,Texas,3,3,3,3,3
+06,20,Penn,0,0,0,0,0
+06,20,Memphis,3,4,4,3,2
+06,20,Oral Roberts,0,0,0,0,0
+06,20,Arkansas,0,0,0,1,1
+06,20,Bucknell,1,1,1,0,0
+06,20,Pittsburgh,1,2,2,1,1
+06,20,Kent St.,0,0,0,0,0
+06,20,Kansas,0,1,1,2,4
+06,20,Bradley,2,0,0,0,0
+06,20,Indiana,1,0,0,2,2
+06,20,San Diego St.,0,1,1,0,0
+06,20,Gonzaga,2,2,3,1,1
+06,20,Xavier,0,0,0,0,0
+06,20,Marquette,0,1,1,1,1
+06,20,Alabama,1,0,0,0,0
+06,20,UCLA,5,3,2,4,3
+06,20,Belmont,0,0,0,0,0
+06,20,Villanova,3,4,4,4,4
+06,20,Monmouth,0,0,0,0,0
+06,20,Arizona,1,0,0,0,0
+06,20,Wisconsin,0,1,1,1,1
+06,20,Nevada,0,2,2,2,1
+06,20,Montana,1,0,0,0,0
+06,20,Boston College,2,1,1,1,2
+06,20,Pacific,0,0,0,0,0
+06,20,Oklahoma,0,1,1,1,1
+06,20,Milwaukee,1,0,0,0,0
+06,20,Florida,6,2,2,3,3
+06,20,South Alabama,0,0,0,0,0
+06,20,Georgetown,2,1,1,1,1
+06,20,Northern Iowa,0,0,0,0,0
+06,20,Ohio St.,1,3,3,2,2
+06,20,Davidson,0,0,0,0,0
+06,20,Connecticut,3,5,6,5,5
+06,20,Albany,0,0,0,0,0
+06,20,Kentucky,1,0,0,1,1
+06,20,UAB,0,1,1,0,0
+06,20,Washington,2,1,1,1,1
+06,20,Utah St.,0,0,0,0,0
+06,20,Illinois,1,2,2,2,2
+06,20,Air Force,0,0,0,0,0
+06,20,Michigan St.,0,0,0,0,0
+06,20,George Mason,4,1,1,1,1
+06,20,North Carolina,1,3,3,3,3
+06,20,Murray St.,0,0,0,0,0
+06,20,Wichita St.,2,1,1,1,1
+06,20,Seton Hall,0,0,0,0,0
+06,20,Tennessee,1,2,2,2,2
+06,20,Winthrop,0,0,0,0,0
+06,21,Duke,2,6,5,6,6
+06,21,Southern,0,0,0,0,0
+06,21,George Washington,1,1,1,0,0
+06,21,UNC Wilmington,0,0,0,1,1
+06,21,Syracuse,0,0,0,0,0
+06,21,Texas A&M,1,1,1,1,1
+06,21,LSU,4,2,2,2,2
+06,21,Iona,0,0,0,0,0
+06,21,West Virginia,2,0,0,1,1
+06,21,Southern Illinois,0,1,2,0,0
+06,21,Iowa,0,2,1,2,2
+06,21,Northwestern St.,1,0,0,0,0
+06,21,California,0,1,1,0,0
+06,21,North Carolina St.,1,0,0,1,1
+06,21,Texas,3,3,3,3,3
+06,21,Penn,0,0,0,0,0
+06,21,Memphis,3,4,4,3,2
+06,21,Oral Roberts,0,0,0,0,0
+06,21,Arkansas,0,0,0,1,1
+06,21,Bucknell,1,1,1,0,0
+06,21,Pittsburgh,1,1,2,1,1
+06,21,Kent St.,0,0,0,0,0
+06,21,Kansas,0,2,1,2,4
+06,21,Bradley,2,0,0,0,0
+06,21,Indiana,1,0,0,2,2
+06,21,San Diego St.,0,1,1,0,0
+06,21,Gonzaga,2,3,3,1,1
+06,21,Xavier,0,0,0,0,0
+06,21,Marquette,0,1,1,1,1
+06,21,Alabama,1,0,0,0,0
+06,21,UCLA,5,2,2,4,3
+06,21,Belmont,0,0,0,0,0
+06,21,Villanova,3,4,4,4,4
+06,21,Monmouth,0,0,0,0,0
+06,21,Arizona,1,0,0,0,0
+06,21,Wisconsin,0,1,1,1,1
+06,21,Nevada,0,2,2,2,1
+06,21,Montana,1,0,0,0,0
+06,21,Boston College,2,1,1,1,2
+06,21,Pacific,0,0,0,0,0
+06,21,Oklahoma,0,1,1,1,1
+06,21,Milwaukee,1,0,0,0,0
+06,21,Florida,6,2,2,3,3
+06,21,South Alabama,0,0,0,0,0
+06,21,Georgetown,2,1,1,1,1
+06,21,Northern Iowa,0,0,0,0,0
+06,21,Ohio St.,1,3,3,2,2
+06,21,Davidson,0,0,0,0,0
+06,21,Connecticut,3,5,6,5,5
+06,21,Albany,0,0,0,0,0
+06,21,Kentucky,1,0,0,1,1
+06,21,UAB,0,1,1,0,0
+06,21,Washington,2,1,1,1,1
+06,21,Utah St.,0,0,0,0,0
+06,21,Illinois,1,2,2,2,2
+06,21,Air Force,0,0,0,0,0
+06,21,Michigan St.,0,0,0,0,0
+06,21,George Mason,4,1,1,1,1
+06,21,North Carolina,1,3,3,3,3
+06,21,Murray St.,0,0,0,0,0
+06,21,Wichita St.,2,1,1,1,1
+06,21,Seton Hall,0,0,0,0,0
+06,21,Tennessee,1,2,2,2,2
+06,21,Winthrop,0,0,0,0,0
+06,22,Duke,2,6,5,6,6
+06,22,Southern,0,0,0,0,0
+06,22,George Washington,1,1,1,0,0
+06,22,UNC Wilmington,0,0,0,1,1
+06,22,Syracuse,0,0,0,0,0
+06,22,Texas A&M,1,1,1,1,1
+06,22,LSU,4,2,2,2,2
+06,22,Iona,0,0,0,0,0
+06,22,West Virginia,2,0,0,1,1
+06,22,Southern Illinois,0,1,1,0,0
+06,22,Iowa,0,2,2,2,2
+06,22,Northwestern St.,1,0,0,0,0
+06,22,California,0,1,1,0,0
+06,22,North Carolina St.,1,0,0,1,1
+06,22,Texas,3,3,3,3,3
+06,22,Penn,0,0,0,0,0
+06,22,Memphis,3,4,4,3,2
+06,22,Oral Roberts,0,0,0,0,0
+06,22,Arkansas,0,0,0,1,1
+06,22,Bucknell,1,1,1,0,0
+06,22,Pittsburgh,1,1,2,1,1
+06,22,Kent St.,0,0,0,0,0
+06,22,Kansas,0,2,1,2,4
+06,22,Bradley,2,0,0,0,0
+06,22,Indiana,1,0,0,2,2
+06,22,San Diego St.,0,1,1,0,0
+06,22,Gonzaga,2,2,3,1,1
+06,22,Xavier,0,0,0,0,0
+06,22,Marquette,0,1,1,1,1
+06,22,Alabama,1,0,0,0,0
+06,22,UCLA,5,3,2,4,3
+06,22,Belmont,0,0,0,0,0
+06,22,Villanova,3,4,4,4,4
+06,22,Monmouth,0,0,0,0,0
+06,22,Arizona,1,0,0,0,0
+06,22,Wisconsin,0,1,1,1,1
+06,22,Nevada,0,2,2,2,1
+06,22,Montana,1,0,0,0,0
+06,22,Boston College,2,1,1,1,2
+06,22,Pacific,0,0,0,0,0
+06,22,Oklahoma,0,1,1,1,1
+06,22,Milwaukee,1,0,0,0,0
+06,22,Florida,6,2,2,3,3
+06,22,South Alabama,0,0,0,0,0
+06,22,Georgetown,2,1,1,1,1
+06,22,Northern Iowa,0,0,0,0,0
+06,22,Ohio St.,1,3,3,2,2
+06,22,Davidson,0,0,0,0,0
+06,22,Connecticut,3,5,6,5,5
+06,22,Albany,0,0,0,0,0
+06,22,Kentucky,1,0,0,1,1
+06,22,UAB,0,1,1,0,0
+06,22,Washington,2,1,1,1,1
+06,22,Utah St.,0,0,0,0,0
+06,22,Illinois,1,2,2,2,2
+06,22,Air Force,0,0,0,0,0
+06,22,Michigan St.,0,0,0,0,0
+06,22,George Mason,4,1,1,1,1
+06,22,North Carolina,1,3,3,3,3
+06,22,Murray St.,0,0,0,0,0
+06,22,Wichita St.,2,1,1,1,1
+06,22,Seton Hall,0,0,0,0,0
+06,22,Tennessee,1,2,2,2,2
+06,22,Winthrop,0,0,0,0,0
+06,23,Duke,2,6,6,6,6
+06,23,Southern,0,0,0,0,0
+06,23,George Washington,1,1,1,0,0
+06,23,UNC Wilmington,0,0,0,1,1
+06,23,Syracuse,0,0,0,0,0
+06,23,Texas A&M,1,1,1,1,1
+06,23,LSU,4,2,2,2,2
+06,23,Iona,0,0,0,0,0
+06,23,West Virginia,2,0,0,1,1
+06,23,Southern Illinois,0,1,2,0,0
+06,23,Iowa,0,2,1,2,2
+06,23,Northwestern St.,1,0,0,0,0
+06,23,California,0,1,1,0,0
+06,23,North Carolina St.,1,0,0,1,1
+06,23,Texas,3,3,3,3,3
+06,23,Penn,0,0,0,0,0
+06,23,Memphis,3,4,4,3,2
+06,23,Oral Roberts,0,0,0,0,0
+06,23,Arkansas,0,0,0,1,1
+06,23,Bucknell,1,1,1,0,0
+06,23,Pittsburgh,1,1,1,1,1
+06,23,Kent St.,0,0,0,0,0
+06,23,Kansas,0,2,2,2,4
+06,23,Bradley,2,0,0,0,0
+06,23,Indiana,1,0,0,2,2
+06,23,San Diego St.,0,1,1,0,0
+06,23,Gonzaga,2,2,3,1,1
+06,23,Xavier,0,0,0,0,0
+06,23,Marquette,0,1,1,1,1
+06,23,Alabama,1,0,0,0,0
+06,23,UCLA,5,3,2,4,3
+06,23,Belmont,0,0,0,0,0
+06,23,Villanova,3,4,4,4,4
+06,23,Monmouth,0,0,0,0,0
+06,23,Arizona,1,0,0,0,0
+06,23,Wisconsin,0,1,1,1,1
+06,23,Nevada,0,2,2,2,1
+06,23,Montana,1,0,0,0,0
+06,23,Boston College,2,1,1,1,2
+06,23,Pacific,0,0,0,0,0
+06,23,Oklahoma,0,1,1,1,1
+06,23,Milwaukee,1,0,0,0,0
+06,23,Florida,6,2,2,3,3
+06,23,South Alabama,0,0,0,0,0
+06,23,Georgetown,2,1,1,1,1
+06,23,Northern Iowa,0,0,0,0,0
+06,23,Ohio St.,1,3,3,2,2
+06,23,Davidson,0,0,0,0,0
+06,23,Connecticut,3,5,5,5,5
+06,23,Albany,0,0,0,0,0
+06,23,Kentucky,1,0,0,1,1
+06,23,UAB,0,1,1,0,0
+06,23,Washington,2,1,1,1,1
+06,23,Utah St.,0,0,0,0,0
+06,23,Illinois,1,2,2,2,2
+06,23,Air Force,0,0,0,0,0
+06,23,Michigan St.,0,0,0,0,0
+06,23,George Mason,4,1,1,1,1
+06,23,North Carolina,1,3,3,3,3
+06,23,Murray St.,0,0,0,0,0
+06,23,Wichita St.,2,1,1,1,1
+06,23,Seton Hall,0,0,0,0,0
+06,23,Tennessee,1,2,2,2,2
+06,23,Winthrop,0,0,0,0,0
+06,24,Duke,2,6,6,6,6
+06,24,Southern,0,0,0,0,0
+06,24,George Washington,1,1,1,0,0
+06,24,UNC Wilmington,0,0,0,1,1
+06,24,Syracuse,0,0,0,0,0
+06,24,Texas A&M,1,1,1,1,1
+06,24,LSU,4,2,2,2,2
+06,24,Iona,0,0,0,0,0
+06,24,West Virginia,2,0,0,1,1
+06,24,Southern Illinois,0,1,1,0,0
+06,24,Iowa,0,2,2,2,2
+06,24,Northwestern St.,1,0,0,0,0
+06,24,California,0,1,1,0,0
+06,24,North Carolina St.,1,0,0,1,1
+06,24,Texas,3,3,3,3,3
+06,24,Penn,0,0,0,0,0
+06,24,Memphis,3,4,4,3,2
+06,24,Oral Roberts,0,0,0,0,0
+06,24,Arkansas,0,0,0,1,1
+06,24,Bucknell,1,1,1,0,0
+06,24,Pittsburgh,1,1,2,1,1
+06,24,Kent St.,0,0,0,0,0
+06,24,Kansas,0,2,1,2,4
+06,24,Bradley,2,0,0,0,0
+06,24,Indiana,1,0,0,2,2
+06,24,San Diego St.,0,1,1,0,0
+06,24,Gonzaga,2,2,3,1,1
+06,24,Xavier,0,0,0,0,0
+06,24,Marquette,0,1,1,1,1
+06,24,Alabama,1,0,0,0,0
+06,24,UCLA,5,3,2,4,3
+06,24,Belmont,0,0,0,0,0
+06,24,Villanova,3,4,4,4,4
+06,24,Monmouth,0,0,0,0,0
+06,24,Arizona,1,0,0,0,0
+06,24,Wisconsin,0,1,1,1,1
+06,24,Nevada,0,2,2,2,1
+06,24,Montana,1,0,0,0,0
+06,24,Boston College,2,1,1,1,2
+06,24,Pacific,0,0,0,0,0
+06,24,Oklahoma,0,1,1,1,1
+06,24,Milwaukee,1,0,0,0,0
+06,24,Florida,6,2,2,3,3
+06,24,South Alabama,0,0,0,0,0
+06,24,Georgetown,2,1,1,1,1
+06,24,Northern Iowa,0,0,0,0,0
+06,24,Ohio St.,1,3,3,2,2
+06,24,Davidson,0,0,0,0,0
+06,24,Connecticut,3,5,5,5,5
+06,24,Albany,0,0,0,0,0
+06,24,Kentucky,1,0,0,1,1
+06,24,UAB,0,1,1,0,0
+06,24,Washington,2,1,1,1,1
+06,24,Utah St.,0,0,0,0,0
+06,24,Illinois,1,2,2,2,2
+06,24,Air Force,0,0,0,0,0
+06,24,Michigan St.,0,0,0,0,0
+06,24,George Mason,4,1,1,1,1
+06,24,North Carolina,1,3,3,3,3
+06,24,Murray St.,0,0,0,0,0
+06,24,Wichita St.,2,1,1,1,1
+06,24,Seton Hall,0,0,0,0,0
+06,24,Tennessee,1,2,2,2,2
+06,24,Winthrop,0,0,0,0,0
+06,25,Duke,2,6,6,6,6
+06,25,Southern,0,0,0,0,0
+06,25,George Washington,1,1,1,0,0
+06,25,UNC Wilmington,0,0,0,1,1
+06,25,Syracuse,0,0,0,0,0
+06,25,Texas A&M,1,1,1,1,1
+06,25,LSU,4,2,2,2,2
+06,25,Iona,0,0,0,0,0
+06,25,West Virginia,2,0,0,1,1
+06,25,Southern Illinois,0,1,1,0,0
+06,25,Iowa,0,2,2,2,2
+06,25,Northwestern St.,1,0,0,0,0
+06,25,California,0,1,1,0,0
+06,25,North Carolina St.,1,0,0,1,1
+06,25,Texas,3,3,3,3,3
+06,25,Penn,0,0,0,0,0
+06,25,Memphis,3,4,4,3,2
+06,25,Oral Roberts,0,0,0,0,0
+06,25,Arkansas,0,0,0,1,1
+06,25,Bucknell,1,1,1,0,0
+06,25,Pittsburgh,1,1,2,1,1
+06,25,Kent St.,0,0,0,0,0
+06,25,Kansas,0,2,1,2,4
+06,25,Bradley,2,0,0,0,0
+06,25,Indiana,1,0,0,2,2
+06,25,San Diego St.,0,1,1,0,0
+06,25,Gonzaga,2,2,3,1,1
+06,25,Xavier,0,0,0,0,0
+06,25,Marquette,0,1,1,1,1
+06,25,Alabama,1,0,0,0,0
+06,25,UCLA,5,3,2,4,3
+06,25,Belmont,0,0,0,0,0
+06,25,Villanova,3,4,4,4,4
+06,25,Monmouth,0,0,0,0,0
+06,25,Arizona,1,0,0,0,0
+06,25,Wisconsin,0,1,1,1,1
+06,25,Nevada,0,2,2,2,1
+06,25,Montana,1,0,0,0,0
+06,25,Boston College,2,1,1,1,2
+06,25,Pacific,0,0,0,0,0
+06,25,Oklahoma,0,1,1,1,1
+06,25,Milwaukee,1,0,0,0,0
+06,25,Florida,6,2,2,3,3
+06,25,South Alabama,0,0,0,0,0
+06,25,Georgetown,2,1,1,1,1
+06,25,Northern Iowa,0,0,0,0,0
+06,25,Ohio St.,1,3,3,2,2
+06,25,Davidson,0,0,0,0,0
+06,25,Connecticut,3,5,5,5,5
+06,25,Albany,0,0,0,0,0
+06,25,Kentucky,1,0,0,1,1
+06,25,UAB,0,1,1,0,0
+06,25,Washington,2,1,1,1,1
+06,25,Utah St.,0,0,0,0,0
+06,25,Illinois,1,2,2,2,2
+06,25,Air Force,0,0,0,0,0
+06,25,Michigan St.,0,0,0,0,0
+06,25,George Mason,4,1,1,1,1
+06,25,North Carolina,1,3,3,3,3
+06,25,Murray St.,0,0,0,0,0
+06,25,Wichita St.,2,1,1,1,1
+06,25,Seton Hall,0,0,0,0,0
+06,25,Tennessee,1,2,2,2,2
+06,25,Winthrop,0,0,0,0,0
+06,26,Duke,2,6,6,6,6
+06,26,Southern,0,0,0,0,0
+06,26,George Washington,1,1,1,0,0
+06,26,UNC Wilmington,0,0,0,1,1
+06,26,Syracuse,0,0,0,0,0
+06,26,Texas A&M,1,1,1,1,1
+06,26,LSU,4,2,2,2,2
+06,26,Iona,0,0,0,0,0
+06,26,West Virginia,2,0,0,1,1
+06,26,Southern Illinois,0,1,1,0,0
+06,26,Iowa,0,2,2,2,2
+06,26,Northwestern St.,1,0,0,0,0
+06,26,California,0,1,1,0,0
+06,26,North Carolina St.,1,0,0,1,1
+06,26,Texas,3,3,3,3,3
+06,26,Penn,0,0,0,0,0
+06,26,Memphis,3,4,4,3,2
+06,26,Oral Roberts,0,0,0,0,0
+06,26,Arkansas,0,0,0,1,1
+06,26,Bucknell,1,1,1,0,0
+06,26,Pittsburgh,1,1,2,1,1
+06,26,Kent St.,0,0,0,0,0
+06,26,Kansas,0,2,1,2,4
+06,26,Bradley,2,0,0,0,0
+06,26,Indiana,1,0,0,2,2
+06,26,San Diego St.,0,1,1,0,0
+06,26,Gonzaga,2,2,3,1,1
+06,26,Xavier,0,0,0,0,0
+06,26,Marquette,0,1,1,1,1
+06,26,Alabama,1,0,0,0,0
+06,26,UCLA,5,3,2,4,3
+06,26,Belmont,0,0,0,0,0
+06,26,Villanova,3,4,4,4,4
+06,26,Monmouth,0,0,0,0,0
+06,26,Arizona,1,0,0,0,0
+06,26,Wisconsin,0,1,1,1,1
+06,26,Nevada,0,2,2,2,1
+06,26,Montana,1,0,0,0,0
+06,26,Boston College,2,1,1,1,2
+06,26,Pacific,0,0,0,0,0
+06,26,Oklahoma,0,1,1,1,1
+06,26,Milwaukee,1,0,0,0,0
+06,26,Florida,6,2,2,3,3
+06,26,South Alabama,0,0,0,0,0
+06,26,Georgetown,2,1,1,1,1
+06,26,Northern Iowa,0,0,0,0,0
+06,26,Ohio St.,1,3,3,2,2
+06,26,Davidson,0,0,0,0,0
+06,26,Connecticut,3,5,5,5,5
+06,26,Albany,0,0,0,0,0
+06,26,Kentucky,1,0,0,1,1
+06,26,UAB,0,1,1,0,0
+06,26,Washington,2,1,1,1,1
+06,26,Utah St.,0,0,0,0,0
+06,26,Illinois,1,2,2,2,2
+06,26,Air Force,0,0,0,0,0
+06,26,Michigan St.,0,0,0,0,0
+06,26,George Mason,4,1,1,1,1
+06,26,North Carolina,1,3,3,3,3
+06,26,Murray St.,0,0,0,0,0
+06,26,Wichita St.,2,1,1,1,1
+06,26,Seton Hall,0,0,0,0,0
+06,26,Tennessee,1,2,2,2,2
+06,26,Winthrop,0,0,0,0,0

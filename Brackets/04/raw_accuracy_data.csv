@@ -1,0 +1,1537 @@
+year,k,A,Actual,Pred_Ck,Pred_NCk,Pred_CR,Pred_NCR
+04,3,Saint Joseph's,3,4,3,5,3
+04,3,Liberty,0,0,0,0,0
+04,3,Texas Tech,1,1,1,1,1
+04,3,Charlotte,0,0,0,0,0
+04,3,Florida,0,0,0,1,1
+04,3,Manhattan,1,1,1,0,0
+04,3,Wake Forest,2,2,2,2,2
+04,3,VCU,0,0,0,0,0
+04,3,Wisconsin,1,1,2,1,1
+04,3,Richmond,0,0,0,0,0
+04,3,Pittsburgh,2,2,1,3,5
+04,3,UCF,0,0,0,0,0
+04,3,Memphis,1,0,0,1,1
+04,3,South Carolina,0,1,1,0,0
+04,3,Oklahoma St.,4,3,6,2,2
+04,3,Eastern Washington,0,0,0,0,0
+04,3,Kentucky,1,5,4,4,3
+04,3,Florida A&M,0,0,0,0,0
+04,3,Washington,0,1,1,0,0
+04,3,UAB,2,0,0,1,1
+04,3,Providence,0,0,0,2,2
+04,3,Pacific,1,2,2,0,0
+04,3,Kansas,3,1,1,1,1
+04,3,Illinois Chicago,0,0,0,0,0
+04,3,Boston College,1,0,0,1,1
+04,3,Utah,0,1,1,0,0
+04,3,Georgia Tech,5,2,3,2,2
+04,3,Northern Iowa,0,0,0,0,0
+04,3,Michigan St.,0,0,0,0,0
+04,3,Nevada,2,1,1,1,1
+04,3,Gonzaga,1,3,2,3,4
+04,3,Valparaiso,0,0,0,0,0
+04,3,Stanford,1,6,4,3,3
+04,3,UTSA,0,0,0,0,0
+04,3,Alabama,3,1,1,1,1
+04,3,Southern Illinois,0,0,0,0,0
+04,3,Syracuse,2,1,1,1,1
+04,3,BYU,0,0,0,0,0
+04,3,Maryland,1,2,2,2,2
+04,3,UTEP,0,0,0,0,0
+04,3,Vanderbilt,2,0,0,1,1
+04,3,Western Michigan,0,2,2,0,0
+04,3,North Carolina St.,1,1,1,2,2
+04,3,Louisiana Lafayette,0,0,0,0,0
+04,3,DePaul,1,0,0,1,1
+04,3,Dayton,0,1,1,0,0
+04,3,Connecticut,6,3,3,4,4
+04,3,Vermont,0,0,0,0,0
+04,3,Duke,4,4,5,6,6
+04,3,Alabama St.,0,0,0,0,0
+04,3,Seton Hall,1,0,0,1,1
+04,3,Arizona,0,1,1,0,0
+04,3,Illinois,2,1,1,1,1
+04,3,Murray St.,0,0,0,0,0
+04,3,Cincinnati,1,2,2,2,2
+04,3,East Tennessee St.,0,0,0,0,0
+04,3,North Carolina,1,2,2,2,2
+04,3,Air Force,0,0,0,0,0
+04,3,Texas,2,1,1,1,1
+04,3,Princeton,0,0,0,0,0
+04,3,Xavier,3,0,0,0,0
+04,3,Louisville,0,1,1,1,1
+04,3,Mississippi St.,1,3,3,3,3
+04,3,Monmouth,0,0,0,0,0
+04,4,Saint Joseph's,3,3,3,5,3
+04,4,Liberty,0,0,0,0,0
+04,4,Texas Tech,1,1,1,1,1
+04,4,Charlotte,0,0,0,0,0
+04,4,Florida,0,1,1,1,1
+04,4,Manhattan,1,0,0,0,0
+04,4,Wake Forest,2,2,2,2,2
+04,4,VCU,0,0,0,0,0
+04,4,Wisconsin,1,1,2,1,1
+04,4,Richmond,0,0,0,0,0
+04,4,Pittsburgh,2,2,1,3,5
+04,4,UCF,0,0,0,0,0
+04,4,Memphis,1,0,0,1,1
+04,4,South Carolina,0,1,1,0,0
+04,4,Oklahoma St.,4,5,6,2,2
+04,4,Eastern Washington,0,0,0,0,0
+04,4,Kentucky,1,4,4,4,3
+04,4,Florida A&M,0,0,0,0,0
+04,4,Washington,0,1,1,0,0
+04,4,UAB,2,0,0,1,1
+04,4,Providence,0,0,0,2,2
+04,4,Pacific,1,1,1,0,0
+04,4,Kansas,3,2,2,1,1
+04,4,Illinois Chicago,0,0,0,0,0
+04,4,Boston College,1,1,1,1,1
+04,4,Utah,0,0,0,0,0
+04,4,Georgia Tech,5,2,2,2,2
+04,4,Northern Iowa,0,0,0,0,0
+04,4,Michigan St.,0,0,0,0,0
+04,4,Nevada,2,1,1,1,1
+04,4,Gonzaga,1,3,3,3,4
+04,4,Valparaiso,0,0,0,0,0
+04,4,Stanford,1,6,5,3,3
+04,4,UTSA,0,0,0,0,0
+04,4,Alabama,3,1,1,1,1
+04,4,Southern Illinois,0,0,0,0,0
+04,4,Syracuse,2,1,1,1,1
+04,4,BYU,0,0,0,0,0
+04,4,Maryland,1,2,2,2,2
+04,4,UTEP,0,0,0,0,0
+04,4,Vanderbilt,2,0,0,1,1
+04,4,Western Michigan,0,1,2,0,0
+04,4,North Carolina St.,1,3,1,2,2
+04,4,Louisiana Lafayette,0,0,0,0,0
+04,4,DePaul,1,0,0,1,1
+04,4,Dayton,0,1,1,0,0
+04,4,Connecticut,6,2,3,4,4
+04,4,Vermont,0,0,0,0,0
+04,4,Duke,4,4,4,6,6
+04,4,Alabama St.,0,0,0,0,0
+04,4,Seton Hall,1,0,0,1,1
+04,4,Arizona,0,1,1,0,0
+04,4,Illinois,2,1,1,1,1
+04,4,Murray St.,0,0,0,0,0
+04,4,Cincinnati,1,2,2,2,2
+04,4,East Tennessee St.,0,0,0,0,0
+04,4,North Carolina,1,0,0,2,2
+04,4,Air Force,0,2,1,0,0
+04,4,Texas,2,1,2,1,1
+04,4,Princeton,0,0,0,0,0
+04,4,Xavier,3,0,0,0,0
+04,4,Louisville,0,1,1,1,1
+04,4,Mississippi St.,1,3,3,3,3
+04,4,Monmouth,0,0,0,0,0
+04,5,Saint Joseph's,3,5,3,5,3
+04,5,Liberty,0,0,0,0,0
+04,5,Texas Tech,1,1,1,1,1
+04,5,Charlotte,0,0,0,0,0
+04,5,Florida,0,1,1,1,1
+04,5,Manhattan,1,0,0,0,0
+04,5,Wake Forest,2,2,2,2,2
+04,5,VCU,0,0,0,0,0
+04,5,Wisconsin,1,1,1,1,1
+04,5,Richmond,0,0,0,0,0
+04,5,Pittsburgh,2,2,2,3,5
+04,5,UCF,0,0,0,0,0
+04,5,Memphis,1,0,0,1,1
+04,5,South Carolina,0,1,1,0,0
+04,5,Oklahoma St.,4,3,4,2,2
+04,5,Eastern Washington,0,0,0,0,0
+04,5,Kentucky,1,4,5,4,3
+04,5,Florida A&M,0,0,0,0,0
+04,5,Washington,0,1,1,0,0
+04,5,UAB,2,0,0,1,1
+04,5,Providence,0,2,2,2,2
+04,5,Pacific,1,0,0,0,0
+04,5,Kansas,3,1,1,1,1
+04,5,Illinois Chicago,0,0,0,0,0
+04,5,Boston College,1,1,1,1,1
+04,5,Utah,0,0,0,0,0
+04,5,Georgia Tech,5,2,2,2,2
+04,5,Northern Iowa,0,0,0,0,0
+04,5,Michigan St.,0,0,0,0,0
+04,5,Nevada,2,1,1,1,1
+04,5,Gonzaga,1,3,3,3,4
+04,5,Valparaiso,0,0,0,0,0
+04,5,Stanford,1,6,6,3,3
+04,5,UTSA,0,0,0,0,0
+04,5,Alabama,3,0,0,1,1
+04,5,Southern Illinois,0,1,1,0,0
+04,5,Syracuse,2,0,0,1,1
+04,5,BYU,0,1,1,0,0
+04,5,Maryland,1,2,2,2,2
+04,5,UTEP,0,0,0,0,0
+04,5,Vanderbilt,2,0,0,1,1
+04,5,Western Michigan,0,1,1,0,0
+04,5,North Carolina St.,1,2,3,2,2
+04,5,Louisiana Lafayette,0,0,0,0,0
+04,5,DePaul,1,0,0,1,1
+04,5,Dayton,0,1,1,0,0
+04,5,Connecticut,6,3,2,4,4
+04,5,Vermont,0,0,0,0,0
+04,5,Duke,4,4,4,6,6
+04,5,Alabama St.,0,0,0,0,0
+04,5,Seton Hall,1,0,0,1,1
+04,5,Arizona,0,1,1,0,0
+04,5,Illinois,2,1,1,1,1
+04,5,Murray St.,0,0,0,0,0
+04,5,Cincinnati,1,2,2,2,2
+04,5,East Tennessee St.,0,0,0,0,0
+04,5,North Carolina,1,0,0,2,2
+04,5,Air Force,0,1,1,0,0
+04,5,Texas,2,2,2,1,1
+04,5,Princeton,0,0,0,0,0
+04,5,Xavier,3,0,0,0,0
+04,5,Louisville,0,1,1,1,1
+04,5,Mississippi St.,1,3,3,3,3
+04,5,Monmouth,0,0,0,0,0
+04,6,Saint Joseph's,3,6,4,5,3
+04,6,Liberty,0,0,0,0,0
+04,6,Texas Tech,1,1,1,1,1
+04,6,Charlotte,0,0,0,0,0
+04,6,Florida,0,1,1,1,1
+04,6,Manhattan,1,0,0,0,0
+04,6,Wake Forest,2,2,2,2,2
+04,6,VCU,0,0,0,0,0
+04,6,Wisconsin,1,1,2,1,1
+04,6,Richmond,0,0,0,0,0
+04,6,Pittsburgh,2,2,1,3,5
+04,6,UCF,0,0,0,0,0
+04,6,Memphis,1,0,0,1,1
+04,6,South Carolina,0,1,1,0,0
+04,6,Oklahoma St.,4,3,3,2,2
+04,6,Eastern Washington,0,0,0,0,0
+04,6,Kentucky,1,4,6,4,3
+04,6,Florida A&M,0,0,0,0,0
+04,6,Washington,0,1,1,0,0
+04,6,UAB,2,0,0,1,1
+04,6,Providence,0,2,2,2,2
+04,6,Pacific,1,0,0,0,0
+04,6,Kansas,3,1,1,1,1
+04,6,Illinois Chicago,0,0,0,0,0
+04,6,Boston College,1,1,1,1,1
+04,6,Utah,0,0,0,0,0
+04,6,Georgia Tech,5,2,2,2,2
+04,6,Northern Iowa,0,0,0,0,0
+04,6,Michigan St.,0,0,0,0,0
+04,6,Nevada,2,1,1,1,1
+04,6,Gonzaga,1,3,3,3,4
+04,6,Valparaiso,0,0,0,0,0
+04,6,Stanford,1,5,5,3,3
+04,6,UTSA,0,0,0,0,0
+04,6,Alabama,3,0,0,1,1
+04,6,Southern Illinois,0,1,1,0,0
+04,6,Syracuse,2,1,1,1,1
+04,6,BYU,0,0,0,0,0
+04,6,Maryland,1,2,2,2,2
+04,6,UTEP,0,0,0,0,0
+04,6,Vanderbilt,2,0,0,1,1
+04,6,Western Michigan,0,1,1,0,0
+04,6,North Carolina St.,1,2,3,2,2
+04,6,Louisiana Lafayette,0,0,0,0,0
+04,6,DePaul,1,0,0,1,1
+04,6,Dayton,0,1,1,0,0
+04,6,Connecticut,6,3,2,4,4
+04,6,Vermont,0,0,0,0,0
+04,6,Duke,4,4,4,6,6
+04,6,Alabama St.,0,0,0,0,0
+04,6,Seton Hall,1,1,1,1,1
+04,6,Arizona,0,0,0,0,0
+04,6,Illinois,2,1,1,1,1
+04,6,Murray St.,0,0,0,0,0
+04,6,Cincinnati,1,2,2,2,2
+04,6,East Tennessee St.,0,0,0,0,0
+04,6,North Carolina,1,0,0,2,2
+04,6,Air Force,0,1,1,0,0
+04,6,Texas,2,2,2,1,1
+04,6,Princeton,0,0,0,0,0
+04,6,Xavier,3,0,0,0,0
+04,6,Louisville,0,1,1,1,1
+04,6,Mississippi St.,1,3,3,3,3
+04,6,Monmouth,0,0,0,0,0
+04,7,Saint Joseph's,3,6,4,5,3
+04,7,Liberty,0,0,0,0,0
+04,7,Texas Tech,1,1,1,1,1
+04,7,Charlotte,0,0,0,0,0
+04,7,Florida,0,1,1,1,1
+04,7,Manhattan,1,0,0,0,0
+04,7,Wake Forest,2,2,2,2,2
+04,7,VCU,0,0,0,0,0
+04,7,Wisconsin,1,1,1,1,1
+04,7,Richmond,0,0,0,0,0
+04,7,Pittsburgh,2,2,2,3,5
+04,7,UCF,0,0,0,0,0
+04,7,Memphis,1,0,0,1,1
+04,7,South Carolina,0,1,1,0,0
+04,7,Oklahoma St.,4,3,3,2,2
+04,7,Eastern Washington,0,0,0,0,0
+04,7,Kentucky,1,4,6,4,3
+04,7,Florida A&M,0,0,0,0,0
+04,7,Washington,0,1,1,0,0
+04,7,UAB,2,0,0,1,1
+04,7,Providence,0,2,2,2,2
+04,7,Pacific,1,0,0,0,0
+04,7,Kansas,3,1,1,1,1
+04,7,Illinois Chicago,0,0,0,0,0
+04,7,Boston College,1,1,1,1,1
+04,7,Utah,0,0,0,0,0
+04,7,Georgia Tech,5,2,2,2,2
+04,7,Northern Iowa,0,0,0,0,0
+04,7,Michigan St.,0,0,0,0,0
+04,7,Nevada,2,1,1,1,1
+04,7,Gonzaga,1,3,3,3,4
+04,7,Valparaiso,0,0,0,0,0
+04,7,Stanford,1,5,5,3,3
+04,7,UTSA,0,0,0,0,0
+04,7,Alabama,3,0,0,1,1
+04,7,Southern Illinois,0,1,1,0,0
+04,7,Syracuse,2,0,0,1,1
+04,7,BYU,0,1,1,0,0
+04,7,Maryland,1,2,2,2,2
+04,7,UTEP,0,0,0,0,0
+04,7,Vanderbilt,2,0,0,1,1
+04,7,Western Michigan,0,1,1,0,0
+04,7,North Carolina St.,1,2,3,2,2
+04,7,Louisiana Lafayette,0,0,0,0,0
+04,7,DePaul,1,0,0,1,1
+04,7,Dayton,0,1,1,0,0
+04,7,Connecticut,6,3,2,4,4
+04,7,Vermont,0,0,0,0,0
+04,7,Duke,4,4,4,6,6
+04,7,Alabama St.,0,0,0,0,0
+04,7,Seton Hall,1,1,1,1,1
+04,7,Arizona,0,0,0,0,0
+04,7,Illinois,2,2,1,1,1
+04,7,Murray St.,0,0,0,0,0
+04,7,Cincinnati,1,1,2,2,2
+04,7,East Tennessee St.,0,0,0,0,0
+04,7,North Carolina,1,0,0,2,2
+04,7,Air Force,0,1,1,0,0
+04,7,Texas,2,2,2,1,1
+04,7,Princeton,0,0,0,0,0
+04,7,Xavier,3,0,0,0,0
+04,7,Louisville,0,1,1,1,1
+04,7,Mississippi St.,1,3,3,3,3
+04,7,Monmouth,0,0,0,0,0
+04,8,Saint Joseph's,3,6,6,5,3
+04,8,Liberty,0,0,0,0,0
+04,8,Texas Tech,1,1,1,1,1
+04,8,Charlotte,0,0,0,0,0
+04,8,Florida,0,1,1,1,1
+04,8,Manhattan,1,0,0,0,0
+04,8,Wake Forest,2,2,2,2,2
+04,8,VCU,0,0,0,0,0
+04,8,Wisconsin,1,2,2,1,1
+04,8,Richmond,0,0,0,0,0
+04,8,Pittsburgh,2,1,1,3,5
+04,8,UCF,0,0,0,0,0
+04,8,Memphis,1,0,0,1,1
+04,8,South Carolina,0,1,1,0,0
+04,8,Oklahoma St.,4,3,3,2,2
+04,8,Eastern Washington,0,0,0,0,0
+04,8,Kentucky,1,4,4,4,3
+04,8,Florida A&M,0,0,0,0,0
+04,8,Washington,0,1,1,0,0
+04,8,UAB,2,0,0,1,1
+04,8,Providence,0,2,2,2,2
+04,8,Pacific,1,0,0,0,0
+04,8,Kansas,3,1,1,1,1
+04,8,Illinois Chicago,0,0,0,0,0
+04,8,Boston College,1,1,1,1,1
+04,8,Utah,0,0,0,0,0
+04,8,Georgia Tech,5,2,2,2,2
+04,8,Northern Iowa,0,0,0,0,0
+04,8,Michigan St.,0,0,0,0,0
+04,8,Nevada,2,1,1,1,1
+04,8,Gonzaga,1,3,3,3,4
+04,8,Valparaiso,0,0,0,0,0
+04,8,Stanford,1,5,5,3,3
+04,8,UTSA,0,0,0,0,0
+04,8,Alabama,3,0,0,1,1
+04,8,Southern Illinois,0,1,1,0,0
+04,8,Syracuse,2,0,0,1,1
+04,8,BYU,0,1,1,0,0
+04,8,Maryland,1,2,2,2,2
+04,8,UTEP,0,0,0,0,0
+04,8,Vanderbilt,2,0,0,1,1
+04,8,Western Michigan,0,1,1,0,0
+04,8,North Carolina St.,1,2,3,2,2
+04,8,Louisiana Lafayette,0,0,0,0,0
+04,8,DePaul,1,0,0,1,1
+04,8,Dayton,0,1,1,0,0
+04,8,Connecticut,6,3,2,4,4
+04,8,Vermont,0,0,0,0,0
+04,8,Duke,4,4,4,6,6
+04,8,Alabama St.,0,0,0,0,0
+04,8,Seton Hall,1,1,1,1,1
+04,8,Arizona,0,0,0,0,0
+04,8,Illinois,2,2,1,1,1
+04,8,Murray St.,0,0,0,0,0
+04,8,Cincinnati,1,1,2,2,2
+04,8,East Tennessee St.,0,0,0,0,0
+04,8,North Carolina,1,1,2,2,2
+04,8,Air Force,0,0,0,0,0
+04,8,Texas,2,2,1,1,1
+04,8,Princeton,0,0,0,0,0
+04,8,Xavier,3,0,0,0,0
+04,8,Louisville,0,1,1,1,1
+04,8,Mississippi St.,1,3,3,3,3
+04,8,Monmouth,0,0,0,0,0
+04,9,Saint Joseph's,3,5,6,5,3
+04,9,Liberty,0,0,0,0,0
+04,9,Texas Tech,1,1,1,1,1
+04,9,Charlotte,0,0,0,0,0
+04,9,Florida,0,1,1,1,1
+04,9,Manhattan,1,0,0,0,0
+04,9,Wake Forest,2,2,2,2,2
+04,9,VCU,0,0,0,0,0
+04,9,Wisconsin,1,2,2,1,1
+04,9,Richmond,0,0,0,0,0
+04,9,Pittsburgh,2,1,1,3,5
+04,9,UCF,0,0,0,0,0
+04,9,Memphis,1,0,0,1,1
+04,9,South Carolina,0,1,1,0,0
+04,9,Oklahoma St.,4,3,3,2,2
+04,9,Eastern Washington,0,0,0,0,0
+04,9,Kentucky,1,4,4,4,3
+04,9,Florida A&M,0,0,0,0,0
+04,9,Washington,0,0,0,0,0
+04,9,UAB,2,1,1,1,1
+04,9,Providence,0,2,2,2,2
+04,9,Pacific,1,0,0,0,0
+04,9,Kansas,3,1,1,1,1
+04,9,Illinois Chicago,0,0,0,0,0
+04,9,Boston College,1,1,1,1,1
+04,9,Utah,0,0,0,0,0
+04,9,Georgia Tech,5,2,2,2,2
+04,9,Northern Iowa,0,0,0,0,0
+04,9,Michigan St.,0,0,0,0,0
+04,9,Nevada,2,1,1,1,1
+04,9,Gonzaga,1,3,3,3,4
+04,9,Valparaiso,0,0,0,0,0
+04,9,Stanford,1,6,5,3,3
+04,9,UTSA,0,0,0,0,0
+04,9,Alabama,3,0,0,1,1
+04,9,Southern Illinois,0,1,1,0,0
+04,9,Syracuse,2,0,0,1,1
+04,9,BYU,0,1,1,0,0
+04,9,Maryland,1,2,2,2,2
+04,9,UTEP,0,0,0,0,0
+04,9,Vanderbilt,2,0,0,1,1
+04,9,Western Michigan,0,2,2,0,0
+04,9,North Carolina St.,1,1,1,2,2
+04,9,Louisiana Lafayette,0,0,0,0,0
+04,9,DePaul,1,0,0,1,1
+04,9,Dayton,0,1,1,0,0
+04,9,Connecticut,6,3,3,4,4
+04,9,Vermont,0,0,0,0,0
+04,9,Duke,4,4,4,6,6
+04,9,Alabama St.,0,0,0,0,0
+04,9,Seton Hall,1,0,0,1,1
+04,9,Arizona,0,1,1,0,0
+04,9,Illinois,2,2,2,1,1
+04,9,Murray St.,0,0,0,0,0
+04,9,Cincinnati,1,1,1,2,2
+04,9,East Tennessee St.,0,0,0,0,0
+04,9,North Carolina,1,0,0,2,2
+04,9,Air Force,0,1,1,0,0
+04,9,Texas,2,2,2,1,1
+04,9,Princeton,0,0,0,0,0
+04,9,Xavier,3,0,0,0,0
+04,9,Louisville,0,1,1,1,1
+04,9,Mississippi St.,1,3,3,3,3
+04,9,Monmouth,0,0,0,0,0
+04,10,Saint Joseph's,3,6,6,5,3
+04,10,Liberty,0,0,0,0,0
+04,10,Texas Tech,1,1,1,1,1
+04,10,Charlotte,0,0,0,0,0
+04,10,Florida,0,1,1,1,1
+04,10,Manhattan,1,0,0,0,0
+04,10,Wake Forest,2,2,2,2,2
+04,10,VCU,0,0,0,0,0
+04,10,Wisconsin,1,1,1,1,1
+04,10,Richmond,0,0,0,0,0
+04,10,Pittsburgh,2,2,2,3,5
+04,10,UCF,0,0,0,0,0
+04,10,Memphis,1,0,0,1,1
+04,10,South Carolina,0,1,1,0,0
+04,10,Oklahoma St.,4,3,3,2,2
+04,10,Eastern Washington,0,0,0,0,0
+04,10,Kentucky,1,4,4,4,3
+04,10,Florida A&M,0,0,0,0,0
+04,10,Washington,0,1,1,0,0
+04,10,UAB,2,0,0,1,1
+04,10,Providence,0,2,2,2,2
+04,10,Pacific,1,0,0,0,0
+04,10,Kansas,3,1,1,1,1
+04,10,Illinois Chicago,0,0,0,0,0
+04,10,Boston College,1,1,1,1,1
+04,10,Utah,0,0,0,0,0
+04,10,Georgia Tech,5,2,2,2,2
+04,10,Northern Iowa,0,0,0,0,0
+04,10,Michigan St.,0,0,0,0,0
+04,10,Nevada,2,1,1,1,1
+04,10,Gonzaga,1,3,3,3,4
+04,10,Valparaiso,0,0,0,0,0
+04,10,Stanford,1,5,5,3,3
+04,10,UTSA,0,0,0,0,0
+04,10,Alabama,3,0,0,1,1
+04,10,Southern Illinois,0,1,1,0,0
+04,10,Syracuse,2,1,1,1,1
+04,10,BYU,0,0,0,0,0
+04,10,Maryland,1,2,2,2,2
+04,10,UTEP,0,0,0,0,0
+04,10,Vanderbilt,2,0,0,1,1
+04,10,Western Michigan,0,2,2,0,0
+04,10,North Carolina St.,1,1,1,2,2
+04,10,Louisiana Lafayette,0,0,0,0,0
+04,10,DePaul,1,0,0,1,1
+04,10,Dayton,0,1,1,0,0
+04,10,Connecticut,6,3,3,4,4
+04,10,Vermont,0,0,0,0,0
+04,10,Duke,4,4,4,6,6
+04,10,Alabama St.,0,0,0,0,0
+04,10,Seton Hall,1,0,0,1,1
+04,10,Arizona,0,1,1,0,0
+04,10,Illinois,2,2,2,1,1
+04,10,Murray St.,0,0,0,0,0
+04,10,Cincinnati,1,1,1,2,2
+04,10,East Tennessee St.,0,0,0,0,0
+04,10,North Carolina,1,1,1,2,2
+04,10,Air Force,0,0,0,0,0
+04,10,Texas,2,2,2,1,1
+04,10,Princeton,0,0,0,0,0
+04,10,Xavier,3,0,0,0,0
+04,10,Louisville,0,1,1,1,1
+04,10,Mississippi St.,1,3,3,3,3
+04,10,Monmouth,0,0,0,0,0
+04,11,Saint Joseph's,3,6,6,5,3
+04,11,Liberty,0,0,0,0,0
+04,11,Texas Tech,1,1,1,1,1
+04,11,Charlotte,0,0,0,0,0
+04,11,Florida,0,1,1,1,1
+04,11,Manhattan,1,0,0,0,0
+04,11,Wake Forest,2,2,2,2,2
+04,11,VCU,0,0,0,0,0
+04,11,Wisconsin,1,1,1,1,1
+04,11,Richmond,0,0,0,0,0
+04,11,Pittsburgh,2,2,2,3,5
+04,11,UCF,0,0,0,0,0
+04,11,Memphis,1,1,1,1,1
+04,11,South Carolina,0,0,0,0,0
+04,11,Oklahoma St.,4,3,3,2,2
+04,11,Eastern Washington,0,0,0,0,0
+04,11,Kentucky,1,4,4,4,3
+04,11,Florida A&M,0,0,0,0,0
+04,11,Washington,0,0,0,0,0
+04,11,UAB,2,1,1,1,1
+04,11,Providence,0,0,0,2,2
+04,11,Pacific,1,1,1,0,0
+04,11,Kansas,3,2,2,1,1
+04,11,Illinois Chicago,0,0,0,0,0
+04,11,Boston College,1,1,1,1,1
+04,11,Utah,0,0,0,0,0
+04,11,Georgia Tech,5,2,2,2,2
+04,11,Northern Iowa,0,0,0,0,0
+04,11,Michigan St.,0,0,0,0,0
+04,11,Nevada,2,1,1,1,1
+04,11,Gonzaga,1,3,3,3,4
+04,11,Valparaiso,0,0,0,0,0
+04,11,Stanford,1,5,5,3,3
+04,11,UTSA,0,0,0,0,0
+04,11,Alabama,3,0,0,1,1
+04,11,Southern Illinois,0,1,1,0,0
+04,11,Syracuse,2,1,1,1,1
+04,11,BYU,0,0,0,0,0
+04,11,Maryland,1,2,2,2,2
+04,11,UTEP,0,0,0,0,0
+04,11,Vanderbilt,2,0,0,1,1
+04,11,Western Michigan,0,2,3,0,0
+04,11,North Carolina St.,1,1,1,2,2
+04,11,Louisiana Lafayette,0,0,0,0,0
+04,11,DePaul,1,0,0,1,1
+04,11,Dayton,0,1,1,0,0
+04,11,Connecticut,6,3,2,4,4
+04,11,Vermont,0,0,0,0,0
+04,11,Duke,4,4,4,6,6
+04,11,Alabama St.,0,0,0,0,0
+04,11,Seton Hall,1,0,0,1,1
+04,11,Arizona,0,1,1,0,0
+04,11,Illinois,2,2,2,1,1
+04,11,Murray St.,0,0,0,0,0
+04,11,Cincinnati,1,1,1,2,2
+04,11,East Tennessee St.,0,0,0,0,0
+04,11,North Carolina,1,0,0,2,2
+04,11,Air Force,0,1,1,0,0
+04,11,Texas,2,2,2,1,1
+04,11,Princeton,0,0,0,0,0
+04,11,Xavier,3,1,1,0,0
+04,11,Louisville,0,0,0,1,1
+04,11,Mississippi St.,1,3,3,3,3
+04,11,Monmouth,0,0,0,0,0
+04,12,Saint Joseph's,3,6,6,5,3
+04,12,Liberty,0,0,0,0,0
+04,12,Texas Tech,1,1,1,1,1
+04,12,Charlotte,0,0,0,0,0
+04,12,Florida,0,1,1,1,1
+04,12,Manhattan,1,0,0,0,0
+04,12,Wake Forest,2,2,2,2,2
+04,12,VCU,0,0,0,0,0
+04,12,Wisconsin,1,1,1,1,1
+04,12,Richmond,0,0,0,0,0
+04,12,Pittsburgh,2,2,2,3,5
+04,12,UCF,0,0,0,0,0
+04,12,Memphis,1,0,0,1,1
+04,12,South Carolina,0,1,1,0,0
+04,12,Oklahoma St.,4,3,3,2,2
+04,12,Eastern Washington,0,0,0,0,0
+04,12,Kentucky,1,4,4,4,3
+04,12,Florida A&M,0,0,0,0,0
+04,12,Washington,0,1,1,0,0
+04,12,UAB,2,0,0,1,1
+04,12,Providence,0,2,2,2,2
+04,12,Pacific,1,0,0,0,0
+04,12,Kansas,3,1,1,1,1
+04,12,Illinois Chicago,0,0,0,0,0
+04,12,Boston College,1,1,1,1,1
+04,12,Utah,0,0,0,0,0
+04,12,Georgia Tech,5,2,2,2,2
+04,12,Northern Iowa,0,0,0,0,0
+04,12,Michigan St.,0,0,0,0,0
+04,12,Nevada,2,1,1,1,1
+04,12,Gonzaga,1,3,3,3,4
+04,12,Valparaiso,0,0,0,0,0
+04,12,Stanford,1,5,5,3,3
+04,12,UTSA,0,0,0,0,0
+04,12,Alabama,3,0,0,1,1
+04,12,Southern Illinois,0,1,1,0,0
+04,12,Syracuse,2,0,0,1,1
+04,12,BYU,0,2,2,0,0
+04,12,Maryland,1,1,1,2,2
+04,12,UTEP,0,0,0,0,0
+04,12,Vanderbilt,2,0,0,1,1
+04,12,Western Michigan,0,2,3,0,0
+04,12,North Carolina St.,1,1,1,2,2
+04,12,Louisiana Lafayette,0,0,0,0,0
+04,12,DePaul,1,0,0,1,1
+04,12,Dayton,0,1,1,0,0
+04,12,Connecticut,6,3,2,4,4
+04,12,Vermont,0,0,0,0,0
+04,12,Duke,4,4,3,6,6
+04,12,Alabama St.,0,0,0,0,0
+04,12,Seton Hall,1,0,0,1,1
+04,12,Arizona,0,1,1,0,0
+04,12,Illinois,2,2,2,1,1
+04,12,Murray St.,0,0,0,0,0
+04,12,Cincinnati,1,1,1,2,2
+04,12,East Tennessee St.,0,0,0,0,0
+04,12,North Carolina,1,0,0,2,2
+04,12,Air Force,0,1,1,0,0
+04,12,Texas,2,2,2,1,1
+04,12,Princeton,0,0,0,0,0
+04,12,Xavier,3,0,0,0,0
+04,12,Louisville,0,1,1,1,1
+04,12,Mississippi St.,1,3,4,3,3
+04,12,Monmouth,0,0,0,0,0
+04,13,Saint Joseph's,3,6,6,5,3
+04,13,Liberty,0,0,0,0,0
+04,13,Texas Tech,1,1,1,1,1
+04,13,Charlotte,0,0,0,0,0
+04,13,Florida,0,1,1,1,1
+04,13,Manhattan,1,0,0,0,0
+04,13,Wake Forest,2,2,2,2,2
+04,13,VCU,0,0,0,0,0
+04,13,Wisconsin,1,1,1,1,1
+04,13,Richmond,0,0,0,0,0
+04,13,Pittsburgh,2,2,2,3,5
+04,13,UCF,0,0,0,0,0
+04,13,Memphis,1,0,0,1,1
+04,13,South Carolina,0,1,1,0,0
+04,13,Oklahoma St.,4,3,3,2,2
+04,13,Eastern Washington,0,0,0,0,0
+04,13,Kentucky,1,4,4,4,3
+04,13,Florida A&M,0,0,0,0,0
+04,13,Washington,0,1,1,0,0
+04,13,UAB,2,0,0,1,1
+04,13,Providence,0,2,2,2,2
+04,13,Pacific,1,0,0,0,0
+04,13,Kansas,3,1,1,1,1
+04,13,Illinois Chicago,0,0,0,0,0
+04,13,Boston College,1,1,1,1,1
+04,13,Utah,0,0,0,0,0
+04,13,Georgia Tech,5,2,2,2,2
+04,13,Northern Iowa,0,0,0,0,0
+04,13,Michigan St.,0,0,0,0,0
+04,13,Nevada,2,1,1,1,1
+04,13,Gonzaga,1,3,3,3,4
+04,13,Valparaiso,0,0,0,0,0
+04,13,Stanford,1,5,5,3,3
+04,13,UTSA,0,0,0,0,0
+04,13,Alabama,3,0,0,1,1
+04,13,Southern Illinois,0,1,1,0,0
+04,13,Syracuse,2,0,0,1,1
+04,13,BYU,0,2,2,0,0
+04,13,Maryland,1,1,1,2,2
+04,13,UTEP,0,0,0,0,0
+04,13,Vanderbilt,2,0,0,1,1
+04,13,Western Michigan,0,2,3,0,0
+04,13,North Carolina St.,1,1,1,2,2
+04,13,Louisiana Lafayette,0,0,0,0,0
+04,13,DePaul,1,0,0,1,1
+04,13,Dayton,0,1,1,0,0
+04,13,Connecticut,6,3,2,4,4
+04,13,Vermont,0,0,0,0,0
+04,13,Duke,4,4,3,6,6
+04,13,Alabama St.,0,0,0,0,0
+04,13,Seton Hall,1,0,0,1,1
+04,13,Arizona,0,1,1,0,0
+04,13,Illinois,2,2,2,1,1
+04,13,Murray St.,0,0,0,0,0
+04,13,Cincinnati,1,1,1,2,2
+04,13,East Tennessee St.,0,0,0,0,0
+04,13,North Carolina,1,0,0,2,2
+04,13,Air Force,0,1,1,0,0
+04,13,Texas,2,2,2,1,1
+04,13,Princeton,0,0,0,0,0
+04,13,Xavier,3,1,1,0,0
+04,13,Louisville,0,0,0,1,1
+04,13,Mississippi St.,1,3,4,3,3
+04,13,Monmouth,0,0,0,0,0
+04,14,Saint Joseph's,3,6,6,5,3
+04,14,Liberty,0,0,0,0,0
+04,14,Texas Tech,1,1,1,1,1
+04,14,Charlotte,0,0,0,0,0
+04,14,Florida,0,1,1,1,1
+04,14,Manhattan,1,0,0,0,0
+04,14,Wake Forest,2,2,2,2,2
+04,14,VCU,0,0,0,0,0
+04,14,Wisconsin,1,1,1,1,1
+04,14,Richmond,0,0,0,0,0
+04,14,Pittsburgh,2,2,2,3,5
+04,14,UCF,0,0,0,0,0
+04,14,Memphis,1,0,0,1,1
+04,14,South Carolina,0,1,1,0,0
+04,14,Oklahoma St.,4,3,3,2,2
+04,14,Eastern Washington,0,0,0,0,0
+04,14,Kentucky,1,4,4,4,3
+04,14,Florida A&M,0,0,0,0,0
+04,14,Washington,0,0,0,0,0
+04,14,UAB,2,1,1,1,1
+04,14,Providence,0,2,2,2,2
+04,14,Pacific,1,0,0,0,0
+04,14,Kansas,3,1,1,1,1
+04,14,Illinois Chicago,0,0,0,0,0
+04,14,Boston College,1,1,1,1,1
+04,14,Utah,0,0,0,0,0
+04,14,Georgia Tech,5,2,2,2,2
+04,14,Northern Iowa,0,0,0,0,0
+04,14,Michigan St.,0,0,0,0,0
+04,14,Nevada,2,1,1,1,1
+04,14,Gonzaga,1,3,3,3,4
+04,14,Valparaiso,0,0,0,0,0
+04,14,Stanford,1,5,5,3,3
+04,14,UTSA,0,0,0,0,0
+04,14,Alabama,3,0,0,1,1
+04,14,Southern Illinois,0,1,1,0,0
+04,14,Syracuse,2,2,1,1,1
+04,14,BYU,0,0,0,0,0
+04,14,Maryland,1,1,2,2,2
+04,14,UTEP,0,0,0,0,0
+04,14,Vanderbilt,2,0,0,1,1
+04,14,Western Michigan,0,2,3,0,0
+04,14,North Carolina St.,1,1,1,2,2
+04,14,Louisiana Lafayette,0,0,0,0,0
+04,14,DePaul,1,0,0,1,1
+04,14,Dayton,0,1,1,0,0
+04,14,Connecticut,6,3,2,4,4
+04,14,Vermont,0,0,0,0,0
+04,14,Duke,4,4,3,6,6
+04,14,Alabama St.,0,0,0,0,0
+04,14,Seton Hall,1,0,0,1,1
+04,14,Arizona,0,1,1,0,0
+04,14,Illinois,2,2,2,1,1
+04,14,Murray St.,0,0,0,0,0
+04,14,Cincinnati,1,1,1,2,2
+04,14,East Tennessee St.,0,0,0,0,0
+04,14,North Carolina,1,0,0,2,2
+04,14,Air Force,0,1,1,0,0
+04,14,Texas,2,2,2,1,1
+04,14,Princeton,0,0,0,0,0
+04,14,Xavier,3,1,1,0,0
+04,14,Louisville,0,0,0,1,1
+04,14,Mississippi St.,1,3,4,3,3
+04,14,Monmouth,0,0,0,0,0
+04,15,Saint Joseph's,3,6,6,5,3
+04,15,Liberty,0,0,0,0,0
+04,15,Texas Tech,1,1,1,1,1
+04,15,Charlotte,0,0,0,0,0
+04,15,Florida,0,2,1,1,1
+04,15,Manhattan,1,0,0,0,0
+04,15,Wake Forest,2,1,2,2,2
+04,15,VCU,0,0,0,0,0
+04,15,Wisconsin,1,1,1,1,1
+04,15,Richmond,0,0,0,0,0
+04,15,Pittsburgh,2,2,2,3,5
+04,15,UCF,0,0,0,0,0
+04,15,Memphis,1,0,0,1,1
+04,15,South Carolina,0,1,1,0,0
+04,15,Oklahoma St.,4,3,3,2,2
+04,15,Eastern Washington,0,0,0,0,0
+04,15,Kentucky,1,3,4,4,3
+04,15,Florida A&M,0,0,0,0,0
+04,15,Washington,0,0,0,0,0
+04,15,UAB,2,1,1,1,1
+04,15,Providence,0,2,2,2,2
+04,15,Pacific,1,0,0,0,0
+04,15,Kansas,3,1,1,1,1
+04,15,Illinois Chicago,0,0,0,0,0
+04,15,Boston College,1,1,1,1,1
+04,15,Utah,0,0,0,0,0
+04,15,Georgia Tech,5,2,2,2,2
+04,15,Northern Iowa,0,0,0,0,0
+04,15,Michigan St.,0,0,0,0,0
+04,15,Nevada,2,1,1,1,1
+04,15,Gonzaga,1,4,3,3,4
+04,15,Valparaiso,0,0,0,0,0
+04,15,Stanford,1,5,5,3,3
+04,15,UTSA,0,0,0,0,0
+04,15,Alabama,3,0,0,1,1
+04,15,Southern Illinois,0,1,1,0,0
+04,15,Syracuse,2,0,0,1,1
+04,15,BYU,0,2,1,0,0
+04,15,Maryland,1,1,2,2,2
+04,15,UTEP,0,0,0,0,0
+04,15,Vanderbilt,2,0,0,1,1
+04,15,Western Michigan,0,2,3,0,0
+04,15,North Carolina St.,1,1,1,2,2
+04,15,Louisiana Lafayette,0,0,0,0,0
+04,15,DePaul,1,0,0,1,1
+04,15,Dayton,0,1,1,0,0
+04,15,Connecticut,6,3,2,4,4
+04,15,Vermont,0,0,0,0,0
+04,15,Duke,4,4,3,6,6
+04,15,Alabama St.,0,0,0,0,0
+04,15,Seton Hall,1,0,0,1,1
+04,15,Arizona,0,1,1,0,0
+04,15,Illinois,2,2,2,1,1
+04,15,Murray St.,0,0,0,0,0
+04,15,Cincinnati,1,1,1,2,2
+04,15,East Tennessee St.,0,0,0,0,0
+04,15,North Carolina,1,0,0,2,2
+04,15,Air Force,0,1,1,0,0
+04,15,Texas,2,2,2,1,1
+04,15,Princeton,0,0,0,0,0
+04,15,Xavier,3,1,1,0,0
+04,15,Louisville,0,0,0,1,1
+04,15,Mississippi St.,1,3,4,3,3
+04,15,Monmouth,0,0,0,0,0
+04,16,Saint Joseph's,3,6,6,5,3
+04,16,Liberty,0,0,0,0,0
+04,16,Texas Tech,1,0,0,1,1
+04,16,Charlotte,0,1,1,0,0
+04,16,Florida,0,2,1,1,1
+04,16,Manhattan,1,0,0,0,0
+04,16,Wake Forest,2,1,2,2,2
+04,16,VCU,0,0,0,0,0
+04,16,Wisconsin,1,1,1,1,1
+04,16,Richmond,0,0,0,0,0
+04,16,Pittsburgh,2,2,2,3,5
+04,16,UCF,0,0,0,0,0
+04,16,Memphis,1,0,0,1,1
+04,16,South Carolina,0,1,1,0,0
+04,16,Oklahoma St.,4,3,3,2,2
+04,16,Eastern Washington,0,0,0,0,0
+04,16,Kentucky,1,3,3,4,3
+04,16,Florida A&M,0,0,0,0,0
+04,16,Washington,0,0,0,0,0
+04,16,UAB,2,1,1,1,1
+04,16,Providence,0,2,2,2,2
+04,16,Pacific,1,0,0,0,0
+04,16,Kansas,3,1,1,1,1
+04,16,Illinois Chicago,0,0,0,0,0
+04,16,Boston College,1,1,1,1,1
+04,16,Utah,0,0,0,0,0
+04,16,Georgia Tech,5,2,2,2,2
+04,16,Northern Iowa,0,0,0,0,0
+04,16,Michigan St.,0,0,0,0,0
+04,16,Nevada,2,1,1,1,1
+04,16,Gonzaga,1,4,4,3,4
+04,16,Valparaiso,0,0,0,0,0
+04,16,Stanford,1,5,5,3,3
+04,16,UTSA,0,0,0,0,0
+04,16,Alabama,3,0,0,1,1
+04,16,Southern Illinois,0,1,1,0,0
+04,16,Syracuse,2,2,2,1,1
+04,16,BYU,0,0,0,0,0
+04,16,Maryland,1,1,1,2,2
+04,16,UTEP,0,0,0,0,0
+04,16,Vanderbilt,2,0,0,1,1
+04,16,Western Michigan,0,2,3,0,0
+04,16,North Carolina St.,1,1,1,2,2
+04,16,Louisiana Lafayette,0,0,0,0,0
+04,16,DePaul,1,0,0,1,1
+04,16,Dayton,0,1,1,0,0
+04,16,Connecticut,6,3,2,4,4
+04,16,Vermont,0,0,0,0,0
+04,16,Duke,4,4,3,6,6
+04,16,Alabama St.,0,0,0,0,0
+04,16,Seton Hall,1,0,0,1,1
+04,16,Arizona,0,1,1,0,0
+04,16,Illinois,2,2,2,1,1
+04,16,Murray St.,0,0,0,0,0
+04,16,Cincinnati,1,1,1,2,2
+04,16,East Tennessee St.,0,0,0,0,0
+04,16,North Carolina,1,0,0,2,2
+04,16,Air Force,0,1,1,0,0
+04,16,Texas,2,2,2,1,1
+04,16,Princeton,0,0,0,0,0
+04,16,Xavier,3,1,1,0,0
+04,16,Louisville,0,0,0,1,1
+04,16,Mississippi St.,1,3,4,3,3
+04,16,Monmouth,0,0,0,0,0
+04,17,Saint Joseph's,3,6,6,5,3
+04,17,Liberty,0,0,0,0,0
+04,17,Texas Tech,1,0,0,1,1
+04,17,Charlotte,0,1,1,0,0
+04,17,Florida,0,2,1,1,1
+04,17,Manhattan,1,0,0,0,0
+04,17,Wake Forest,2,1,2,2,2
+04,17,VCU,0,0,0,0,0
+04,17,Wisconsin,1,1,1,1,1
+04,17,Richmond,0,0,0,0,0
+04,17,Pittsburgh,2,2,2,3,5
+04,17,UCF,0,0,0,0,0
+04,17,Memphis,1,1,1,1,1
+04,17,South Carolina,0,0,0,0,0
+04,17,Oklahoma St.,4,3,3,2,2
+04,17,Eastern Washington,0,0,0,0,0
+04,17,Kentucky,1,3,3,4,3
+04,17,Florida A&M,0,0,0,0,0
+04,17,Washington,0,0,0,0,0
+04,17,UAB,2,1,1,1,1
+04,17,Providence,0,1,2,2,2
+04,17,Pacific,1,0,0,0,0
+04,17,Kansas,3,2,1,1,1
+04,17,Illinois Chicago,0,0,0,0,0
+04,17,Boston College,1,0,0,1,1
+04,17,Utah,0,1,1,0,0
+04,17,Georgia Tech,5,2,2,2,2
+04,17,Northern Iowa,0,0,0,0,0
+04,17,Michigan St.,0,0,0,0,0
+04,17,Nevada,2,1,1,1,1
+04,17,Gonzaga,1,4,4,3,4
+04,17,Valparaiso,0,0,0,0,0
+04,17,Stanford,1,5,5,3,3
+04,17,UTSA,0,0,0,0,0
+04,17,Alabama,3,0,0,1,1
+04,17,Southern Illinois,0,1,1,0,0
+04,17,Syracuse,2,2,2,1,1
+04,17,BYU,0,0,0,0,0
+04,17,Maryland,1,1,1,2,2
+04,17,UTEP,0,0,0,0,0
+04,17,Vanderbilt,2,0,0,1,1
+04,17,Western Michigan,0,2,3,0,0
+04,17,North Carolina St.,1,1,1,2,2
+04,17,Louisiana Lafayette,0,0,0,0,0
+04,17,DePaul,1,0,0,1,1
+04,17,Dayton,0,1,1,0,0
+04,17,Connecticut,6,3,2,4,4
+04,17,Vermont,0,0,0,0,0
+04,17,Duke,4,3,3,6,6
+04,17,Alabama St.,0,0,0,0,0
+04,17,Seton Hall,1,0,0,1,1
+04,17,Arizona,0,1,1,0,0
+04,17,Illinois,2,2,2,1,1
+04,17,Murray St.,0,0,0,0,0
+04,17,Cincinnati,1,1,1,2,2
+04,17,East Tennessee St.,0,0,0,0,0
+04,17,North Carolina,1,0,0,2,2
+04,17,Air Force,0,1,1,0,0
+04,17,Texas,2,2,2,1,1
+04,17,Princeton,0,0,0,0,0
+04,17,Xavier,3,1,1,0,0
+04,17,Louisville,0,0,0,1,1
+04,17,Mississippi St.,1,4,4,3,3
+04,17,Monmouth,0,0,0,0,0
+04,18,Saint Joseph's,3,6,6,5,3
+04,18,Liberty,0,0,0,0,0
+04,18,Texas Tech,1,0,0,1,1
+04,18,Charlotte,0,1,1,0,0
+04,18,Florida,0,1,1,1,1
+04,18,Manhattan,1,0,0,0,0
+04,18,Wake Forest,2,2,2,2,2
+04,18,VCU,0,0,0,0,0
+04,18,Wisconsin,1,1,1,1,1
+04,18,Richmond,0,0,0,0,0
+04,18,Pittsburgh,2,2,2,3,5
+04,18,UCF,0,0,0,0,0
+04,18,Memphis,1,1,1,1,1
+04,18,South Carolina,0,0,0,0,0
+04,18,Oklahoma St.,4,3,3,2,2
+04,18,Eastern Washington,0,0,0,0,0
+04,18,Kentucky,1,3,3,4,3
+04,18,Florida A&M,0,0,0,0,0
+04,18,Washington,0,0,0,0,0
+04,18,UAB,2,1,1,1,1
+04,18,Providence,0,1,2,2,2
+04,18,Pacific,1,0,0,0,0
+04,18,Kansas,3,2,1,1,1
+04,18,Illinois Chicago,0,0,0,0,0
+04,18,Boston College,1,0,0,1,1
+04,18,Utah,0,1,1,0,0
+04,18,Georgia Tech,5,2,2,2,2
+04,18,Northern Iowa,0,0,0,0,0
+04,18,Michigan St.,0,0,0,0,0
+04,18,Nevada,2,1,1,1,1
+04,18,Gonzaga,1,4,4,3,4
+04,18,Valparaiso,0,0,0,0,0
+04,18,Stanford,1,5,5,3,3
+04,18,UTSA,0,0,0,0,0
+04,18,Alabama,3,0,0,1,1
+04,18,Southern Illinois,0,1,1,0,0
+04,18,Syracuse,2,2,2,1,1
+04,18,BYU,0,0,0,0,0
+04,18,Maryland,1,0,0,2,2
+04,18,UTEP,0,1,1,0,0
+04,18,Vanderbilt,2,0,0,1,1
+04,18,Western Michigan,0,2,3,0,0
+04,18,North Carolina St.,1,1,1,2,2
+04,18,Louisiana Lafayette,0,0,0,0,0
+04,18,DePaul,1,0,0,1,1
+04,18,Dayton,0,1,1,0,0
+04,18,Connecticut,6,3,2,4,4
+04,18,Vermont,0,0,0,0,0
+04,18,Duke,4,3,3,6,6
+04,18,Alabama St.,0,0,0,0,0
+04,18,Seton Hall,1,0,0,1,1
+04,18,Arizona,0,1,1,0,0
+04,18,Illinois,2,2,2,1,1
+04,18,Murray St.,0,0,0,0,0
+04,18,Cincinnati,1,1,1,2,2
+04,18,East Tennessee St.,0,0,0,0,0
+04,18,North Carolina,1,0,0,2,2
+04,18,Air Force,0,1,1,0,0
+04,18,Texas,2,2,2,1,1
+04,18,Princeton,0,0,0,0,0
+04,18,Xavier,3,1,1,0,0
+04,18,Louisville,0,0,0,1,1
+04,18,Mississippi St.,1,4,4,3,3
+04,18,Monmouth,0,0,0,0,0
+04,19,Saint Joseph's,3,6,6,5,3
+04,19,Liberty,0,0,0,0,0
+04,19,Texas Tech,1,0,0,1,1
+04,19,Charlotte,0,1,1,0,0
+04,19,Florida,0,2,1,1,1
+04,19,Manhattan,1,0,0,0,0
+04,19,Wake Forest,2,1,2,2,2
+04,19,VCU,0,0,0,0,0
+04,19,Wisconsin,1,1,1,1,1
+04,19,Richmond,0,0,0,0,0
+04,19,Pittsburgh,2,2,2,3,5
+04,19,UCF,0,0,0,0,0
+04,19,Memphis,1,1,1,1,1
+04,19,South Carolina,0,0,0,0,0
+04,19,Oklahoma St.,4,3,3,2,2
+04,19,Eastern Washington,0,0,0,0,0
+04,19,Kentucky,1,3,4,4,3
+04,19,Florida A&M,0,0,0,0,0
+04,19,Washington,0,0,0,0,0
+04,19,UAB,2,1,1,1,1
+04,19,Providence,0,1,2,2,2
+04,19,Pacific,1,0,0,0,0
+04,19,Kansas,3,2,1,1,1
+04,19,Illinois Chicago,0,0,0,0,0
+04,19,Boston College,1,0,0,1,1
+04,19,Utah,0,1,1,0,0
+04,19,Georgia Tech,5,2,2,2,2
+04,19,Northern Iowa,0,0,0,0,0
+04,19,Michigan St.,0,0,0,0,0
+04,19,Nevada,2,1,1,1,1
+04,19,Gonzaga,1,4,3,3,4
+04,19,Valparaiso,0,0,0,0,0
+04,19,Stanford,1,5,5,3,3
+04,19,UTSA,0,0,0,0,0
+04,19,Alabama,3,0,0,1,1
+04,19,Southern Illinois,0,1,1,0,0
+04,19,Syracuse,2,2,2,1,1
+04,19,BYU,0,0,0,0,0
+04,19,Maryland,1,0,0,2,2
+04,19,UTEP,0,1,1,0,0
+04,19,Vanderbilt,2,0,0,1,1
+04,19,Western Michigan,0,2,2,0,0
+04,19,North Carolina St.,1,1,1,2,2
+04,19,Louisiana Lafayette,0,0,0,0,0
+04,19,DePaul,1,0,0,1,1
+04,19,Dayton,0,1,1,0,0
+04,19,Connecticut,6,3,3,4,4
+04,19,Vermont,0,0,0,0,0
+04,19,Duke,4,3,3,6,6
+04,19,Alabama St.,0,0,0,0,0
+04,19,Seton Hall,1,0,0,1,1
+04,19,Arizona,0,1,1,0,0
+04,19,Illinois,2,2,2,1,1
+04,19,Murray St.,0,0,0,0,0
+04,19,Cincinnati,1,1,1,2,2
+04,19,East Tennessee St.,0,0,0,0,0
+04,19,North Carolina,1,0,0,2,2
+04,19,Air Force,0,1,1,0,0
+04,19,Texas,2,2,2,1,1
+04,19,Princeton,0,0,0,0,0
+04,19,Xavier,3,1,1,0,0
+04,19,Louisville,0,0,0,1,1
+04,19,Mississippi St.,1,4,4,3,3
+04,19,Monmouth,0,0,0,0,0
+04,20,Saint Joseph's,3,6,6,5,3
+04,20,Liberty,0,0,0,0,0
+04,20,Texas Tech,1,0,0,1,1
+04,20,Charlotte,0,1,1,0,0
+04,20,Florida,0,2,1,1,1
+04,20,Manhattan,1,0,0,0,0
+04,20,Wake Forest,2,1,2,2,2
+04,20,VCU,0,0,0,0,0
+04,20,Wisconsin,1,1,1,1,1
+04,20,Richmond,0,0,0,0,0
+04,20,Pittsburgh,2,2,2,3,5
+04,20,UCF,0,0,0,0,0
+04,20,Memphis,1,1,1,1,1
+04,20,South Carolina,0,0,0,0,0
+04,20,Oklahoma St.,4,3,3,2,2
+04,20,Eastern Washington,0,0,0,0,0
+04,20,Kentucky,1,3,4,4,3
+04,20,Florida A&M,0,0,0,0,0
+04,20,Washington,0,0,0,0,0
+04,20,UAB,2,1,1,1,1
+04,20,Providence,0,1,2,2,2
+04,20,Pacific,1,0,0,0,0
+04,20,Kansas,3,2,1,1,1
+04,20,Illinois Chicago,0,0,0,0,0
+04,20,Boston College,1,0,0,1,1
+04,20,Utah,0,1,1,0,0
+04,20,Georgia Tech,5,2,2,2,2
+04,20,Northern Iowa,0,0,0,0,0
+04,20,Michigan St.,0,0,0,0,0
+04,20,Nevada,2,1,1,1,1
+04,20,Gonzaga,1,4,3,3,4
+04,20,Valparaiso,0,0,0,0,0
+04,20,Stanford,1,5,5,3,3
+04,20,UTSA,0,0,0,0,0
+04,20,Alabama,3,0,0,1,1
+04,20,Southern Illinois,0,1,1,0,0
+04,20,Syracuse,2,2,2,1,1
+04,20,BYU,0,0,0,0,0
+04,20,Maryland,1,0,0,2,2
+04,20,UTEP,0,1,1,0,0
+04,20,Vanderbilt,2,0,0,1,1
+04,20,Western Michigan,0,2,2,0,0
+04,20,North Carolina St.,1,1,1,2,2
+04,20,Louisiana Lafayette,0,0,0,0,0
+04,20,DePaul,1,0,0,1,1
+04,20,Dayton,0,1,1,0,0
+04,20,Connecticut,6,3,3,4,4
+04,20,Vermont,0,0,0,0,0
+04,20,Duke,4,3,3,6,6
+04,20,Alabama St.,0,0,0,0,0
+04,20,Seton Hall,1,0,0,1,1
+04,20,Arizona,0,1,1,0,0
+04,20,Illinois,2,2,2,1,1
+04,20,Murray St.,0,0,0,0,0
+04,20,Cincinnati,1,1,1,2,2
+04,20,East Tennessee St.,0,0,0,0,0
+04,20,North Carolina,1,0,0,2,2
+04,20,Air Force,0,1,2,0,0
+04,20,Texas,2,2,1,1,1
+04,20,Princeton,0,0,0,0,0
+04,20,Xavier,3,1,1,0,0
+04,20,Louisville,0,0,0,1,1
+04,20,Mississippi St.,1,4,4,3,3
+04,20,Monmouth,0,0,0,0,0
+04,21,Saint Joseph's,3,6,6,5,3
+04,21,Liberty,0,0,0,0,0
+04,21,Texas Tech,1,0,0,1,1
+04,21,Charlotte,0,1,1,0,0
+04,21,Florida,0,0,0,1,1
+04,21,Manhattan,1,2,2,0,0
+04,21,Wake Forest,2,1,1,2,2
+04,21,VCU,0,0,0,0,0
+04,21,Wisconsin,1,1,1,1,1
+04,21,Richmond,0,0,0,0,0
+04,21,Pittsburgh,2,2,2,3,5
+04,21,UCF,0,0,0,0,0
+04,21,Memphis,1,1,1,1,1
+04,21,South Carolina,0,0,0,0,0
+04,21,Oklahoma St.,4,3,3,2,2
+04,21,Eastern Washington,0,0,0,0,0
+04,21,Kentucky,1,3,4,4,3
+04,21,Florida A&M,0,0,0,0,0
+04,21,Washington,0,0,0,0,0
+04,21,UAB,2,1,1,1,1
+04,21,Providence,0,1,2,2,2
+04,21,Pacific,1,0,0,0,0
+04,21,Kansas,3,2,1,1,1
+04,21,Illinois Chicago,0,0,0,0,0
+04,21,Boston College,1,0,0,1,1
+04,21,Utah,0,1,1,0,0
+04,21,Georgia Tech,5,2,2,2,2
+04,21,Northern Iowa,0,0,0,0,0
+04,21,Michigan St.,0,0,0,0,0
+04,21,Nevada,2,1,1,1,1
+04,21,Gonzaga,1,4,3,3,4
+04,21,Valparaiso,0,0,0,0,0
+04,21,Stanford,1,5,5,3,3
+04,21,UTSA,0,0,0,0,0
+04,21,Alabama,3,0,0,1,1
+04,21,Southern Illinois,0,1,1,0,0
+04,21,Syracuse,2,2,2,1,1
+04,21,BYU,0,0,0,0,0
+04,21,Maryland,1,0,0,2,2
+04,21,UTEP,0,1,1,0,0
+04,21,Vanderbilt,2,0,0,1,1
+04,21,Western Michigan,0,2,2,0,0
+04,21,North Carolina St.,1,1,1,2,2
+04,21,Louisiana Lafayette,0,0,0,0,0
+04,21,DePaul,1,0,0,1,1
+04,21,Dayton,0,1,1,0,0
+04,21,Connecticut,6,3,3,4,4
+04,21,Vermont,0,0,0,0,0
+04,21,Duke,4,3,3,6,6
+04,21,Alabama St.,0,0,0,0,0
+04,21,Seton Hall,1,0,0,1,1
+04,21,Arizona,0,1,1,0,0
+04,21,Illinois,2,2,2,1,1
+04,21,Murray St.,0,0,0,0,0
+04,21,Cincinnati,1,1,1,2,2
+04,21,East Tennessee St.,0,0,0,0,0
+04,21,North Carolina,1,0,0,2,2
+04,21,Air Force,0,1,2,0,0
+04,21,Texas,2,2,1,1,1
+04,21,Princeton,0,0,0,0,0
+04,21,Xavier,3,0,0,0,0
+04,21,Louisville,0,1,1,1,1
+04,21,Mississippi St.,1,4,4,3,3
+04,21,Monmouth,0,0,0,0,0
+04,22,Saint Joseph's,3,6,6,5,3
+04,22,Liberty,0,0,0,0,0
+04,22,Texas Tech,1,0,0,1,1
+04,22,Charlotte,0,1,1,0,0
+04,22,Florida,0,0,0,1,1
+04,22,Manhattan,1,2,2,0,0
+04,22,Wake Forest,2,1,1,2,2
+04,22,VCU,0,0,0,0,0
+04,22,Wisconsin,1,1,1,1,1
+04,22,Richmond,0,0,0,0,0
+04,22,Pittsburgh,2,2,2,3,5
+04,22,UCF,0,0,0,0,0
+04,22,Memphis,1,1,1,1,1
+04,22,South Carolina,0,0,0,0,0
+04,22,Oklahoma St.,4,3,3,2,2
+04,22,Eastern Washington,0,0,0,0,0
+04,22,Kentucky,1,3,4,4,3
+04,22,Florida A&M,0,0,0,0,0
+04,22,Washington,0,0,0,0,0
+04,22,UAB,2,1,1,1,1
+04,22,Providence,0,2,2,2,2
+04,22,Pacific,1,0,0,0,0
+04,22,Kansas,3,1,1,1,1
+04,22,Illinois Chicago,0,0,0,0,0
+04,22,Boston College,1,0,0,1,1
+04,22,Utah,0,1,1,0,0
+04,22,Georgia Tech,5,2,2,2,2
+04,22,Northern Iowa,0,0,0,0,0
+04,22,Michigan St.,0,0,0,0,0
+04,22,Nevada,2,1,1,1,1
+04,22,Gonzaga,1,4,3,3,4
+04,22,Valparaiso,0,0,0,0,0
+04,22,Stanford,1,5,5,3,3
+04,22,UTSA,0,0,0,0,0
+04,22,Alabama,3,0,0,1,1
+04,22,Southern Illinois,0,1,1,0,0
+04,22,Syracuse,2,2,2,1,1
+04,22,BYU,0,0,0,0,0
+04,22,Maryland,1,0,0,2,2
+04,22,UTEP,0,1,1,0,0
+04,22,Vanderbilt,2,0,0,1,1
+04,22,Western Michigan,0,2,2,0,0
+04,22,North Carolina St.,1,1,1,2,2
+04,22,Louisiana Lafayette,0,0,0,0,0
+04,22,DePaul,1,0,0,1,1
+04,22,Dayton,0,1,1,0,0
+04,22,Connecticut,6,3,3,4,4
+04,22,Vermont,0,0,0,0,0
+04,22,Duke,4,3,3,6,6
+04,22,Alabama St.,0,0,0,0,0
+04,22,Seton Hall,1,0,0,1,1
+04,22,Arizona,0,1,1,0,0
+04,22,Illinois,2,1,2,1,1
+04,22,Murray St.,0,0,0,0,0
+04,22,Cincinnati,1,2,1,2,2
+04,22,East Tennessee St.,0,0,0,0,0
+04,22,North Carolina,1,0,0,2,2
+04,22,Air Force,0,1,1,0,0
+04,22,Texas,2,2,2,1,1
+04,22,Princeton,0,0,0,0,0
+04,22,Xavier,3,0,0,0,0
+04,22,Louisville,0,1,1,1,1
+04,22,Mississippi St.,1,4,4,3,3
+04,22,Monmouth,0,0,0,0,0
+04,23,Saint Joseph's,3,6,6,5,3
+04,23,Liberty,0,0,0,0,0
+04,23,Texas Tech,1,0,0,1,1
+04,23,Charlotte,0,1,1,0,0
+04,23,Florida,0,0,0,1,1
+04,23,Manhattan,1,2,2,0,0
+04,23,Wake Forest,2,1,1,2,2
+04,23,VCU,0,0,0,0,0
+04,23,Wisconsin,1,1,1,1,1
+04,23,Richmond,0,0,0,0,0
+04,23,Pittsburgh,2,2,2,3,5
+04,23,UCF,0,0,0,0,0
+04,23,Memphis,1,1,1,1,1
+04,23,South Carolina,0,0,0,0,0
+04,23,Oklahoma St.,4,3,3,2,2
+04,23,Eastern Washington,0,0,0,0,0
+04,23,Kentucky,1,3,4,4,3
+04,23,Florida A&M,0,0,0,0,0
+04,23,Washington,0,0,0,0,0
+04,23,UAB,2,1,1,1,1
+04,23,Providence,0,1,2,2,2
+04,23,Pacific,1,0,0,0,0
+04,23,Kansas,3,2,1,1,1
+04,23,Illinois Chicago,0,0,0,0,0
+04,23,Boston College,1,0,0,1,1
+04,23,Utah,0,1,1,0,0
+04,23,Georgia Tech,5,2,2,2,2
+04,23,Northern Iowa,0,0,0,0,0
+04,23,Michigan St.,0,0,0,0,0
+04,23,Nevada,2,1,1,1,1
+04,23,Gonzaga,1,4,3,3,4
+04,23,Valparaiso,0,0,0,0,0
+04,23,Stanford,1,5,5,3,3
+04,23,UTSA,0,0,0,0,0
+04,23,Alabama,3,0,0,1,1
+04,23,Southern Illinois,0,1,1,0,0
+04,23,Syracuse,2,2,2,1,1
+04,23,BYU,0,0,0,0,0
+04,23,Maryland,1,0,0,2,2
+04,23,UTEP,0,1,1,0,0
+04,23,Vanderbilt,2,0,0,1,1
+04,23,Western Michigan,0,2,2,0,0
+04,23,North Carolina St.,1,1,1,2,2
+04,23,Louisiana Lafayette,0,0,0,0,0
+04,23,DePaul,1,0,0,1,1
+04,23,Dayton,0,1,1,0,0
+04,23,Connecticut,6,3,3,4,4
+04,23,Vermont,0,0,0,0,0
+04,23,Duke,4,3,3,6,6
+04,23,Alabama St.,0,0,0,0,0
+04,23,Seton Hall,1,0,0,1,1
+04,23,Arizona,0,1,1,0,0
+04,23,Illinois,2,1,2,1,1
+04,23,Murray St.,0,0,0,0,0
+04,23,Cincinnati,1,2,1,2,2
+04,23,East Tennessee St.,0,0,0,0,0
+04,23,North Carolina,1,0,0,2,2
+04,23,Air Force,0,1,1,0,0
+04,23,Texas,2,2,2,1,1
+04,23,Princeton,0,0,0,0,0
+04,23,Xavier,3,0,0,0,0
+04,23,Louisville,0,1,1,1,1
+04,23,Mississippi St.,1,4,4,3,3
+04,23,Monmouth,0,0,0,0,0
+04,24,Saint Joseph's,3,6,6,5,3
+04,24,Liberty,0,0,0,0,0
+04,24,Texas Tech,1,0,0,1,1
+04,24,Charlotte,0,1,1,0,0
+04,24,Florida,0,0,0,1,1
+04,24,Manhattan,1,2,2,0,0
+04,24,Wake Forest,2,1,1,2,2
+04,24,VCU,0,0,0,0,0
+04,24,Wisconsin,1,1,1,1,1
+04,24,Richmond,0,0,0,0,0
+04,24,Pittsburgh,2,2,2,3,5
+04,24,UCF,0,0,0,0,0
+04,24,Memphis,1,1,1,1,1
+04,24,South Carolina,0,0,0,0,0
+04,24,Oklahoma St.,4,3,3,2,2
+04,24,Eastern Washington,0,0,0,0,0
+04,24,Kentucky,1,3,4,4,3
+04,24,Florida A&M,0,0,0,0,0
+04,24,Washington,0,0,0,0,0
+04,24,UAB,2,1,1,1,1
+04,24,Providence,0,1,2,2,2
+04,24,Pacific,1,0,0,0,0
+04,24,Kansas,3,2,1,1,1
+04,24,Illinois Chicago,0,0,0,0,0
+04,24,Boston College,1,0,0,1,1
+04,24,Utah,0,1,1,0,0
+04,24,Georgia Tech,5,2,2,2,2
+04,24,Northern Iowa,0,0,0,0,0
+04,24,Michigan St.,0,0,0,0,0
+04,24,Nevada,2,1,1,1,1
+04,24,Gonzaga,1,4,3,3,4
+04,24,Valparaiso,0,0,0,0,0
+04,24,Stanford,1,5,5,3,3
+04,24,UTSA,0,0,0,0,0
+04,24,Alabama,3,0,0,1,1
+04,24,Southern Illinois,0,1,1,0,0
+04,24,Syracuse,2,2,2,1,1
+04,24,BYU,0,0,0,0,0
+04,24,Maryland,1,0,0,2,2
+04,24,UTEP,0,1,1,0,0
+04,24,Vanderbilt,2,0,0,1,1
+04,24,Western Michigan,0,2,2,0,0
+04,24,North Carolina St.,1,1,1,2,2
+04,24,Louisiana Lafayette,0,0,0,0,0
+04,24,DePaul,1,0,0,1,1
+04,24,Dayton,0,1,1,0,0
+04,24,Connecticut,6,3,3,4,4
+04,24,Vermont,0,0,0,0,0
+04,24,Duke,4,3,3,6,6
+04,24,Alabama St.,0,0,0,0,0
+04,24,Seton Hall,1,0,0,1,1
+04,24,Arizona,0,1,1,0,0
+04,24,Illinois,2,1,1,1,1
+04,24,Murray St.,0,0,0,0,0
+04,24,Cincinnati,1,2,2,2,2
+04,24,East Tennessee St.,0,0,0,0,0
+04,24,North Carolina,1,0,0,2,2
+04,24,Air Force,0,1,1,0,0
+04,24,Texas,2,2,2,1,1
+04,24,Princeton,0,0,0,0,0
+04,24,Xavier,3,0,0,0,0
+04,24,Louisville,0,1,1,1,1
+04,24,Mississippi St.,1,4,4,3,3
+04,24,Monmouth,0,0,0,0,0
+04,25,Saint Joseph's,3,6,6,5,3
+04,25,Liberty,0,0,0,0,0
+04,25,Texas Tech,1,0,0,1,1
+04,25,Charlotte,0,1,1,0,0
+04,25,Florida,0,0,0,1,1
+04,25,Manhattan,1,2,2,0,0
+04,25,Wake Forest,2,1,1,2,2
+04,25,VCU,0,0,0,0,0
+04,25,Wisconsin,1,1,1,1,1
+04,25,Richmond,0,0,0,0,0
+04,25,Pittsburgh,2,2,2,3,5
+04,25,UCF,0,0,0,0,0
+04,25,Memphis,1,1,1,1,1
+04,25,South Carolina,0,0,0,0,0
+04,25,Oklahoma St.,4,3,3,2,2
+04,25,Eastern Washington,0,0,0,0,0
+04,25,Kentucky,1,4,4,4,3
+04,25,Florida A&M,0,0,0,0,0
+04,25,Washington,0,0,0,0,0
+04,25,UAB,2,1,1,1,1
+04,25,Providence,0,1,2,2,2
+04,25,Pacific,1,0,0,0,0
+04,25,Kansas,3,2,1,1,1
+04,25,Illinois Chicago,0,0,0,0,0
+04,25,Boston College,1,0,0,1,1
+04,25,Utah,0,1,1,0,0
+04,25,Georgia Tech,5,2,2,2,2
+04,25,Northern Iowa,0,0,0,0,0
+04,25,Michigan St.,0,0,0,0,0
+04,25,Nevada,2,1,1,1,1
+04,25,Gonzaga,1,3,3,3,4
+04,25,Valparaiso,0,0,0,0,0
+04,25,Stanford,1,5,5,3,3
+04,25,UTSA,0,0,0,0,0
+04,25,Alabama,3,0,0,1,1
+04,25,Southern Illinois,0,1,1,0,0
+04,25,Syracuse,2,2,2,1,1
+04,25,BYU,0,0,0,0,0
+04,25,Maryland,1,0,0,2,2
+04,25,UTEP,0,1,1,0,0
+04,25,Vanderbilt,2,0,0,1,1
+04,25,Western Michigan,0,2,2,0,0
+04,25,North Carolina St.,1,1,1,2,2
+04,25,Louisiana Lafayette,0,0,0,0,0
+04,25,DePaul,1,0,0,1,1
+04,25,Dayton,0,1,1,0,0
+04,25,Connecticut,6,3,3,4,4
+04,25,Vermont,0,0,0,0,0
+04,25,Duke,4,4,4,6,6
+04,25,Alabama St.,0,0,0,0,0
+04,25,Seton Hall,1,0,0,1,1
+04,25,Arizona,0,1,1,0,0
+04,25,Illinois,2,1,1,1,1
+04,25,Murray St.,0,0,0,0,0
+04,25,Cincinnati,1,2,2,2,2
+04,25,East Tennessee St.,0,0,0,0,0
+04,25,North Carolina,1,0,0,2,2
+04,25,Air Force,0,1,1,0,0
+04,25,Texas,2,2,2,1,1
+04,25,Princeton,0,0,0,0,0
+04,25,Xavier,3,0,0,0,0
+04,25,Louisville,0,1,1,1,1
+04,25,Mississippi St.,1,3,3,3,3
+04,25,Monmouth,0,0,0,0,0
+04,26,Saint Joseph's,3,6,6,5,3
+04,26,Liberty,0,0,0,0,0
+04,26,Texas Tech,1,0,0,1,1
+04,26,Charlotte,0,1,1,0,0
+04,26,Florida,0,0,0,1,1
+04,26,Manhattan,1,2,2,0,0
+04,26,Wake Forest,2,1,1,2,2
+04,26,VCU,0,0,0,0,0
+04,26,Wisconsin,1,1,1,1,1
+04,26,Richmond,0,0,0,0,0
+04,26,Pittsburgh,2,2,2,3,5
+04,26,UCF,0,0,0,0,0
+04,26,Memphis,1,1,1,1,1
+04,26,South Carolina,0,0,0,0,0
+04,26,Oklahoma St.,4,3,3,2,2
+04,26,Eastern Washington,0,0,0,0,0
+04,26,Kentucky,1,4,4,4,3
+04,26,Florida A&M,0,0,0,0,0
+04,26,Washington,0,0,0,0,0
+04,26,UAB,2,1,1,1,1
+04,26,Providence,0,1,2,2,2
+04,26,Pacific,1,0,0,0,0
+04,26,Kansas,3,2,1,1,1
+04,26,Illinois Chicago,0,0,0,0,0
+04,26,Boston College,1,0,0,1,1
+04,26,Utah,0,1,1,0,0
+04,26,Georgia Tech,5,2,2,2,2
+04,26,Northern Iowa,0,0,0,0,0
+04,26,Michigan St.,0,0,0,0,0
+04,26,Nevada,2,1,1,1,1
+04,26,Gonzaga,1,3,3,3,4
+04,26,Valparaiso,0,0,0,0,0
+04,26,Stanford,1,5,5,3,3
+04,26,UTSA,0,0,0,0,0
+04,26,Alabama,3,0,0,1,1
+04,26,Southern Illinois,0,1,1,0,0
+04,26,Syracuse,2,2,2,1,1
+04,26,BYU,0,0,0,0,0
+04,26,Maryland,1,0,0,2,2
+04,26,UTEP,0,1,1,0,0
+04,26,Vanderbilt,2,0,0,1,1
+04,26,Western Michigan,0,2,2,0,0
+04,26,North Carolina St.,1,1,1,2,2
+04,26,Louisiana Lafayette,0,0,0,0,0
+04,26,DePaul,1,0,0,1,1
+04,26,Dayton,0,1,1,0,0
+04,26,Connecticut,6,3,3,4,4
+04,26,Vermont,0,0,0,0,0
+04,26,Duke,4,4,4,6,6
+04,26,Alabama St.,0,0,0,0,0
+04,26,Seton Hall,1,0,0,1,1
+04,26,Arizona,0,1,1,0,0
+04,26,Illinois,2,1,1,1,1
+04,26,Murray St.,0,0,0,0,0
+04,26,Cincinnati,1,2,2,2,2
+04,26,East Tennessee St.,0,0,0,0,0
+04,26,North Carolina,1,0,0,2,2
+04,26,Air Force,0,1,1,0,0
+04,26,Texas,2,2,2,1,1
+04,26,Princeton,0,0,0,0,0
+04,26,Xavier,3,0,0,0,0
+04,26,Louisville,0,1,1,1,1
+04,26,Mississippi St.,1,3,3,3,3
+04,26,Monmouth,0,0,0,0,0
