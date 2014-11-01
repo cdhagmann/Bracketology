@@ -9,14 +9,9 @@ Created on Sat Jul 26 2014
 ##    IMPORT MODULES
 ############################################################################
 
-import csv, itertools, os, random, time, sys, math, pandas
-import pickle, json
+import csv, re, os, sys, pandas
 from bs4 import BeautifulSoup
 from urllib2 import urlopen
-from scipy.stats import norm, gmean
-from numpy import prod
-from copy import deepcopy
-import re
 
 
 ############################################################################
@@ -29,24 +24,6 @@ class Printer():
         sys.stdout.write("\r\x1b[K"+data.__str__())
         sys.stdout.flush()
 
-def Timer(func):
-    import time
-    def _inner(*args, **kwargs):
-        T1 = time.time()
-        Results = func(*args, **kwargs)
-        T2 = time.time()
-        return Results, T2 - T1
-    return _inner
-
-def flatten(x):
-    result = []
-    for item in x:
-        if hasattr(item, "__iter__") and not isinstance(item, basestring):
-            result.extend(flatten(item))
-        else:
-            result.append(item)
-    return tuple(result)
-
 
 def clean_year(year):
     Error_message = '{} not a valid input for clean_year'.format(year)
@@ -55,7 +32,7 @@ def clean_year(year):
             assert '20' in year, Error_message
             return clean_year(year[2:])
         elif len(year) < 4:
-            assert 2 <= int(year) <= 14, Error_message
+            assert 2 <= int(year) <= 15, Error_message
             return '{:02}'.format(int(year))
         else:
             raise ValueError, Error_message
@@ -72,7 +49,7 @@ def clean_year(year):
 Teams, Pyth_Range, Brackets = {}, {}, {}
 for year in xrange(3, 15):
     year = clean_year(year)
-    filename = 'kenpom/summary{}_pt.csv'.format(year)
+    filename = 'Brackets/{0}/summary{0}_pt.csv'.format(year)
     df = pandas.read_csv(filename)
 
     Teams[year] = list(df.TeamName)
@@ -88,6 +65,7 @@ num = re.compile(r'\d+')
 
 KP_ID = pandas.read_csv('kenPom_ID.csv')
 ESPN_ID = pandas.read_csv('ESPN.csv')
+
 def ESPN_to_kenpom(school):
     try:
         SID = int(ESPN_ID[ESPN_ID.Team == school.upper()].ID.values[0])
@@ -103,7 +81,7 @@ def kenpom_to_ESPN(school):
 
 def clean_school(School, year=2014):
     year = clean_year(year)
-    school = School.lstrip('vs#@1234567890 ').rstrip('*1234567890 ')
+    school = School.lstrip('vs#@1234567890 ').rstrip('*1234567890 ;\n')
 
     if num.search(school) is not None:
         return None
@@ -111,80 +89,11 @@ def clean_school(School, year=2014):
         return school
     elif ESPN_to_kenpom(school) is not None:
         return ESPN_to_kenpom(school)
-    elif clean_school2(School, year) is not None:
-        return clean_school2(school, year)
+    elif 'San Jos' in school:
+        return 'San Jose St.'
     else:
-        print "    {0:25} - 20{1}".format(school, year)
+        # print "    {0:25} - 20{1}".format(school, year)
         return None
-
-def clean_school2(School, year=2014):
-    year = clean_year(year)
-
-    if type(School) is list:
-        School = [w if w != 'State' else 'St.' for w in School]
-        school = ' '.join(School)
-        school = school.replace('(','').replace(')','')
-        school = school.replace('-',' ').replace(';','')
-
-        if school not in Teams[year]:
-            if num.search(school) is not None:
-                return None
-            elif school == 'Brigham Young':
-                school = 'BYU'
-            elif 'San Jos' in school:
-                school = 'San Jose St.'
-            elif 'Bkn' in school:
-                school = 'St. Francis NY'
-            elif school == 'Florida International':
-                school = 'FIU'
-            elif school == 'Central Florida':
-                school = 'UCF'
-            elif school == 'Pennsylvania':
-                school = 'Penn'
-            elif school == 'Virginia Commonwealth':
-                school = 'VCU'
-            elif school == 'Southern University':
-                school = 'Southern'
-            elif school == 'WKU':
-                school = 'Western Kentucky'
-            elif school == 'N.J.I.T.':
-                school = 'NJIT'
-            elif school == 'Southern Methodist':
-                school = 'SMU'
-            elif school == 'Ole Miss':
-                school = 'Mississippi'
-            elif school == 'North Carolina Wilmington':
-                school = 'UNC Wilmington'
-            elif school == 'Texas Arlington':
-                school = 'UT Arlington'
-            elif school == 'Central Connecticut St.':
-                school = 'Central Connecticut'
-            elif school == 'Charleston':
-                school = 'College of Charleston'
-            elif school.upper() in Teams[year]:
-                school = school.upper()
-            elif school == 'Citadel':
-                school = 'The Citadel'
-            elif 'Texas A&M C' in school:
-                school = 'Texas A&M Corpus Christi'
-            elif 'University' in school:
-                school = school.replace('University', '')
-                return clean_school(school, year)
-            elif 'St.' in school and "'" in school:
-                school = school.replace('St.', 'Saint')
-                return clean_school(school, year)
-            else:
-                #print school, year
-                return None
-
-            return school
-
-        return school
-
-    elif type(School) is str:
-        school = School.lstrip('vs#@1234567890 ').rstrip('*1234567890 ')
-        School = school.split()
-        return clean_school2(School, year)
 
 def clean_pair(school, year):
     return clean_school(school, year), clean_year(year)
@@ -192,7 +101,7 @@ def clean_pair(school, year):
 
 def kp_reader(school, year):
     school, year = clean_pair(school, year)
-    filename = 'kenpom/summary{}_pt.csv'.format(year)
+    filename = 'Brackets/{0}/summary{0}_pt.csv'.format(year)
     df = pandas.read_csv(filename)
     return df[df.TeamName == school].values[0]
 
@@ -310,10 +219,6 @@ def download_schedule(school, year):
         writer.writerows(row for row in rows if row)
 
     return os.path.isfile(filename)
-
-
-def check_sum(B, P):
-    return round(sum(A.Pr[P] for A in [B] +list(flatten(B.field[:P]))), 2)
 
 
 def Log5(p_A, p_B):

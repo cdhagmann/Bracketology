@@ -5,10 +5,13 @@ from Bracket_Functions import clean_year
 class Bracket(object):
     def __init__(self, year):
         self.year = clean_year(year)
-        self.archive = 'Brackets/{0}/bracket_{0}.pickle'.format(self.year)
+        self.archive = 'PICKLES/bracket_{}.pickle'.format(self.year)
 
-        if False:#os.path.isfile(self.archive):
-            self = Bracket.from_file(self.year)
+        if os.path.isfile(self.archive):
+            cls = Bracket.from_file(self.year)
+            for m in dir(cls):
+                if m[0] != '_':
+                    setattr(self, m, getattr(cls, m))
             return None
         else:
             filename = 'Brackets/{0}/teams_20{0}.txt'.format(self.year)
@@ -33,15 +36,6 @@ class Bracket(object):
 
                     A.Match(B, k, match='kNN')
                     A.Match(B, k, match='Rank')
-
-                    #P_kNN = A.Match(B, k, match='kNN')
-                    #P_Rank = A.Match(B, k, match='Rank')
-
-                    #self.matches[B.school, k, 'kNN'] = P_kNN
-                    #self.matches[A.school, k, 'kNN'] = 1 - P_kNN
-
-                    #self.matches[B.school, k, 'Rank'] = P_Rank
-                    #self.matches[A.school, k, 'Rank'] = 1 - P_Rank
 
                     count += 1
 
@@ -68,7 +62,7 @@ class Bracket(object):
     @classmethod
     def from_file(cls, year):
         year = clean_year(year)
-        archive = 'Brackets/{0}/bracket_{0}.pickle'.format(year)
+        archive = 'PICKLES/bracket_{}.pickle'.format(year)
 
         if os.path.isfile(archive):
             with open(archive, 'rb') as f:
@@ -80,9 +74,9 @@ class Bracket(object):
             pickle.dump(self, f, protocol=-1)
 
     def write_to_csv(self):
-        RMD = 'Brackets/{0}/raw_match_data.csv'.format(self.year)
-        RAD = 'Brackets/{0}/raw_accuracy_data.csv'.format(self.year)
-        AD = 'Brackets/{0}/accuracy_data.csv'.format(self.year)
+        RMD = 'DATA/{0}/raw_match_data.csv'.format(self.year)
+        RAD = 'DATA/{0}/raw_accuracy_data.csv'.format(self.year)
+        AD = 'DATA/{0}/accuracy_data.csv'.format(self.year)
 
         with open(RMD, 'wb') as f, open(RAD, 'wb') as g, open(AD, 'wb') as h:
             match_writer = csv.writer(f)

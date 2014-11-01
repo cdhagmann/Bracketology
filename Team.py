@@ -5,7 +5,12 @@ Created on Mon Aug 11 13:04:35 2014
 @author: cdhagmann
 """
 
-from Bracket_Functions import *
+from Bracket_Functions import clean_pair, clean_school
+from Bracket_Functions import Pyth_Range, Teams, num
+from Bracket_Functions import id_search, kp_reader, ESPN_Schedule
+from Bracket_Functions import Log5
+
+import pickle, re, math, csv, os
 from collections import defaultdict
 
 tm = re.compile(r'\(\d+\)')
@@ -24,11 +29,13 @@ class Team():
     def __init__(self, school, year):
         self.school, self.year = clean_pair(school, year)
         self.pair = self.school, self.year
-        self.archive = 'Teams/{1}/{0}.pickle'.format(*self.pair)
+        self.archive = 'PICKLES/{}_{}.pickle'.format(*self.pair)
 
-        if False:#os.path.isfile(self.archive):
-            self = Team.from_file(*self.pair)
-            return None
+        if os.path.isfile(self.archive):
+            cls = Team.from_file(*self.pair)
+            for m in dir(cls):
+                if m[0] != '_':
+                    setattr(self, m, getattr(cls, m))
         else:
             assert self.school in Teams[self.year], "{} '{}".format(*self.pair)
 
@@ -88,7 +95,7 @@ class Team():
         school, year = clean_pair(school, year)
         pair = school, year
 
-        archive = 'Teams/{1}/{0}.pickle'.format(*pair)
+        archive = 'PICKLES/{}_{}.pickle'.format(*pair)
 
         if os.path.isfile(archive):
             with open(archive, 'rb') as f:
