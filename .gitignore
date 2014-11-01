@@ -7,6 +7,7 @@ __pycache__/
 
 # Storage files
 *.pickle
+raw_*
 
 # Distribution / packaging
 .Python
