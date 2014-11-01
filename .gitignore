@@ -6,7 +6,7 @@ __pycache__/
 *.so
 
 # Storage files
-*.pickle
+#*.pickle
 raw_*
 
 # Distribution / packaging
