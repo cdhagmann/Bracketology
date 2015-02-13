@@ -7,7 +7,7 @@ class Bracket(object):
         self.year = clean_year(year)
         self.archive = 'PICKLES/bracket_{}.pickle'.format(self.year)
 
-        if os.path.isfile(self.archive):
+        if False:#os.path.isfile(self.archive):
             cls = Bracket.from_file(self.year)
             for m in dir(cls):
                 if m[0] != '_':
@@ -23,7 +23,7 @@ class Bracket(object):
             for t in self.Bracket:
                 t.find_field(self.Bracket)
 
-            self.write()
+            #self.write()
 
     def run(self):
         for k in xrange(3, self.max_k):
@@ -142,6 +142,29 @@ class Bracket(object):
                 P[0].depth['conditional', match][k] += 1
 
 
+    def chalk(self):
+        match, k = 'Chalk', 5
+
+        for d in xrange(self.N):
+            for A in self.Bracket:
+                if A.depth['nonconditional', match][k] == d:
+                    B = [B for B in A.field[d] if B.depth['nonconditional', match][k] == d]
+                    assert len(B) <= 1
+                    if B:
+                        B = B[0]
+                        P = A.Match(B, match='Rank')
+                        if A.Rank < B.Rank:
+                            A.depth['nonconditional', match][k] += 1
+                        elif A.Rank > B.Rank:
+                            B.depth['nonconditional', match][k] += 1
+                        else:
+                            if P > .5:
+                                A.depth['nonconditional', match][k] += 1
+                            else:
+                                B.depth['nonconditional', match][k] += 1
+
+        return  self.bracket_accuracy(k,'nonconditional',    'Chalk')
+
     def Method_2(self, k, match='kNN'):
         assert match in ('kNN', 'Rank')
 
@@ -166,7 +189,7 @@ class Bracket(object):
 
     def bracket_accuracy(self, k, depth_type='conditional', match='kNN', output=False):
         assert depth_type in ('conditional', 'nonconditional')
-        assert match in ('kNN', 'Rank')
+        assert match in ('kNN', 'Rank', 'Chalk')
 
         Diff = sum( abs(t.depth[depth_type, match][k] - t.depth['Actual']) for t in self.Bracket)
         Correct = (63 - (Diff / 2.) )

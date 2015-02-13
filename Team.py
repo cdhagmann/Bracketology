@@ -22,16 +22,16 @@ def valid_team_set(T):
     assert int(N) == N, '{} is not a power of 2'.format(M)
     return int(M), int(N)
 
-def default_Pr(): 
-    return [1.0] 
-    
+def default_Pr():
+    return [1.0]
+
 class Team():
     def __init__(self, school, year):
         self.school, self.year = clean_pair(school, year)
         self.pair = self.school, self.year
         self.archive = 'PICKLES/{}_{}.pickle'.format(*self.pair)
 
-        if os.path.isfile(self.archive):
+        if False:#os.path.isfile(self.archive):
             cls = Team.from_file(*self.pair)
             for m in dir(cls):
                 if m[0] != '_':
@@ -48,8 +48,8 @@ class Team():
                           ('conditional',    'kNN') : defaultdict(int),
                           ('conditional',    'Rank'): defaultdict(int),
                           ('nonconditional', 'kNN') : defaultdict(int),
-                          ('nonconditional', 'Rank'): defaultdict(int)}
-
+                          ('nonconditional', 'Rank'): defaultdict(int),
+                          ('nonconditional', 'Chalk'): defaultdict(int)}
             self.TM = {}
 
             with open('Brackets/{0}/teams_20{0}.csv'.format(self.year), 'rb') as f:
