@@ -20,13 +20,14 @@ class Bracket(object):
 
             self.M, self.N = self.validate_team_set()
             self.max_k = int(min([len(t.matches) for t in self.Bracket])) + 1
+            self.ks = (14, 24, self.max_k) #range(3, self.max_k)
             for t in self.Bracket:
                 t.find_field(self.Bracket)
 
             #self.write()
 
     def run(self):
-        for k in xrange(3, self.max_k):
+        for k in self.ks:
             count = 1
             for i, A in enumerate(self.Bracket, 1):
                 for B in self.Bracket[i:]:
@@ -40,14 +41,14 @@ class Bracket(object):
                     count += 1
 
         for t in self.Bracket:
-            for k in range(3, self.max_k):
+            for k in self.ks:
                 for depth_type in ('conditional', 'nonconditional'):
                     for match in ('kNN', 'Rank'):
                         t.depth[depth_type, match][k] = 0
 
 
 
-        for k in range(3, self.max_k):
+        for k in self.ks:
             for match in ('kNN', 'Rank'):
                 self.Method_1(k, match)
                 self.Method_2(k, match)
@@ -56,7 +57,7 @@ class Bracket(object):
         self.write()
 
     def __repr__(self):
-        return '30{} Bracket'.format(self.year)
+        return '20{} Bracket'.format(self.year)
 
 
     @classmethod

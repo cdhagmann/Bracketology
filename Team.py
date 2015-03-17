@@ -62,6 +62,7 @@ class Team():
                     assert 1 <= self.Rank <= 16
                     break
             else:
+                self.Rank = 17
                 print self.school
 
             self.depth['Actual'] = 0

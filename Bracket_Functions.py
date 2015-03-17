@@ -47,7 +47,7 @@ def clean_year(year):
 ############################################################################
 
 Teams, Pyth_Range, Brackets = {}, {}, {}
-for year in xrange(3, 15):
+for year in xrange(3, 16):
     year = clean_year(year)
     filename = 'Brackets/{0}/summary{0}_pt.csv'.format(year)
     df = pandas.read_csv(filename)
