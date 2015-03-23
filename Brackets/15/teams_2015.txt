@@ -1,5 +1,5 @@
 Kentucky
-Manhattan
+Hampton
 Cincinnati
 Purdue
 West Virginia
@@ -23,29 +23,13 @@ Wofford
 North Carolina
 Harvard
 Xavier
-BYU
+Mississippi
 Baylor
 Georgia State
 VCU
 Ohio State
 Arizona
 Texas Southern
-Duke
-North Florida
-San Diego State
-St. John's
-Utah
-Stephen F. Austin
-Georgetown
-Eastern Washington
-SMU
-UCLA
-Iowa State
-UAB
-Iowa
-Davidson
-Gonzaga
-North Dakota State
 Villanova
 Lafayette
 NC State
@@ -62,3 +46,19 @@ Michigan State
 Georgia
 Virginia
 Belmont
+Duke
+Robert Morris
+San Diego State
+St. John's
+Utah
+Stephen F. Austin
+Georgetown
+Eastern Washington
+SMU
+UCLA
+Iowa State
+UAB
+Iowa
+Davidson
+Gonzaga
+North Dakota State

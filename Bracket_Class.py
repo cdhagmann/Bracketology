@@ -1,6 +1,10 @@
 from Team import Team
 import pickle, os, csv, math
 from Bracket_Functions import clean_year
+import colorama
+from collections import defaultdict
+
+colorama.init()
 
 class Bracket(object):
     def __init__(self, year):
@@ -20,13 +24,16 @@ class Bracket(object):
 
             self.M, self.N = self.validate_team_set()
             self.max_k = int(min([len(t.matches) for t in self.Bracket])) + 1
-            self.ks = (14, 24, self.max_k) #range(3, self.max_k)
+            self.ks = range(3, self.max_k)
             for t in self.Bracket:
                 t.find_field(self.Bracket)
 
             #self.write()
+            self.T = {t.school: t for t in self.Bracket}
 
-    def run(self):
+    def run(self, ks=None):
+        if ks is not None:
+            self.ks = ks
         for k in self.ks:
             count = 1
             for i, A in enumerate(self.Bracket, 1):
@@ -187,6 +194,69 @@ class Bracket(object):
             print '{0:20} {1:3}'.format(t.school, t.depth[depth_type, match][k])
 
 
+    def print_cumulative_bracket(self, k, depth_type='conditional', match='kNN'):
+        for depth in xrange(self.N):
+            for t in self.Bracket:
+                if t.depth[depth_type, match][k] > depth:
+                    print '{0:20} {1:.1%}'.format(t.school, t.Pr[k, match][depth+1])
+            print   
+
+    def print_bracket(self, k, depth_type='conditional', match='kNN', colored=True):
+        assert match in ('kNN', 'Rank')
+        color_reset = colorama.Fore.RESET + colorama.Style.RESET_ALL
+        for depth in xrange(self.N):
+            for t in self.Bracket:
+                if t.depth[depth_type, match][k] > depth:
+                    b = [b for b in t.field[depth] if b.depth[depth_type, match][k] == depth]
+                    assert len(b) <= 1
+                    if b:
+                        b = b[0]
+                        P = t.TM[b.school, k, match]
+                        Ps = '{:.1%}'.format(P)
+                        if colored:
+                            if P >= .90:
+                                color = colorama.Fore.GREEN + colorama.Style.BRIGHT        
+                            elif P >= .75:
+                                color = colorama.Fore.GREEN
+                            elif P >= .60:
+                                color = colorama.Fore.YELLOW
+                            elif P >= .55:
+                                color = colorama.Fore.RED
+                            elif P >= .50:
+                                color = colorama.Fore.RED + colorama.Style.BRIGHT
+                            else:
+                                color = colorama.Fore.CYAN + colorama.Style.BRIGHT
+                        else:
+                            color = ''
+                              
+                        print color + '{0:20} over {1:20} {2}'.format(t.school, b.school, Ps) + color_reset
+                        
+            print
+
+    def print_chance_bracket(self, k, colored=True):
+        from random import random
+        depth_type, match = 'random', 'kNN'
+        
+        for t in self.Bracket:
+            t.depth[depth_type, match] = {}
+            t.depth[depth_type, match][k] = 0        
+
+        for d in xrange(self.N):
+            for A in self.Bracket:
+                if A.depth[depth_type, match][k] == d:
+                    b = [b for b in A.field[d] if b.depth[depth_type, match][k] == d]
+                    assert len(b) <= 1
+                    if b:
+                        b = b[0]
+                        P = A.TM[b.school, k, match]
+                        R = random()
+                        diff = P - R
+                        if diff > 0:
+                            A.depth[depth_type, match][k] += 1
+                        else:
+                            b.depth[depth_type, match][k] += 1
+        
+        self.print_bracket(k, depth_type=depth_type)
 
     def bracket_accuracy(self, k, depth_type='conditional', match='kNN', output=False):
         assert depth_type in ('conditional', 'nonconditional')
