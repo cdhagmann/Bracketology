@@ -20,21 +20,21 @@ def p_print(n, label):
 
 
 def htime(s):
-	H, i = divmod(s, 3600)
-	M, S = divmod(i, 60)
-	S = int(S)
+    H, i = divmod(s, 3600)
+    M, S = divmod(i, 60)
+    S = int(S)
 
-	return p_print(H, 'hour') + p_print(M, 'minute') + p_print(S, 'second')
+    return p_print(H, 'hour') + p_print(M, 'minute') + p_print(S, 'second')
 
- 
-if __name__ == '__main__': 
-    print time.ctime()
+
+if __name__ == '__main__':
+    print(time.ctime())
     t1 = time.time()
-	
+
     processes = []
-    for year in map(clean_year, range(3,15)):
-        processes.append( mp.Process(target=parallel_bracket, args=(year,)) )
-    
+    for year in map(clean_year, range(3, 15)):
+        processes.append(mp.Process(target=parallel_bracket, args=(year,)))
+
     for p in processes:
         p.start()
 
@@ -42,9 +42,9 @@ if __name__ == '__main__':
         p.join()
 
     B = {}
-    for year in map(clean_year, range(3,15)):
+    for year in map(clean_year, range(3, 15)):
         B[year] = Bracket.from_file(year)
-    
-    print time.ctime()
-    t2 = time.time()    
-    print 'Finished in {}!'.format( htime( t2 -t1 ) )
+
+    print(time.ctime())
+    t2 = time.time()
+    print('Finished in {}!'.format(htime(t2 - t1)))

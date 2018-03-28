@@ -10,20 +10,36 @@ from Bracket_Functions import Pyth_Range, Teams, num
 from Bracket_Functions import id_search, kp_reader, ESPN_Schedule
 from Bracket_Functions import Log5
 
-import pickle, re, math, csv, os
+import pickle
+import re
+import math
+import csv
+import os
 from collections import defaultdict
 
 tm = re.compile(r'\(\d+\)')
 
 
 def valid_team_set(T):
+    """Ensure that the set of teams provide can be used to create a full bracket.
+    
+    Arguments:
+        T {List} -- A List of Teams
+    
+    Returns:
+        M [int] -- The number of Teams
+        N [int] -- The number of rounds in the bracket.
+    """
+
     M = len(T)
     N = round(math.log(M, 2), 3)
     assert int(N) == N, '{} is not a power of 2'.format(M)
     return int(M), int(N)
 
+
 def default_Pr():
     return [1.0]
+
 
 class Team():
     def __init__(self, school, year):
@@ -31,7 +47,7 @@ class Team():
         self.pair = self.school, self.year
         self.archive = 'PICKLES/{}_{}.pickle'.format(*self.pair)
 
-        if False:#os.path.isfile(self.archive):
+        if False:  # os.path.isfile(self.archive):
             cls = Team.from_file(*self.pair)
             for m in dir(cls):
                 if m[0] != '_':
@@ -44,10 +60,10 @@ class Team():
 
             self.Pr = defaultdict(default_Pr)
 
-            self.depth = {'Actual'                  : 0,
-                          ('conditional',    'kNN') : defaultdict(int),
+            self.depth = {'Actual': 0,
+                          ('conditional',    'kNN'): defaultdict(int),
                           ('conditional',    'Rank'): defaultdict(int),
-                          ('nonconditional', 'kNN') : defaultdict(int),
+                          ('nonconditional', 'kNN'): defaultdict(int),
                           ('nonconditional', 'Rank'): defaultdict(int),
                           ('nonconditional', 'Chalk'): defaultdict(int)}
             self.TM = {}
@@ -63,12 +79,12 @@ class Team():
                     break
             else:
                 self.Rank = 17
-                print self.school
+                print(self.school)
 
             self.depth['Actual'] = 0
             self.opponents, self.matches = [], []
 
-            for count, row in enumerate(ESPN_Schedule(*self.pair)):
+            for row in ESPN_Schedule(*self.pair):
                 opp = clean_school(row[1], year)
                 if opp is None and tm.search(row[1]) is not None:
                     if self.depth['Actual'] == 0:
@@ -93,6 +109,16 @@ class Team():
 
     @classmethod
     def from_file(cls, school, year):
+        """Load an instance of the class from file
+        
+        Arguments:
+            school {str} -- The name of the school
+            year {int} -- The year of the tournament
+        
+        Returns:
+            cls -- The instance of the class loaded from the file
+        """
+
         school, year = clean_pair(school, year)
         pair = school, year
 
@@ -102,7 +128,6 @@ class Team():
             with open(archive, 'rb') as f:
                 cls = pickle.load(f)
                 return cls
-
 
     def __repr__(self):
         return "{} '{}".format(*self.pair)
@@ -114,8 +139,9 @@ class Team():
 
         seen = set()
         seen.add(self)
-        for j in xrange(1, N+1):
-            sub_brackets = [self.Teams[i:i + 2 ** (j)] for i in range(0, M, 2 ** (j))]
+        for j in range(1, N+1):
+            sub_brackets = [self.Teams[i:i + 2 **
+                                       (j)] for i in range(0, M, 2 ** (j))]
             for sub_list in sub_brackets:
                 if self in sub_list:
                     new_field = [s for s in sub_list if s not in seen]
@@ -123,12 +149,9 @@ class Team():
                     self.field.append(new_field)
                     break
 
-
-
     def write(self):
         with open(self.archive, 'wb') as f:
             pickle.dump(self, f, protocol=-1)
-
 
     def distance(self, *args):
         if len(args) == 1:
@@ -142,11 +165,11 @@ class Team():
             Results = []
             for B in args:
                 if isinstance(B, Team):
-                    Results.append( (B.school, self.distance(B)) )
+                    Results.append((B.school, self.distance(B)))
                 elif isinstance(B, str):
-                    Results.append( (B, self.distance(B)) )
+                    Results.append((B, self.distance(B)))
 
-            Results.sort(key=lambda (b,d): d)
+            Results.sort(key=lambda b, d: d)
             return Results
 
     def reset(self):
@@ -154,18 +177,18 @@ class Team():
 
     def nearest_neighbor(self, B, Adv=0, k=5, output=False):
         Neigh_B = [(d[1], Ap, B.distance(Ap), d[0]) for Ap, d in self.matches]
-        Neigh_B.sort(key=lambda (w,t,d,b): d)
-        Neigh_B.sort(key=lambda (w,t,d,b): int(b != Adv))
-        Neigh_B = [(w,t,d) for w,t,d,b in Neigh_B]
+        Neigh_B.sort(key=lambda w, t, d, b: d)
+        Neigh_B.sort(key=lambda w, t, d, b: int(b != Adv))
+        Neigh_B = [(w, t, d) for w, t, d, b in Neigh_B]
 
         if output:
             for tup in Neigh_B:
-                print '{}: {:25} {:.4f}'.format(*tup)
+                print('{}: {:25} {:.4f}'.format(*tup))
 
-        weight = lambda d: ( 1 - d ) ** 1.
+        def weight(d): return (1 - d) ** 1.
 
-        W = sum( [ weight(d) for w,t,d in Neigh_B[:k] if w == 'W'] )
-        L = sum( [ weight(d) for w,t,d in Neigh_B[:k] if w == 'L'] )
+        W = sum([weight(d) for w, t, d in Neigh_B[:k] if w == 'W'])
+        L = sum([weight(d) for w, t, d in Neigh_B[:k] if w == 'L'])
 
         return W, L
 
